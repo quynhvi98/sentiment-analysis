@@ -1,0 +1,17 @@
+Phase: ValenceShifter
+Input: Lookup Token Person Location Organization Product
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: ValenceShifter
+Priority: 10
+(
+	{Lookup.majorType == "valence_shifter", Token.category == "R"}
+):valence
+-->
+:valence.TempValenceShifter = {direction = :valence.Lookup.direction, position = :valence.Lookup.position, rule = "ValenceShifter"}
+
+
+/*---------------------------------------------------------------------------------------------------*/

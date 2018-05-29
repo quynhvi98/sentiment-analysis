@@ -1,0 +1,23 @@
+Phase: Feature
+Input: Lookup Token Person Location Organization Product
+Options: control = appelt
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Feature
+Priority: 10
+(
+	{Lookup.majorType == "pro_feature", Token.category == "N"}|
+	{Lookup.majorType == "pro_feature", Token.category == "Np"}|
+	{Lookup.majorType == "pro_feature", Token.category == "Nc"}|
+	{Lookup.majorType == "pro_feature", Token.category == "Ny"}|
+	{Lookup.majorType == "pro_feature", Token.category == "Nu"}
+	
+):feature
+-->
+:feature.TempFeature = {position = :feature.Token.position, rule = "Feature"}
+
+
+/*---------------------------------------------------------------------------------------------------*/

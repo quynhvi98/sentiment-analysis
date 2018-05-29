@@ -1,0 +1,192 @@
+chưa hề	direction=NEGATION	position=pre
+không	direction=NEGATION	position=pre
+thừa sức	direction=INTENSIFIER	position=pre
+hơn	direction=INTENSIFIER	position=post
+dễ	direction=INTENSIFIER	position=pre
+hơi	direction=DISMINISHER	position=pre
+hầu như	direction=DISMINISHER	position=pre
+rất đáng	direction=INTENSIFIER	position=pre
+khá	direction=DISMINISHER	position=pre
+chưa	direction=NEGATION	position=pre
+rất	direction=INTENSIFIER	position=pre
+không có	direction=NEGATION	position=pre
+chưa thật	direction=NEGATION	position=pre
+hơn hẳn	direction=INTENSIFIER	position=post
+nhất	direction=INTENSIFIER	position=post
+tương đối	direction=INTENSIFIER	position=pre
+hoàn toàn	direction=DISMINISHER	position=post
+nổi trội	direction=INTENSIFIER	position=post
+nhiều	direction=INTENSIFIER	position=pre
+không ngừng	direction=INTENSIFIER	position=pre
+hơn nhiều	direction=DISMINISHER	position=post
+ít	direction=DISMINISHER	position=pre
+hơn cả	direction=INTENSIFIER	position=post
+một chút	direction=DISMINISHER	position=post
+không mấy	direction=DISMINISHER	position=pre
+không xảy ra	direction=NEGATION	position=pre
+đủ	direction=DISMINISHER	position=pre
+khá nhiều	direction=DISMINISHER	position=pre
+không gây được	direction=DISMINISHER	position=pre
+chưa được	direction=NEGATION	position=pre
+quan trọng nhất	direction=INTENSIFIER	position=post
+tối thiểu	direction=DISMINISHER	position=post
+chỉ	direction=DISMINISHER	position=pre
+đôi khi	direction=DISMINISHER	position=pre
+rất nhiều	direction=INTENSIFIER	position=pre
+có vẻ	direction=DISMINISHER	position=pre
+giàu	direction=INTENSIFIER	position=pre
+đáng kể	direction=INTENSIFIER	position=post
+thực sự	direction=INTENSIFIER	position=pre
+không hề	direction=NEGATION	position=pre
+không thể	direction=NEGATION	position=pre
+quá	direction=INTENSIFIER	position=pre
+không quá	direction=NEGATION	position=pre
+đỡ	direction=DISMINISHER	position=pre
+thiếu	direction=NEGATION	position=pre
+thật sự	direction=INTENSIFIER	position=pre
+lớn	direction=INTENSIFIER	position=pre
+vượt	direction=INTENSIFIER	position=pre
+cực	direction=INTENSIFIER	position=pre
+lịch lãm	direction=INTENSIFIER	position=post
+không đủ	direction=DISMINISHER	position=pre
+không phải	direction=NEGATION	position=pre
+Không	direction=NEGATION	position=pre
+cực kỳ	direction=INTENSIFIER	position=pre
+chỉ một vài	direction=DISMINISHER	position=pre
+Mau	direction=INTENSIFIER	position=pre
+chẳng	direction=DISMINISHER	position=pre
+nhiều nhất	direction=INTENSIFIER	position=pre
+hầu như không	direction=NEGATION	position=pre
+hầu như không xảy ra	direction=NEGATION	position=pre
+gần	direction=NEGATION	position=pre
+cao	direction=INTENSIFIER	position=post
+không bị	direction=NEGATION	position=pre
+tránh	direction=NEGATION	position=pre
+tăng	direction=INTENSIFIER	position=pre
+không được	direction=NEGATION	position=pre
+hơn một chút	direction=DISMINISHER	position=post
+duy nhất	direction=DISMINISHER	position=post
+khó	direction=NEGATION	position=pre
+Ưu thế	direction=INTENSIFIER	position=pre
+xóa nhòa	direction=DISMINISHER	position=pre
+lắm	direction=INTENSIFIER	position=post
+hay	direction=INTENSIFIER	position=post
+không thật sự	direction=NEGATION	position=pre
+không có dấu hiệu	direction=DISMINISHER	position=pre
+không cho	direction=DISMINISHER	position=pre
+rất dễ	direction=INTENSIFIER	position=pre
+hơi bị	direction=NEGATION	position=pre
+chưa đủ	direction=NEGATION	position=pre
+siêu	direction=INTENSIFIER	position=pre
+hơn khá nhiều	direction=INTENSIFIER	position=post
+thỉnh thoảng	direction=DISMINISHER	position=pre
+thêm	direction=INTENSIFIER	position=pre
+chống được	direction=DISMINISHER	position=pre
+Hơi	direction=DISMINISHER	position=pre
+không thực sự	direction=DISMINISHER	position=pre
+chưa đạt đủ	direction=NEGATION	position=pre
+vẫn còn	direction=INTENSIFIER	position=pre
+vẫn không quá	direction=NEGATION	position=pre
+không đáng kể	direction=DISMINISHER	position=post
+tối đa	direction=INTENSIFIER	position=post
+quá nhiều	direction=INTENSIFIER	position=pre
+không có điểm gì	direction=NEGATION	position=pre
+chưa hề làm được	direction=DISMINISHER	position=pre
+dường như	direction=DISMINISHER	position=pre
+mới	direction=INTENSIFIER	position=post
+có lẽ	direction=INTENSIFIER	position=pre
+tuyệt đối	direction=INTENSIFIER	position=pre
+một số	direction=DISMINISHER	position=pre
+dưới	direction=INTENSIFIER	position=pre
+gần như	direction=INTENSIFIER	position=pre
+phần lớn	direction=INTENSIFIER	position=pre
+không tạo được	direction=NEGATION	position=pre
+không mang	direction=NEGATION	position=pre
+chưa hẳn	direction=DISMINISHER	position=pre
+chưa nhiều	direction=DISMINISHER	position=pre
+Khá	direction=DISMINISHER	position=pre
+hết sức	direction=DISMINISHER	position=pre
+Rất khó	direction=NEGATION	position=pre
+vẫn	direction=INTENSIFIER	position=pre
+chủ yếu	direction=INTENSIFIER	position=pre
+ngay cả	direction=INTENSIFIER	position=pre
+kém	direction=NEGATION	position=pre
+thậm chí	direction=INTENSIFIER	position=pre
+rất riêng	direction=INTENSIFIER	position=post
+không phải lúc nào cũng thực sự	direction=NEGATION	position=pre
+không kém	direction=NEGATION	position=pre
+thật sự nhiều	direction=INTENSIFIER	position=pre
+Không đủ	direction=NEGATION	position=pre
+không lấy gì	direction=NEGATION	position=pre
+đến	direction=INTENSIFIER	position=pre
+thật sự	direction=INTENSIFIER	position=pre
+hơn tất cả	direction=INTENSIFIER	position=post
+ngang bằng	direction=INTENSIFIER	position=post
+rất đáng tiếc	direction=INTENSIFIER	position=post
+vượt trội	direction=INTENSIFIER	position=post
+đặc biệt	direction=INTENSIFIER	position=pre
+liên tục	direction=INTENSIFIER	position=pre
+gấp nhiều lần	direction=INTENSIFIER	position=post
+bất	direction=NEGATION	position=pre
+rõ rệt	direction=INTENSIFIER	position=post
+hơn rất nhiều	direction=INTENSIFIER	position=post
+không đến nỗi	direction=DISMINISHER	position=pre
+có thể	direction=DISMINISHER	position=pre
+chưa có	direction=NEGATION	position=pre
+bớt	direction=DISMINISHER	position=pre
+tránh được	direction=NEGATION	position=pre
+chưa thực sự	direction=DISMINISHER	position=pre
+không có điểm gì quá	direction=NEGATION	position=pre
+rất được nhiều	direction=INTENSIFIER	position=pre
+không thể nói	direction=NEGATION	position=pre
+không tạo	direction=NEGATION	position=pre
+phần nào	direction=DISMINISHER	position=pre
+gia tăng	direction=INTENSIFIER	position=pre
+bắt đầu	direction=INTENSIFIER	position=pre
+chưa thể	direction=NEGATION	position=pre
+không làm	direction=DISMINISHER	position=pre
+gần như là	direction=INTENSIFIER	position=pre
+kinh hoàng	direction=INTENSIFIER	position=post
+nhỏ	direction=DISMINISHER	position=post
+rất lớn	direction=INTENSIFIER	position=post
+chút ít	direction=NEGATION	position=post
+rất đặc trưng	direction=INTENSIFIER	position=post
+không lo	direction=DISMINISHER	position=pre
+không có gì	direction=NEGATION	position=pre
+đôi chút	direction=DISMINISHER	position=pre
+hàng loạt	direction=INTENSIFIER	position=pre
+sút giảm	direction=INTENSIFIER	position=pre
+giảm	direction=NEGATION	position=pre
+rõ ràng	direction=INTENSIFIER	position=post
+mỗi	direction=DISMINISHER	position=pre
+có nhiều	direction=INTENSIFIER	position=pre
+bị	direction=INTENSIFIER	position=pre
+chưa phải là	direction=NEGATION	position=pre
+cực kì	direction=INTENSIFIER	position=post
+hơn hẳn	direction=INTENSIFIER	position=post
+tỏ ra	direction=INTENSIFIER	position=pre
+không hề có	direction=NEGATION	position=pre
+vô tận	direction=INTENSIFIER	position=post
+chống	direction=DISMINISHER	position=pre
+như thật	direction=INTENSIFIER	position=post
+tiên tiến	direction=INTENSIFIER	position=post
+dễ bị	direction=INTENSIFIER	position=pre
+rất ít	direction=DISMINISHER	position=pre
+chắc chắn	direction=INTENSIFIER	position=post
+hơn mức trung bình	direction=INTENSIFIER	position=post
+Không chỉ	direction=DISMINISHER	position=pre
+nổi bật	direction=INTENSIFIER	position=post
+rất nhanh	direction=INTENSIFIER	position=post
+lớn nhất	direction=INTENSIFIER	position=post
+kinh ngạc	direction=INTENSIFIER	position=post
+đáng kinh ngạc	direction=INTENSIFIER	position=post
+hơn hết	direction=INTENSIFIER	position=post
+gấp đôi	direction=INTENSIFIER	position=post
+vô cùng	direction=INTENSIFIER	position=post
+có chút	direction=DISMINISHER	position=pre
+thay vì	direction=NEGATION	position=pre
+vừa	direction=DISMINISHER	position=pre
+đậm	direction=INTENSIFIER	position=pre
+không được trang bị	direction=NEGATION	position=pre
+không trang bị	direction=NEGATION	position=pre
+không còn	direction=NEGATION	position=pre

@@ -1,0 +1,18 @@
+Phase: Opinion
+Input: Lookup Token Split ValenceShifter Product
+Options: control = appelt
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Opinion
+Priority: 10
+(
+	{Lookup.majorType == "opinion-word", Token.category !~ "C"}
+):opinion
+-->
+:opinion.TempOpinion = {position = :opinion.Lookup.position, rule = "Opinion"}
+
+
+/*---------------------------------------------------------------------------------------------------*/
