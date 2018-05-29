@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Tagger</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>tagger-plugin.jar</JAR>
+			<JAR>lib/JVnTagger-v.3.0.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.tagger.TaggerPlugin</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->	
+			<PARAMETER COMMENT="The document to be processed"
+				NAME="document" RUNTIME="true">
+				gate.Document
+			</PARAMETER>
+		</RESOURCE>	
+	</CREOLE>
+</CREOLE-DIRECTORY>
