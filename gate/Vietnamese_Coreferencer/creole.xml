@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Vietnamese Coreferencer</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>vnCoreferencer.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.coreferencer.CoreferencerPlugin</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->
+			<COMMENT>A plugin that resolves coreference for Vietnamese</COMMENT>
+			<!-- <PARAMETER COMMENT="The annotation set to be used as input"
+				NAME="annotationSetName" RUNTIME="true" OPTIONAL="true">
+				java.lang.String
+			</PARAMETER> -->
+		</RESOURCE>
+	</CREOLE>
+</CREOLE-DIRECTORY>
