@@ -1,0 +1,716 @@
+<gate.util.persistence.GateApplication>
+  <urlList class="gate.util.persistence.CollectionPersistence">
+    <localList>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$MaltParser/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$Vietnamese_Coreferencer/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$gatehome$plugins/ANNIE/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$Vietnamese_Sentiment_Analysis/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$Vietnamese_NER_CRF/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$Vietnamese_JTagger/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$Vietnamese_Tokenizer/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+      <gate.util.persistence.PersistenceManager-URLHolder>
+        <urlString>$relpath$Vietnamese_OrthoMatcher/</urlString>
+      </gate.util.persistence.PersistenceManager-URLHolder>
+    </localList>
+    <collectionType>java.util.ArrayList</collectionType>
+  </urlList>
+  
+  
+  <application class="gate.util.persistence.SerialAnalyserControllerPersistence">
+	
+    <prList class="gate.util.persistence.CollectionPersistence">
+      <localList>
+        <gate.util.persistence.PRPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>setsToKeep</string>
+                <gate.util.persistence.CollectionPersistence>
+                  <localList>
+                    <string>consensus</string>
+                  </localList>
+                  <collectionType>java.util.ArrayList</collectionType>
+                </gate.util.persistence.CollectionPersistence>
+              </entry>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>annotationTypes</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>keepOriginalMarkupsAS</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>setsToRemove</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>gate.creole.annotdelete.AnnotationDeletePR</resourceType>
+          <resourceName>Document Reset PR</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.PRPersistence>
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>vn.com.epi.gate.tokenizer.TokenizerPlugin</resourceType>
+          <resourceName>Vietnamese Tokenizer</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>dfaUrl</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_Tokenizer/resources/automata/dfaLexicon.xml</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>epsilon</string>
+                <double>1.0E-100</double>
+              </entry>
+              <entry>
+                <string>normalizationRuleUrl</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_Tokenizer/resources/normalization/rules.txt</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>bigramUrl</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_Tokenizer/resources/bigram/bigram.xml</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>unigramUrl</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_Tokenizer/resources/bigram/unigram.xml</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>lambda2</string>
+                <double>0.004</double>
+              </entry>
+              <entry>
+                <string>lambda1</string>
+                <double>0.996</double>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>outputASName</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>inputASName</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>gate.creole.splitter.SentenceSplitter</resourceType>
+          <resourceName>Sentence Splitter</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>encoding</string>
+                <string>UTF-8</string>
+              </entry>
+              <entry>
+                <string>gazetteerListsURL</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$gatehome$plugins/ANNIE/resources/sentenceSplitter/gazetteer/lists.def</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>transducerURL</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$gatehome$plugins/ANNIE/resources/sentenceSplitter/grammar/main.jape</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+		
+		
+		
+		
+		
+		
+       <!--         <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>vn.com.epi.gate.vnpostagger.VnPosTagger</resourceType>
+          <resourceName>Vietnamese Postagger</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>modelUrl</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_POS_Tagger/resources/models/vtb-old.tagger</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence> -->
+		
+		
+					
+		<gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>vn.com.epi.tagger.TaggerPlugin</resourceType>
+          <resourceName>Vietnamese Tagger</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>modelUrl</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_JTagger/resources/maxent</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+		
+		
+		<gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>vn.com.epi.gate.maltparser.MaltParserPlugin</resourceType>
+          <resourceName>Vietnamese Dependency Parser</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>dirOfMCO</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$MaltParser/resources/</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>nameOfMCO</string>
+                <string>VTB.mco</string>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+		
+		
+        <gate.util.persistence.LanguageAnalyserPersistence>
+          <runtimeParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>document</string>
+                <null/>
+              </entry>
+              <entry>
+                <string>corpus</string>
+                <null/>
+              </entry>
+            </localMap>
+          </runtimeParams>
+          <resourceType>vn.com.epi.gate.crfner.CrfNerPlugin</resourceType>
+          <resourceName>Vietnamese NER</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap>
+              <entry>
+                <string>dirOfModel</string>
+                <gate.util.persistence.PersistenceManager-URLHolder>
+                  <urlString>$relpath$Vietnamese_NER_CRF/resources/</urlString>
+                </gate.util.persistence.PersistenceManager-URLHolder>
+              </entry>
+              <entry>
+                <string>nameOfModel</string>
+                <string>ner-model.ser.gz</string>
+              </entry>
+            </localMap>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.LanguageAnalyserPersistence>
+        
+		
+		<gate.util.persistence.SerialAnalyserControllerPersistence>
+          <prList class="gate.util.persistence.CollectionPersistence">
+            <localList>
+              <gate.util.persistence.LanguageAnalyserPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>wholeWordsOnly</string>
+                      <boolean>true</boolean>
+                    </entry>
+                    <entry>
+                      <string>longestMatchOnly</string>
+                      <boolean>true</boolean>
+                    </entry>
+                    <entry>
+                      <string>document</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>annotationSetName</string>
+                      <null/>
+                    </entry>
+                  </localMap>
+                </runtimeParams>
+                <resourceType>gate.creole.gazetteer.DefaultGazetteer</resourceType>
+                <resourceName>Vietnamese Pronoun Gazetteer</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>caseSensitive</string>
+                      <boolean>false</boolean>
+                    </entry>
+                    <entry>
+                      <string>encoding</string>
+                      <string>UTF-8</string>
+                    </entry>
+                    <entry>
+                      <string>gazetteerFeatureSeparator</string>
+                      <string>\t</string>
+                    </entry>
+                    <entry>
+                      <string>listsURL</string>
+                      <gate.util.persistence.PersistenceManager-URLHolder>
+                        <urlString>$relpath$Vietnamese_Coreferencer/gazetteer/coref-list.def</urlString>
+                      </gate.util.persistence.PersistenceManager-URLHolder>
+                    </entry>
+                  </localMap>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.LanguageAnalyserPersistence>
+              <gate.util.persistence.LanguageAnalyserPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>annotationSetName</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>document</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>annotationTypes</string>
+                      <gate.util.persistence.CollectionPersistence>
+                        <localList>
+                          <string>Product</string>
+                          <string>Organization</string>
+                          <string>Person</string>
+                          <string>Location</string>
+                          <string>Date</string>
+                        </localList>
+                        <collectionType>java.util.ArrayList</collectionType>
+                      </gate.util.persistence.CollectionPersistence>
+                    </entry>
+                  </localMap>
+                </runtimeParams>
+                <resourceType>vn.com.epi.gate.VietnameseOrthoMatcher</resourceType>
+                <resourceName>Vietnamese OrthoMacther_00017</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>definitionFileURL</string>
+                      <gate.util.persistence.PersistenceManager-URLHolder>
+                        <urlString>$relpath$Vietnamese_OrthoMatcher/resources/orthomatcher/listsNM.def</urlString>
+                      </gate.util.persistence.PersistenceManager-URLHolder>
+                    </entry>
+                    <entry>
+                      <string>minimumNicknameLikelihood</string>
+                      <double>0.5</double>
+                    </entry>
+                    <entry>
+                      <string>extLists</string>
+                      <boolean>true</boolean>
+                    </entry>
+                    <entry>
+                      <string>encoding</string>
+                      <string>UTF-8</string>
+                    </entry>
+                    <entry>
+                      <string>caseSensitive</string>
+                      <boolean>false</boolean>
+                    </entry>
+                    <entry>
+                      <string>personType</string>
+                      <string>Person</string>
+                    </entry>
+                    <entry>
+                      <string>processUnknown</string>
+                      <boolean>true</boolean>
+                    </entry>
+                    <entry>
+                      <string>organizationType</string>
+                      <string>Organization</string>
+                    </entry>
+                  </localMap>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.LanguageAnalyserPersistence>
+              <gate.util.persistence.LanguageAnalyserPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>document</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>corpus</string>
+                      <null/>
+                    </entry>
+                  </localMap>
+                </runtimeParams>
+                <resourceType>vn.com.epi.gate.coreferencer.CoreferencerPlugin</resourceType>
+                <resourceName>Vietnamese Coreferencer</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.LanguageAnalyserPersistence>
+            </localList>
+            <collectionType>java.util.ArrayList</collectionType>
+          </prList>
+          <resourceType>gate.creole.SerialAnalyserController</resourceType>
+          <resourceName>Vietnamese Coreference</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.SerialAnalyserControllerPersistence>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        <gate.util.persistence.SerialAnalyserControllerPersistence>
+          <corpus class="gate.util.persistence.CorpusPersistence">
+            <docList/>
+            <resourceType>gate.corpora.CorpusImpl</resourceType>
+            <resourceName>GATE Corpus_00018</resourceName>
+            <initParams class="gate.util.persistence.MapPersistence">
+              <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+              <localMap>
+                <entry>
+                  <string>documentsList</string>
+                  <null/>
+                </entry>
+              </localMap>
+            </initParams>
+          </corpus>
+          <prList class="gate.util.persistence.CollectionPersistence">
+            <localList>
+              <gate.util.persistence.LanguageAnalyserPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>wholeWordsOnly</string>
+                      <boolean>true</boolean>
+                    </entry>
+                    <entry>
+                      <string>longestMatchOnly</string>
+                      <boolean>true</boolean>
+                    </entry>
+                    <entry>
+                      <string>document</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>annotationSetName</string>
+                      <null/>
+                    </entry>
+                  </localMap>
+                </runtimeParams>
+                <resourceType>gate.creole.gazetteer.DefaultGazetteer</resourceType>
+                <resourceName>Vietnamese Sentiment Gazetteer</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>caseSensitive</string>
+                      <boolean>false</boolean>
+                    </entry>
+                    <entry>
+                      <string>encoding</string>
+                      <string>UTF-8</string>
+                    </entry>
+                    <entry>
+                      <string>gazetteerFeatureSeparator</string>
+                      <string>\t</string>
+                    </entry>
+                    <entry>
+                      <string>listsURL</string>
+                      <gate.util.persistence.PersistenceManager-URLHolder>
+                        <urlString>$relpath$Vietnamese_Sentiment_Analysis/gazetteer/list.def</urlString>
+                      </gate.util.persistence.PersistenceManager-URLHolder>
+                    </entry>
+                  </localMap>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.LanguageAnalyserPersistence>
+              <gate.util.persistence.PRPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </runtimeParams>
+                <resourceType>vn.com.epi.gate.correction.LookupCorrection_VN</resourceType>
+                <resourceName>Lookup Correction</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.PRPersistence>
+              <gate.util.persistence.LanguageAnalyserPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>outputASName</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>document</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>corpus</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>ontology</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>inputASName</string>
+                      <null/>
+                    </entry>
+                  </localMap>
+                </runtimeParams>
+                <resourceType>gate.creole.Transducer</resourceType>
+                <resourceName>Vietnamese Sentiment Transducer New</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>encoding</string>
+                      <string>UTF-8</string>
+                    </entry>
+                    <entry>
+                      <string>annotationAccessors</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>operators</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>grammarURL</string>
+                      <gate.util.persistence.PersistenceManager-URLHolder>
+                        <urlString>$relpath$Vietnamese_Sentiment_Analysis/transducer/sentiment-main.jape</urlString>
+                      </gate.util.persistence.PersistenceManager-URLHolder>
+                    </entry>
+                    <entry>
+                      <string>binaryGrammarURL</string>
+                      <null/>
+                    </entry>
+                  </localMap>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.LanguageAnalyserPersistence>
+              <gate.util.persistence.PRPersistence>
+                <runtimeParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>outputASName</string>
+                      <null/>
+                    </entry>
+                    <entry>
+                      <string>inputASName</string>
+                      <null/>
+                    </entry>
+                  </localMap>
+                </runtimeParams>
+                <resourceType>vn.com.epi.gate.sentiment.VnSentiment</resourceType>
+                <resourceName>Sentiment Analyzer</resourceName>
+                <initParams class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap>
+                    <entry>
+                      <string>opinionUrl</string>
+                      <gate.util.persistence.PersistenceManager-URLHolder>
+                        <urlString>$relpath$Vietnamese_Sentiment_Analysis/opinion.lst</urlString>
+                      </gate.util.persistence.PersistenceManager-URLHolder>
+                    </entry>
+                  </localMap>
+                </initParams>
+                <features class="gate.util.persistence.MapPersistence">
+                  <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+                  <localMap/>
+                </features>
+              </gate.util.persistence.PRPersistence>
+            </localList>
+            <collectionType>java.util.ArrayList</collectionType>
+          </prList>
+          <resourceType>gate.creole.SerialAnalyserController</resourceType>
+          <resourceName>Vietnamese Sentiment</resourceName>
+          <initParams class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </initParams>
+          <features class="gate.util.persistence.MapPersistence">
+            <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+            <localMap/>
+          </features>
+        </gate.util.persistence.SerialAnalyserControllerPersistence>
+      </localList>
+      <collectionType>java.util.ArrayList</collectionType>
+    </prList>
+    <resourceType>gate.creole.SerialAnalyserController</resourceType>
+    <resourceName>Sentiment Analysis</resourceName>
+    <initParams class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </initParams>
+    <features class="gate.util.persistence.MapPersistence">
+      <mapType>gate.util.SimpleFeatureMapImpl</mapType>
+      <localMap/>
+    </features>
+  </application>
+</gate.util.persistence.GateApplication>

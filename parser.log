@@ -1,0 +1,6 @@
+  Transition system    : 2-Planar Arc-Eager
+  Parser configuration : Two-Planar with no_covered_roots = TRUE, acyclicity = TRUE, planar root handling = NORMAL, reduce on switch = TRUE
+  Feature model        : 2PlanarEager.xml
+  Classifier           : liblinear
+  Data Format          : /mode0/conllx.xml
+Parsing time: 00:00:00 (33 ms)

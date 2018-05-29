@@ -1,0 +1,122 @@
+﻿Phase: Product
+Input: Lookup Token Split
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NAME_CANDIDATE
+(
+	({Token.orth == upperInitial} | {Token.orth == allCaps} | {Token.orth == mixedCaps})
+	(
+		(
+			(
+				(
+					({Token.kind == number})
+					({Token.kind == word})
+				)[0, 5]
+				({Token.kind == number})? 
+			)|
+			(
+				({Token.kind == number})?
+				(
+					({Token.string == "."})
+					({Token.kind == number})
+				)[0, 5]
+			)
+		) |
+	    ({Token.orth == upperInitial} | {Token.orth == allCaps} | {Token.orth == mixedCaps})[0, 5]
+	)
+)
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: vi xử lý Intel Core 2 Duo
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Type1
+Priority: 10
+(
+	({Lookup.majorType == pro_type} | {Lookup.majorType == context})
+	(NAME_CANDIDATE):name
+):product
+-->
+:product.Product = {rule = "Type1"},
+:name.NamedEntity = {category = "Product", rule = "Type1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Brand1
+Priority: 10
+(
+	({Lookup.majorType == pro_brand})
+	(NAME_CANDIDATE):name
+): product
+-->
+:product.Product = {rule = "Brand1"},
+:name.NamedEntity = {category = "Product", rule = "Brand1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Unit1
+Priority: 10
+(
+	({Lookup.majorType == pro_unit})
+	(NAME_CANDIDATE):name
+): product
+-->
+:product.Product = {rule = "Unit1"},
+:name.NamedEntity = {category = "Product", rule = "Unit1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Feature1
+Priority: 10
+(
+	({Lookup.majorType == pro_feature})
+	({Token.string == "của"})
+	(NAME_CANDIDATE):product
+)
+-->
+:product.Product = {rule = "Feature1"},
+:product.NamedEntity = {category = "Product", rule = "Feature1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Type2
+Priority: 10
+(
+	(
+		({Lookup.majorType == pro_unit})?
+		(
+			({Lookup.majorType == pro_brand})
+			({Token.kind != punctuation})*
+		):name
+	):product
+	({Token.string == "là"} | ({Token.string == "chính"} {Token.string == "là"}))
+	({Lookup.majorType == pro_unit})?
+	({Lookup.majorType == pro_type} | {Lookup.majorType == context})
+)
+-->
+:product.Product = {rule = "Type2"},
+:name.NamedEntity = {category = "Product", rule = "Type2"}
+
+
+/*---------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,20 @@
+﻿Phase: TokenRemove
+Input: Token
+Options: control = brill
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: TokenRemove
+Priority: 100
+(
+	{Token}
+):token
+-->
+{
+AnnotationSet token = bindings.get("token");
+inputAS.removeAll(token);
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/

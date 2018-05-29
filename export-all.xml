@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="export-all" name="Export all plugins">
+	<!--ANT 1.7 is required                                        -->
+	<property name="exportDir" location="dist" />
+
+	<target name="clean">
+		<delete includeemptydirs="true" failonerror="false">
+			<fileset dir="${exportDir}">
+			</fileset>
+		</delete>
+	</target>
+
+	<target name="vnTokenizer">
+		<jar destfile="${exportDir}/vnTokenizer/vnTokenizer.jar" filesetmanifest="merge">
+			<manifest>
+				<attribute name="Main-Class" value="vn.hus.nlp.tokenizer.Program" />
+				<attribute name="Class-Path" value=". lib/antlr-3.4-complete.jar lib/guava-11.0.2.jar lib/log4j-1.2.16.jar lib/trove-3.0.3.jar lib/jdom.jar lib/commons-cli-1.2.jar" />
+			</manifest>
+			<fileset dir="vnTokenizer/bin" />
+		</jar>
+		<copy todir="${exportDir}/vnTokenizer">
+			<fileset dir="vnTokenizer" includes="vnTokenizer.bat,vnTokenizer.sh,README*,CHANGES*,LICENSE*">
+			</fileset>
+		</copy>
+		<chmod perm="a+x" file="${exportDir}/vnTokenizer/vnTokenizer.sh" />
+		<copy todir="${exportDir}/vnTokenizer/resources">
+			<fileset dir="vnTokenizer/resources" includes="automata/**, bigram/**, normalization/**, prefix/**" />
+		</copy>
+		<copy todir="${exportDir}/vnTokenizer/lib">
+			<fileset dir="lib" includes="antlr-3.4-complete.jar, guava-11.0.2.jar, 
+				log4j-1.2.16.jar, trove-3.0.3.jar, jdom.jar, commons-cli-1.2.jar" />
+		</copy>
+	</target>
+
+	<target name="gate-orthomatcher" depends="">
+			<copy todir="${exportDir}/gate/Vietnamese_OrthoMatcher">
+				<fileset file="gate/Vietnamese_OrthoMatcher/creole.xml" />
+			</copy>
+			<mkdir dir="${exportDir}/gate/Vietnamese_OrthoMatcher/lib"/>
+			<copy todir="${exportDir}/gate/Vietnamese_OrthoMatcher/lib">
+				<fileset file="lib/guava-11.0.2.jar" />
+			</copy>
+			<jar destfile="${exportDir}/gate/Vietnamese_OrthoMatcher/vnOrthoMatcher.jar" filesetmanifest="mergewithoutmain">
+				<fileset dir="gate/Vietnamese_OrthoMatcher/bin" />
+			</jar>
+			<copy todir="${exportDir}/gate/Vietnamese_OrthoMatcher/resources">
+				<fileset dir="gate/Vietnamese_OrthoMatcher/resources" />
+			</copy>
+		</target>
+	
+	<target name="gate-maltparser">
+		<jar destfile="${exportDir}/gate/MaltParser/maltparser-plugin.jar" filesetmanifest="mergewithoutmain">
+			<fileset dir="gate/MaltParser/bin" />
+		</jar>
+		<copy todir="${exportDir}/gate/MaltParser">
+			<fileset file="gate/MaltParser/creole.xml" />
+		</copy>
+		<copy todir="${exportDir}/gate/MaltParser/lib">
+			<fileset file="lib/maltparser-1.7.2.jar" />
+			<fileset file="lib/liblinear-1.8.jar" />
+			<fileset file="lib/libsvm.jar" />
+			<fileset file="lib/log4j.jar" />
+		</copy>
+		<copy todir="${exportDir}/gate/MaltParser/resources">
+			<fileset dir="gate/MaltParser/resources" />
+		</copy>
+
+	</target>
+
+	<target name="gate-crfNer">
+		<jar destfile="${exportDir}/gate/Vietnamese_NER_CRF/crfner-plugin.jar" filesetmanifest="mergewithoutmain">
+			<fileset dir="gate/Vietnamese_NER_CRF/bin" />
+		</jar>
+		<copy todir="${exportDir}/gate/Vietnamese_NER_CRF">
+			<fileset file="gate/Vietnamese_NER_CRF/creole.xml" />
+		</copy>
+		<copy todir="${exportDir}/gate/Vietnamese_NER_CRF/lib">
+			<fileset file="lib/stanford-ner.jar" />
+		</copy>
+		<copy todir="${exportDir}/gate/Vietnamese_NER_CRF/resources">
+			<fileset dir="gate/Vietnamese_NER_CRF/resources" />
+		</copy>
+	</target>
+
+	<target name="gate-jtagger">
+		<jar destfile="${exportDir}/gate/Vietnamese_JTagger/tagger-plugin.jar" filesetmanifest="mergewithoutmain">
+			<fileset dir="gate/Vietnamese_JTagger/bin" />
+		</jar>
+		<copy todir="${exportDir}/gate/Vietnamese_JTagger">
+			<fileset file="gate/Vietnamese_JTagger/creole.xml" />
+		</copy>
+		<copy todir="${exportDir}/gate/Vietnamese_JTagger/lib">
+			<fileset file="lib/JVnTagger-v.3.0.jar" />
+		</copy>
+		<copy todir="${exportDir}/gate/Vietnamese_JTagger/resources">
+			<fileset dir="gate/Vietnamese_JTagger/resources" />
+		</copy>
+	</target>
+
+	<target name="gate-tokenizer" depends="vnTokenizer">
+		<jar destfile="${exportDir}/gate/Vietnamese_Tokenizer/vnTokenizer-plugin.jar" filesetmanifest="mergewithoutmain">
+			<fileset dir="gate/Vietnamese_Tokenizer/bin">
+			</fileset>
+		</jar>
+		<copy todir="${exportDir}/gate/Vietnamese_Tokenizer">
+			<fileset dir="${exportDir}/vnTokenizer" />
+		</copy>
+		<!-- 
+		<copy todir="${exportDir}/gate/Vietnamese_Tokenizer/lib">
+			<fileset file="lib/antlr-3.4-complete.jar" />
+			<fileset file="lib/commons-lang3-3.0.jar" />
+			<fileset file="lib/guava-11.0.2.jar" />
+			<fileset file="lib/jdom.jar" />
+			<fileset file="lib/trove.jar" />
+		</copy>
+		-->
+		<copy file="gate/Vietnamese_Tokenizer/creole.xml" todir="${exportDir}/gate/Vietnamese_Tokenizer" />
+	</target>
+
+
+
+	<target name="gate-ner">
+		<copy todir="${exportDir}/gate/Vietnamese_NER">
+			<fileset dir="gate/Vietnamese_NER">
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="gate-coreferencer">
+		<jar destfile="${exportDir}/gate/Vietnamese_Coreferencer/vnCoreferencer.jar">
+			<fileset dir="gate/Vietnamese_Coreferencer/bin" />
+		</jar>
+		<copy todir="${exportDir}/gate/Vietnamese_Coreferencer">
+			<fileset dir="gate/Vietnamese_Coreferencer" includes="creole.xml,gazetteer/**,transducer/**" />
+		</copy>
+	</target>
+
+
+	<target name="sentiment">
+		<jar destfile="${exportDir}/gate/Vietnamese_Sentiment_Analysis/vnCommonLib.jar" filesetmanifest="mergewithoutmain">
+			<fileset dir="gate/Vietnamese_Sentiment_Analysis/bin">
+			</fileset>
+		</jar>
+		<copy todir="${exportDir}/gate/Vietnamese_Sentiment_Analysis">
+			<fileset dir="gate/Vietnamese_Sentiment_Analysis" />
+		</copy>
+	</target>
+
+
+	<target name="gate" depends=" gate-tokenizer, gate-orthomatcher, 
+			gate-maltparser, gate-crfNer, gate-coreferencer, gate-ner, sentiment, gate-jtagger">
+		<copy todir="${exportDir}/gate">
+			<fileset dir="gate" includes="*.gapp" />
+		</copy>
+	</target>
+
+	<target name="samples">
+		<copy todir="${exportDir}/samples">
+			<fileset dir="samples">
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="export-all" depends="clean, vnTokenizer, gate, samples">
+	</target>
+</project>

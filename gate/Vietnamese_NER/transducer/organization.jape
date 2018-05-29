@@ -1,0 +1,137 @@
+﻿Phase: Organization
+Input: Lookup Token Split LocationWrap FacilityWrap
+Options: control = appelt
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NAME_CANDIDATE
+(
+	(
+		({Token.orth == allCaps})
+		({Token.string == "."})
+	)?
+	({Token.orth == upperInitial} | {Token.orth == allCaps})[1,5]
+	(
+		({Token.string == "-"})
+		({Token.orth == upperInitial} | {Token.orth == allCaps})[1,5]
+	)[0, 4]
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: ORGANIZATION_PREFIX
+(
+	({Lookup.majorType == org_department, Lookup.minorType == prefix})?
+	(
+		({Lookup.majorType == org_department, Lookup.minorType == main})[1, 2] |
+		({Lookup.majorType == org_government, Lookup.minorType == prefix})
+	)
+	({Lookup.majorType == org_department, Lookup.minorType == prefix})?
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: ORGANIZATION_TYPE
+(
+	({Lookup.majorType == org_type})
+	(
+		(
+			{Token.string ==~ "[Vv]à"} |
+			{Token.string == "-"} |
+			{Token.string == ","}
+		)?
+		({Lookup.majorType == org_type})
+	)[0, 3]
+)
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: công ty FPT
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Corporation1
+Priority: 20
+(
+	({Lookup.majorType == org_corporation, Lookup.minorType == prefix})
+	({Lookup.majorType == org_corporation-type})
+	(ORGANIZATION_TYPE)?
+	(NAME_CANDIDATE):name
+):organization
+-->
+:name.Organization = {type = "Corporation", rule = "Corporation1"},
+:organization.OrganizationWrap = {type = "Corporation", rule = "Corporation1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: ủy ban trung ương mặt trận tổ quốc Việt Nam, UBND tỉnh Hải Dương, bộ khoa học công nghệ
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Organization1
+Priority: 30
+(
+	(ORGANIZATION_PREFIX)
+	(
+		(ORGANIZATION_TYPE) |
+		{LocationWrap} |
+		(ORGANIZATION_TYPE) {LocationWrap} |
+		{FacilityWrap} |
+		(ORGANIZATION_TYPE) {FacilityWrap}
+	)
+):organization
+-->
+:organization.OrganizationWrap = {rule = "Organization1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: câu lạc bộ ABC
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Organization2
+Priority: 20
+(
+	(ORGANIZATION_PREFIX)
+	(ORGANIZATION_TYPE)?
+	(NAME_CANDIDATE):name
+	(
+		(
+			{Token.string == "của"} |
+			{Token.string == "ở"} |
+			{Token.string == "thuộc"}
+		)?
+		(
+			{LocationWrap} |
+			{FacilityWrap}
+		)
+	)?
+):organization
+-->
+:name.Organization = {rule = "Organization2"},
+:organization.OrganizationWrap = {rule = "Organization2"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: Liên Hợp Quốc
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: KnownOrganization1
+Priority: 10
+(
+	({Lookup.majorType == org_known})
+):name
+-->
+:name.Organization = {rule = "KnownOrganization1"},
+:name.OrganizationWrap = {rule = "KnownOrganization1"}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+

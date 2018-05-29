@@ -1,0 +1,13 @@
+﻿Phase: NewLine
+Input: SpaceToken
+Options: control = brill
+
+Rule: NewLine
+Priority: 10
+(
+	{SpaceToken.string == "\r\n"} |
+	{SpaceToken.string == "\n"} |
+	{SpaceToken.string == "\r"}
+):newline
+-->
+:newline.NewLine = {rule = "NewLine"}

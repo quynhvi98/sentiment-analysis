@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<GateDocument>
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+<Name className="java.lang.String">gate.SourceURL</Name>
+<Value className="java.lang.String">created from String</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>Việt Nam Hồ Chí Minh. Trong vòng 1 tuần, có tới 3 dự án đầu tư nước ngoài vào lĩnh vực bất động sản, với tổng giá trị gần 1,7 tỉ USD chính thức khởi động. 
+L750 Bao gồm: 1 dự án của Cty xây dựng Posco (Hàn Quốc) phối hợp cùng TCty Xây dựng VN (Vinaconex), 1 dự án của Tập đoàn ITC Spectrum LLC (Mỹ) và 1 dự án của Tập đoàn Ascott Châu Á. Trong số này, dự án có vốn đầu tư lớn nhất - lên tới 1,4 tỉ USD - là dự án khu đô thị Bắc An Khánh.</TextWithNodes>
+
+<AnnotationSet>
+</AnnotationSet>
+
+</GateDocument>

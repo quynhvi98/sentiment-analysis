@@ -1,0 +1,73 @@
+﻿Phase: Unknown
+Input: Lookup Token Split Person Location Organization Product
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Known
+Priority: 100
+(
+	{Person} |
+	{Location} |
+	{Organization} |
+	{Product}
+):known
+-->
+{}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*
+ * Vấn đề: Phó Thủ tướng Nguyễn Thiện Nhân, đã đánh dấu Person vào Nguyễn Thiện Nhân
+ * --> vẫn đánh dấu Unknown
+ * giải quyết tn???
+ */
+
+Rule: Unknown
+Priority: 10
+(
+	({Token.orth == upperInitial, Token.category == N, !Person}
+		| {Token.orth == upperInitial, Token.category == Np, !Person} 
+		| {Token.orth == allCaps, !Person} 
+		| {Token.orth == mixedCaps, !Person})+
+):unknown
+-->
+:unknown.Unknown = {rule = "Unknown"}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+Rule: ProductUnknown
+Priority: 10
+(
+	({Token.orth == upperInitial, Token.category =~ "Np?"} 
+		| {Token.orth == allCaps} 
+		| {Token.orth == mixedCaps})
+	(
+		(
+			(
+				(
+					({Token.kind == number})
+					({Token.orth == upperInitial, Token.category =~ "Np?"} 
+						| {Token.orth == allCaps} 
+						| {Token.orth == mixedCaps})
+				)[0, 5]
+				({Token.kind == number})? 
+			)|
+			(
+				({Token.kind == number})?
+				(
+					({Token.string == "."})
+					({Token.kind == number})
+				)[0, 5]
+			)
+		) |
+	    ({Token.orth == upperInitial, Token.category =~ "Np?"} 
+			| {Token.orth == allCaps} 
+			| {Token.orth == mixedCaps})[0, 5]
+	)
+):unknown
+-->
+:unknown.Unknown = {rule = "ProductUnknown"}

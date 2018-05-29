@@ -1,0 +1,247 @@
+﻿Review đánh giá Alienware M11x UltraPortable
+Được ra mắt tại CES 2010, Alienware đã gây được ấn tượng lớn đối với báo giới khi mang đến sản phẩm laptop/netbook chơi game là M11x - nhỏ bé mà không kém phần sức mạnh.
+
+
+Giới thiệu
+
+Alienware M11x - Chiếc netbook nhanh nhất và linh hoạt nhất
+Trong những năm qua chúng ta đã được chứng kiến những sự thay đổi lớn trong ngành công nghệ, nhất là khi nhìn vào các card đồ họa, chúng ta không khỏi ngạc nhiên trước nhiều cải tiến cũng như hiệu năng được tăng lên rõ rệt. 2010 là năm mọi thứ bắt đầu thực sự thay đổi. Chúng ta đã từng thấy nhiều game thủ chuyển sang console, nhưng sau đó nhiều người lại quay trở lại như thể console vẫn còn có gì đó hạn chế.
+
+Một xu hướng nữa là mọi thứ trở nên nhỏ hơn, nhưng chúng có thể làm nhiều việc hơn, và vì thế mà vài năm trước những chiếc laptop bắt đầu có nhiều vi xử lý đồ họa tiên tiến hơn, để hỗ trợ việc chơi game.
+
+Chỉ một số ít game thủ nhận thấy xu hướng đó, và ngày nay bạn có thể mua thứ mà chúng tôi thường gọi là “sự thay thế desktop”. Nếu chịu bỏ ra một bao tiền, thì bạn sẽ có thể chơi những game mới nhất một cách tương xứng. Xu hướng chơi game trên laptop bắt đầu từ khi một vài ODM (Original Design Manufacturer) bắt đầu sử dụng những chiếc GPU mạnh mẽ hơn bên trong laptop. Một trong số những cái tên lớn trong ngành công nghiệp này đó chính là Alienware.
+
+Mới đây, Alienware đưa ra dòng laptop M11x UltraPortable với cấu hình Core i3 / i5 / i7, và đồng thời nó còn được trang bị Nvidia Optimus. Về cơ bản, bạn có 2 card đồ họa bên trong chiếc laptop, một chiếc được gắn Intel IGP cho những thứ 2D thông thường, và khi bạn khởi động game, một con chíp Nvidia sẽ kiểm soát và tăng cường trải nghiệm chơi game.
+
+Trên trang web Dell bạn có thể tự mình build cấu hình những chiếc laptop này theo cách mong muốn, nhưng một thứ không thay đổi, đó là thiết kế Alienware đáng yêu. Chỉ khi này mở chiếc hộp và khởi động laptop, bạn sẽ cười lên sung sướng vì biết rằng mình có trong tay một sản phẩm đặc biết, với thiết kế đẹp mắt cùng bàn phím LED.
+
+Hôm nay chúng ta sẽ bình luận về Alienware M11x UltraPortable, một chiếc netbook điển hình. Chúng ta sẽ xem xét hiệu năng CPU và bộ nhớ, và tất nhiên cả khả năng của con chíp đồ họa trong việc chơi game. Các bạn hãy chiêm ngưỡng một bức ảnh của Alienware M11x, và sau đó chuyển sang trang kế tiếp.
+
+Các đặc điểm và thông số
+Các đặc điểm và thông số
+Về kích thước và chức năng, chiếc laptop này dễ rơi vào hạng netbook, thiết bị điển hình mà bạn có thể thực hiện những hoạt động cơ bản như word processing, internet, email, và xem một bộ phim. Nhưng Alienware đưa nó lên một cấp độ kế tiếp, với việc bổ sung thêm vài thành phần mạnh mẽ và những sự cải tiến.
+
+Như vậy chiếc Alienware M11x được chủ định thiết kế như một sự thay thế cho netbook, tuy nhiên Dell thích gọi nó là một chiếc máy chơi game siêu di động UltraPortable, và chúng tôi cảm thấy đây là cách gọi đúng vì sản phẩm này không thể là một chiếc netbook, hay thậm chí là một chiếc laptop.
+
+Với trọng lượng khoảng 2 kg, M11x không phải là nhẹ nhất, nhưng sự kết hợp giữa kích thước thanh nhã và khả năng chơi game khiến nó trở nên độc nhất và dễ đem theo. Đúng như cái tên M11x, chiếc laptop này có chiếc vỏ bọc kích thước 11-inch:
+Độ dày: 32.7mm (1.29 inches)
+Chiều ngang: 285.7mm (11.25 inches)
+Chiều dọc: 233.3mm (9.19 inches)
+Không chỉ nhỏ và dễ di chuyển, nó còn chơi được nhiều game với độ phân giải 1366 x 768.
+
+Dell đem đến cho bạn nhiều lựa chọn cấu hình cho M11x về bộ nhớ và dung lượng lưu trữ. Về mặt vi xử lý, họ sử dụng Intel Core i3, Core i5 và Core i7, đây thực sự là một bước tiến tốt so với những con chip xử lý Intel Core 2 Duo được trang bị trong những mẫu thiết kế trước. Bạn cũng cần nhớ rằng chúng ta đang nói tới net-top, vì thế hiệu năng khá tốt, nhưng tất nhiên vẫn còn hạn chế so với máy tính để bàn.
+
+Thêm vào đó, chiếc M11x sẽ tận dụng công nghệ Nvidia Optimus, công nghệ được kỳ vọng làm tăng thời lượng pin mà không ảnh hưởng tới hiệu năng. Về cơ bản hệ thống đồ họa phụ sẽ nhanh chóng chuyển đổi giữa giải pháp tiết kiệm năng lượng của Intel, và lúc chơi game một Nvidia GPU sẽ hoạt động (GeForce GT 335M). Ngoài ra khi mua chiếc máy này, bạn còn được cài sẵn hệ điều hành Windows 7 64-bit Home edition, và tất nhiên bạn có thể lựa chọn nâng cấp lên các phiên bản cao hơn với một chút chi phí bổ sung. Như vậy với M11x, bạn có thể có trải nghiệm chơi game tuyệt vời trên một chiếc máy tính portable, với màn hình hiển thị 11.6 inch. Và một điều nữa, bạn cũng có thể lựa chọn cho nó một ổ cứng Samsung SSD, như chúng tôi đã làm đây.
+
+Nhưng trước tiên hãy nói qua về một vài thành phần. 
+
+Chipset: Chiếc máy siêu di động này đi kèm với Intel Ironlake-M QS57, với tất cả các kết nối cần thiết và một vài kết nối bổ sung. Con chip này hỗ trợ 14 USB 2.0, PCIe 2.0 8X, và 6 cổng SATA 3 GB/s, cùng với hỗ trợ đồ họa tích hợp Arrandale. Nó còn hỗ trợ Intel AMT 6.0, Brainwood memory, công nghệ lưu trữ nhanh (Intel rapid storage technology) và Intel AP-p. Chiếc máy mẫu của chúng tôi sử dụng một ổ SSD chạy trên AHCI mode. Một điểm bất lợi, đó là nó hỗ trợ Ethernet chỉ tới 100 Mbit/giây, vì thế bạn không thể tìm thấy kết nối gigabit Ethernet được, và nếu như tôi nhớ không lầm thì đó là một sự hạn chế tạo ra bởi Intel cho các mẫu Netbook.
+
+
+
+Chúng ta đang bàn về netbook, thường đặc trưng bởi Intel Atom hay ION, tuy nhiên chiếc ‘siêu di động’ này lại được trang bị với một vi xử lý Intel Core i5 520UM. Intel Core i5 520UM là một vi xử lý 2 lõi điện thế cực thấp, dành cho những loại laptop nhỏ và nhẹ, nó có xung nhịp 1.06 GHz ở mức bình thường, và đạt 1.86 GHz khi sử dụng Turbo Boost. Mỗi lõi dựa trên vi cấu trúc Nehalem (Westmere).
+
+Hyperthreading cho phép CPU lõi kép xử lý cùng lúc 4 luồng, trong khi chỉ có 2 lõi vật lý. Vi xử lý i5 này chỉ có bộ nhớ đệm 3MB Level 3 (i7 có 4 MB), 256 L2 cache mỗi lõi, và có xung nhịp Turbo Boost cực đại thấp hơn.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Các đặc điểm và thông số (tiếp)
+Các đặc điểm và thông số
+Những vi xử lý Core i5 khác (mà tên gọi không có chữ U) thì nhanh hơn do tốc độ xung nhịp cao hơn, nhưng sẽ cần nhiều điện năng hơn. Mức tiêu thụ năng lượng của vi xử lý này thấp một cách kinh ngạc, 18 Watt cực đại, và đấy là tính trên toàn bộ máy bao gồm cả Intel IGP.
+
+Đồ họa Nvidia GeForce GT 335M - Chúng tôi đã nói rằng chiếc máy này đi kèm với công nghệ Nvidia Optimus. Đối với netbook, kiểu dáng và phong cách luôn thay đổi. Nvidia đã lần đầu tiên giới thiệu công nghệ Optimus của họ, trên thực tế được dựa trên một trong những công nghệ ‘cổ xưa’ của hãng (đã bị xếp xó hơn năm rưỡi), được biết tới dưới cái tên “Hybrid SLI” và “Hybrid Graphics”. Optimus cho phép chuyển đổi tự động giữa những con chíp đồ họa riêng rẽ và những con chip kết hợp.
+
+Công nghệ Optimus của Nvidia thực tế sử dụng hiệu năng của một con chip đồ họa riêng rẽ khi cần, đồng thời chuyển sang đồ họa tích hợp của Intel để tiết kiệm năng lượng những lúc GPU không cần dùng tới. Việc chuyển đổi giữa đồ họa tích hợp và chip đồ họa riêng khá dễ dàng, nhanh chóng và gần như không thể nhận thấy được.
+
+Vi xử lý đồ họa GeForce GT 335M có xung nhịp 450 MHz, 1080 MHz trên 72 shader processor, và 790 MHz trên bộ nhớ đồ họa GDDR3 1024 MB (thực tế nó có tốc độ truyền tải dữ liệu gấp đôi, và như vậy xung nhịp là 1580 MHz).
+
+
+
+Chiếc card GT 335M thể hiện sức mạnh của mình mỗi khi nó nhận thấy một game. Việc này dựa trên driver profile, và do vậy không cần phải chuyển đổi với một phím nóng hay thứ gì tương tự thế. Nếu một game được nhận thấy, thì M11x sẽ chuyển sang hệ thống phụ Nvidia GPU. Danh sách các ứng dụng có thể được cập nhật thông qua các bản driver, đồng thời bạn cũng có thể tự mình chèn thông tin nếu như mua phải một game mới chưa được hỗ trợ.
+
+
+
+Trên chiếc máy này, bạn sẽ thấy nhiều thứ: 3 cổng USB, một đầu đọc thẻ 3-trong-1, 2 đầu cắm headphone, 10/100 Ethernet, và một khe cắm thẻ SIM dành cho lựa chọn modem 3G. M11x còn được trang bị số lượng lớn kết nối trình chiếu, với D-SUB, HDMI và DisplayPort nằm trên cạnh bên trái. Ngoài ra nó còn có một cặp loa chất lượng tốt.
+
+Tiếp theo chúng ta sẽ xem qua vài bức ảnh chụp và bàn về một số thứ.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Hình ảnh sản phẩm
+Hình ảnh sản phẩm
+
+
+Phía trên là hình ảnh về chiếc hộp của M11x, với tông màu đen trông rất đẹp mắt.
+
+
+
+Bên trong, chiếc M11x được bao phủ bởi một tấm vải mềm để tránh bị trầy xước. Bên trái là một chiếc hộp khác với các phụ kiện. Tất cả đều được gói một cách cẩn thận và được bảo vệ bởi vài lớp xốp.
+
+
+
+Khi đã tháo ra hết, bạn sẽ thấy chiếc máy siêu di động, đĩa CD Alienware driver (điều thú vị là M11x không có ổ đĩa CD/DVD), và một bộ nguồn, cùng với sách hướng dẫn.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Hình ảnh sản phẩm
+
+
+Khi bật máy lên, bạn sẽ phải choáng ngợp trước những ánh đèn LED đẹp mắt, được bố trí ở khắp nơi, và đều có thể được cấu hình màu sắc riêng. Ở trên, tất cả chúng đều có màu xanh, nhưng trong phần sau chúng tôi sẽ chuyển sang màu đỏ. 
+
+
+Tổng thế thiết kế của chiếc ‘siêu di động’ này trông khá hiện đại, với màn hình 11” và nặng khoảng 2 kilogam. Tuy nhỏ gọn, nhưng bên trong nó có một Nvidia GT 335M GPU, đưa nó trở thành một trong số những laptop nhỏ nhưng mạnh mẽ trên thị trường. 
+
+Một điểm đáng chú ý trên chiếc máy này, đó là màn hình WLED 1366 x 768 720p bóng loáng, như có thể thấy ở hình trên, nó khá phản chiếu. Một webcam và mic được bố trí bên trên màn hình.
+
+
+
+Pin đã được lắp, nhưng ở mặt sau bạn sẽ nhận thấy một dấu ấn cá nhân, một tấm khắc kim loại. Khi bạn chọn cấu hình cho chiếc M11x của mình trên trang web của Dell, bạn có thể lựa chọn ghi cái gì ở đây, chẳng hạn tên bạn, hoặc nickname.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Hình ảnh sản phẩm
+
+
+Như bạn thấy trên bức hình trên, tôi đã chuyển tất cả các đèn LED sang màu đỏ, đồng thời thay đổi khung cảnh xung quanh cho bắt mắt hơn. Nếu bạn nhìn vào màn hình logon với từ ‘Sense’, thì đó là phần mềm nhận biết khuôn mặt, bạn có thể đăng nhập bằng cách nhìn vào webcam, sau đó chiếc máy sẽ đặt tên người dùng và password cho khuôn mặt của bạn. Nó hoạt động rất tốt và nhanh.
+
+
+
+Toàn bộ sản phẩm mang một dáng vẻ tân kỳ, nhất là bàn phím được chiếu sáng, với cách bố trí được thiết kế dành cho việc chơi game. Bên phải có audio IO (Realtek 5.1 audio) và 2 cổng USB 2.0, tuy vậy nó chưa được trang bị USB 3.0.
+
+
+
+Ở cạnh bên trái có các kết nối với màn hình ngoài, DisplayPort và HDMI. Chiếc M11x này còn có một cổng USB, Ethernet (hạn chế ở 100 Mbit), đầu đọc thẻ (MMC, SD, MS Pro) và một cổng Firewire. Về kết nối wireless, chiếc M11x có một con chip Wi-Fi 802.11n.
+
+
+
+Ở phía sau bạn sẽ thấy một kết nối nguồn. Vì đây là một chiếc netbook siêu di động, nên có một vài hạn chế. Một trong số đó là việc không có ổ DVD/CD ROM combo, và đây chính là điểm bất lợi lớn nhất của sản phẩm này. Điều đó dẫn đến việc bạn phải cần một ổ DVD ROM ngoài. Dù sao có rất nhiều loại ổ đĩa với kết nối USB. Về mức giá, chiếc M11x bắt đầu ở $799, và mẫu của chúng tôi có vi xử lý Core i5, RAM 4 GB khởi động ở khoảng 1G.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Các ảnh chụp màn hình desktop và cấu hình
+Các ảnh chụp màn hình desktop và cấu hình
+
+
+
+Mỗi khi bật M11x và khởi động  vào Windows, bạn sẽ thấy màn hình nền độ phân giải 1366 x 768 pixel. Điều thú vị trước khi đi vào hình nền, là quá trình đăng nhập. Alienware sử dụng một tính năng bảo mật mới, cho phép bạn đăng nhập bằng cách nhận diện khuôn mặt. Nó hoạt động rất tốt, bạn chỉ cần chỉ cho chiếc netbook khuôn mặt của bạn thông qua một Wizard, rồi sử dụng như một username và password. Đến lần khởi động sau, bạn chỉ cần nhìn vào webcam để đăng nhập. Một vài đồng nghiệp của tôi đã thử đăng nhập bằng khuôn mặt của họ, nhưng tất nhiên đều không thành công, ngoại trừ tôi. Nói chung hoạt động của tính năng này khá nhanh và chắc chắn.
+
+
+
+Chiếc M11x có một vài tính năng tùy biến được, chẳng hạn mỗi cái đèn LED có thể được tùy chỉnh với màu sắc bạn mong muốn, bao gồm các đèn LED ở biểu tượng logo, bàn phím, ở phía trước.
+
+
+
+Trong phần mềm cấu hình, bạn có thể thiết lập và điều chỉnh các cấu hình tiết kiệm năng lượng, và các cấu hình tiêu thụ năng lượng.
+
+
+
+Ngay cả phần mềm nhận diện khuôn mặt cũng có thể cấu hình được. Bạn có thể thiết lập ‘nghiêm ngặt’, hoặc ‘nới lỏng’ hơn nếu bạn sử dụng chiếc máy này ở nhà, hay những nơi vấn đề bảo mật không cần quá chặt.
+
+Kiểm nghiệm Alienware M11x
+Kiểm nghiệm Alienware M11x
+Như thường lệ, chúng tôi sẽ đi sâu vào mục benchmark. Tuy nhiên với một chiếc UltraPortable thì có vẻ không được công bằng cho lắm, chỉ cần so sánh chẳng hạn vi xử lý với những chiếc Core i5, i7 thế hệ mới nhất, bạn sẽ thấy ngay sự khác biệt. Có điều đây là một nền tảng hoàn toàn khác, vì thế chúng ta chỉ đề cập đến những phần quan trọng của sản phẩm này, bắt đầu với bàn phím.
+
+Alienware M11x
+Processor Core i5 520UM
+Memory 4GB @ 800 MHz CAS6 - CR 1T
+2nd GPU GeForce GT 335M 1024MB dedicated memory 450 MHz GPU / 1080 MHz Shaders / 1580 MHz gDDR3 128-bit (effecive data rate)
+Windows 7 64-bit
+GeForce Forceware 189.69
+Bàn phím: Bàn phím hoạt động tốt khi chơi game, nhưng trông hơi nhỏ, vì đây là một chiếc máy UltraPortable. Bộ phím đẹp và mềm, nhưng do thiết kế Alienware bạn có xu hướng gõ nhầm phím trong khi phải gõ nhanh một bức thư điện tử. Đây là một chiếc netbook chơi game, và với yêu cầu này nó hoạt động rất tốt.
+Khi nhìn vào trackpad chúng tôi cảm thấy khá được, nhưng tất nhiên tôi vẫn muốn có một con chuột. Nhìn chung nó nhạy, các phím khá tốt, tôi tin bạn sẽ chơi game mà không nhất thiết cần đến con chuột. 
+Màn hình: Ở đây chúng tôi có vài nhận xét. Trước hết đây là một chiếc máy UltraPortable, có nghĩa nó có màn hình nhỏ, kích thước 11” và độ phân giải hợp lý 1366 x 768 pixel. Sự tái tạo màu sắc và thời gian phản hồi khá tốt. Nhưng điều bất lợi lại là bề mặt quá bóng của màn hình LCD, đến nỗi dường như mọi thứ đều được phản chiếu trong nó. Nếu bạn phải ngồi trong một phòng với vài bóng đèn, ánh sáng sẽ phản chiếu trên màn hình, và sẽ khá là phiến toái đấy.
+Âm thanh: Bao gồm bên trong chiếc netbook này là những chiếc loa khá được, và bạn sẽ không có gì phải phàn nàn về nó cả. Mức độ âm lượng tốt, và đối với những chiếc loa nhỏ này, âm thanh thực sự rõ ràng. Tuy nhiên do thiết kế nên nó không có các cấp độ bass, nhưng cấu trúc cứng cáp của chiếc M11x góp phần làm cho âm thanh nghe hay hơn những sản phẩm thông thường của bạn. Vì vậy về tổng quát tôi nghĩ nó khá tốt.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Hiệu năng vi xử lý
+Chiếc máy này được trang bị một bộ vi xử lý Intel Core i5 520 UM, loại vi xử lý lõi kép điện thế cực thấp, dành riêng cho những dòng laptop nhỏ và nhẹ. Nó đạt xung nhịp 1.06 GHz ở trạng thái bình thường, và 1.86 GHz khi sử dụng Turbo Boost. Mỗi lõi dựa trên cấu trúc vi mạch Nehalem (Westmere). Công nghệ đa luồng Hyperthreading cho phép chiếc CPU dual core này có thể xử lý 4 luồng cùng lúc, trong khi thực tế chỉ có 2 lõi vật lý.
+
+
+
+Đối với một chiếc laptop siêu di động, hiệu năng như vậy là quá đủ. Mọi hoạt động trên chiếc M11x đều nhanh và mượt mà. Đặc biệt Turbo Boost sẽ có đóng góp lớn vào việc chơi game, ngay cả với những tựa game mới nhất.
+
+
+
+Bên trên là một vài điểm số chúng tôi đã thu được. Tất nhiên không gì có thể so sánh được với hiệu năng của một chiếc desktop, nhưng hãy vẫn cứ thỏa mái khi đi so với chiếc M11x này. Hệ thống bộ nhớ phụ khá nhanh, khoảng 5000 MB/giây cả tốc độ đọc và ghi. Ngoài ra chúng tôi còn có kết quả của vài bài kiểm tra chuẩn.
+
+So với desktop thì rõ ràng hiệu năng rất thấp. Nhưng hãy nhớ đây là một chiếc netbook, UltraPortable, vi xử lý luôn phải tạo một mối quan hệ cân bằng với GPU, và theo cảm nhận của chúng tôi thì mối tương quan này khá tốt.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Hiệu năng chơi game
+Chúng tôi không hề cảm thấy thất vọng, dù GPU với 48 shader core được coi là nực cười và như một trò hề nếu so với các GPU của desktop ngày nay. Nhưng bạn cần nhớ, chúng ta đang chơi game trên một chiếc UltraPortable, với độ phân giải là 1366 x 768, do đó không cần một lượng lớn sức mạnh GPU.
+
+Nhìn chung trải nghiệm chơi game với những tựa game của năm trước như Mass Effect khá tốt. Tốc độ khung hình đạt 40 fps, nhưng điều chúng tôi cảm thấy thích thú là nó có thể chạy tốt những game mới. Dưới đây là kết quả kiểm tra với một vài game.
+
+
+Nhìn chung chúng ta cần phải quên đi AA trong những game mới nhất. Nhưng với các cấu hình chất lượng hình ảnh khá cao, bạn vẫn có thể chơi game ở tốc độ khung hình 30+ fps. Khi điều chỉnh hạ thiết lập hình ảnh xuống một bậc ở chất lượng trung bình, hiệu năng tổng thể sẽ tăng lên 35 cho đến 40 fps trong hầu hết game. Tất nhiên đó là một sự đền bù, nhưng nếu nhìn trên diện rộng thì đây lại là mức hiệu năng hợp lý cho một chiếc UltraPortable. Và nhớ rằng chúng ta đang nói về những tựa game mới nhất, do đó những dòng game cũ sẽ chắc chắn không gặp vấn đề gì khi chạy trên chiếc máy nhỏ nhắn này.
+
+Trong quá trình dùng thử, chúng tôi gặp một sự cố với một game, mà Nvidia Optimus GPU không thể hỗ trợ, và tốc độ khung hình giảm đi khủng khiếp. Lúc đó, chúng tôi điều chỉnh thông tin profile của game đó trong Nvidia control panel, và ngay lập tức hiệu năng tăng lên nhờ vào Optimus. Công nghệ này hoạt động thực sự tốt, và rõ ràng tiết kiệm được điện năng trên chiếc netbook này, do đó thời lượng pin cũng khá ấn tượng. Ngoài ra, trong 3DMark Vantage, bạn sẽ thu được điểm số GPU 3269 trong P-mode.
+
+Xem video
+Với việc trang bị một GPU Nvidia, bạn giờ có thể trình chiếu những nội dung có độ phân giải cao. Nếu như bạn muốn giải mã, tăng tốc và hậu xử lý những nội dung số, mọi thứ sẽ được thực hiện thông qua chiếc GPU, mà không phải dựa vào CPU tiêu tốn điện năng.
+
+Với bài kiểm tra này, chúng tôi sử dụng một file định dạng .mkv 1080p. Định dạng x.264 thường được gắn với Matroska MKV, một chuẩn container mở thường dủng để chứa nội dung x.264 đó, và nó cũng là một định dạng file được khen ngợi rất nhiều. Nhất là các bộ phim 1920 x 1080p thường mang dạng mã hóa h.264 được nén bên trong định dạng x.264. Và như vậy bạn sẽ cần có một chiếc PC lực lưỡng, với vi xử lý mạnh mẽ để có thể mở những bộ phim như thế mà không gặp phải lỗi như mất khung và lặp hình, vì PowerDVD hay phần mềm hỗ trợ PureVideo HD sẽ không hỗ trợ nó. Bất cứ định dạng file phổ biến nào (XviD / DviX / MPEG2 / MPEG4 / h.264 / MKV / VC1 / AVC) đều có thể mở bằng những phần mềm phổ thông mà không phải cài đặt thêm codec và các bộ lọc, và nó sẽ cho phép DXVA kích hoạt playback. DXVA được viết tắt cho DirectX Video Acceleration, nó sẽ tăng tốc nội dung qua GPU bất cứ khi nào có thể, qua đó giảm gánh nặng cho CPU. Đây là điều chúng ta đang bàn tới.
+
+Lựa chọn phần mềm của chúng tôi là ứng dụng ‘Media Player Classic’. Nó có một vài điểm mạnh, không chỉ kích hoạt DXVA khi có thể thông qua video processor, nó cũng có thể tận dụng các shader processor của card đồ họa, và sử dụng chúng để xử lý nội dung. Các shader (những phần nhỏ của mã pixel shader) có thể được sử dụng bên trong GPU để tăng cường chất lượng hình ảnh.
+
+Media Player Classic phiên bản HC được tích hợp tính năng này, bạn có thể lựa chọn một vài shader như là làm sắc nét hình ảnh (image sharpening) và de-interlacing, kết hợp chúng và chạy đồng thời nhiều shader. Đây là một tính năng tuyệt vời để trình chiếu nội dung độ phân giải cao.
+
+Tải về Media Player Classic HC (miễn phí).
+
+GPU đảm nhận mọi công việc, và như bạn thấy, nội dung h.264 trong file container x.264 không cần phải tăng tốc một chút nào qua CPU. Bạn có thể đọc thêm về tính năng thú vị này ở bài viết đây. 
+
+Bạn cũng có thể cài đặt CoreAVC để sử dụng  GPU, vì nó có hỗ trợ CUDA.
+
+
+Như trên biểu đồ trên, nhìn chung bạn sẽ muốn mở các bộ phim thông qua GPU GT 335M, nhờ đó thời lượng pin của bạn sẽ kéo dài tới hơn 3 tiếng.
+
+Khả năng lưu trữ - Thời lượng pin
+Khả năng lưu trữ: Dell gắn một ổ Samsung SSD vào trong chiếc máy này và những gì chúng ta thu được là tốc độ chóng mặt, thời gian mở siêu tốc. Dell cũng đã cấu hình sẵn nó trong AHCI mode. Chúng ta sẽ không bình luận về toàn bộ hiệu năng SSD, nhưng cũng vẫn sẽ xem qua nó:
+
+
+
+Như bạn thấy, chúng ta đạt mức cực đại với tốc độ đọc là 205 MB/giây và tốc độ ghi là 182 MB/giây. ATTO hoạt động như một chỉ số, nhưng tất nhiên có nhiều cách khác để xác định. Như vậy bạn hình dung được đóng góp của một thiết bị loại này cho chiếc UltraPortable, một tốc độ chóng mặt.
+
+
+
+Thời lượng pin: Chúng tôi rất ấn tượng với thời lượng pin. Khi bạn sử dụng M11x ở mặc định với chế độ đồ họa ‘Intel’, duyệt web một chút, gõ văn bản, nghe vài bản nhạc, thì thời lượng pin của bạn lên tới khoảng 6, thậm chí 7 tiếng. Khi Nvidia Optimus hoạt động, Nvidia GT 335 sẽ giảm thời lượng pin xuống chỉ còn khoảng 3 tiếng, dù thế nó vẫn khá dài. Tất nhiên điều này còn phụ thuộc vào game, nếu bạn chơi game ngốn CPU và sử dụng hết GT 335 GPU, thì thời lượng đương nhiên ngắn.
+
+Nhưng nhìn chung, 3 tiếng chơi game cho mỗi lần sạc pin là rất ấn tượng rồi. Một lần sạc đầy sẽ cho bạn tận hưởng thời gian giải trí tới khoảng 2 đến 3 giờ.
+
+
+Trang: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+Những đoạn video đi kèm
+Chúng tôi đã biên tập một vài đoạn video về hoạt động của Alienware M11x.
+
+
+
+Bên trên, bạn có thể cầu hình các đèn LED, mỗi phần đều được điều chỉnh dễ dàng trong menu tùy chọn.
+
+
+
+Ở đây là BIOS, chú ý rằng chiếc Laptop thậm chí có thể được ép xung quá một chút trên xung nhịp cơ sở.
+
+
+
+Chơi game – bạn có thể xem một đoạn trong Call of Duty Modern Warfare 2 – không có AA, nhưng mọi thiết lập đều được đặt tối đa.
+
+
+
+Một game nữa, đó là Anno 1404, khá ngốn vi xử lý và cấu trúc đồ họa. Vì đây là một game chiến thuật thời gian thực (RTS), tốc độ khung hình vào khoảng 25 - 30 fps là đủ để chơi game.
+
+hững từ cuối cùng & kết luận
+Bài viết này bắt nguồn từ một trang web bình luận về các thành phần của một chiếc desktop, phải thừa nhận ra chúng tôi vẫn đang tìm kiếm cách thức phù hợp cho các bài bình luận về laptop. Đây là một điều mới với chúng tôi, nhưng với việc chơi game trên laptop cũng như trên desktop, và DTR đang tiến gần lại với nhau, chúng tôi thực sự muốn bình luận về những chiếc máy chơi game dễ thương này.
+Bài viết này là bài đầu tiên thuộc thể loại này, và chúng tôi hy vọng sẽ mang đến cho bạn một cái nhìn tổng quát về những gì bên trong chiếc ‘siêu di động’ M11x của Alienware. Từ đây trở đi, những bài bình luận kiểu này chắc chắn sẽ tốt hơn, vì chúng tôi có thể bổ sung thêm nhiều nội dung so sánh khác.
+Có nhiều điều để nói về Alienware M11x. Trước tiên tôi phải làm rõ là chiếc M11x không hoàn toàn là một nỗi thất vọng. Đó là một chiếc máy tùy biến được, với đủ sức mạnh để chơi game. Chắc chắn nó sẽ gặp vài thử thách với những tựa game mới, nhưng với những game như Left for Dead hay Mass Effect thì đây là một giải pháp giải trí cho bạn khi bạn đang di chuyển trên quãng đường dài. Và như đã nói, với những tựa game hiện đại, bạn sẽ phải chịu thiệt về chất lượng hình ảnh, nhưng không quá nhiều đâu.
+Điều gây ấn tượng chính là thời lượng pin, bạn sẽ không cảm thấy mất mát gì ở đây. Tất nhiên với một loại pin khỏe và hoàn toàn mới, chúng tôi mới chỉ có thể quan sát những gì xảy ra về mặt tiêu thụ năng lượng. Nhưng dù sao khi sử dụng bình thường, 6 – 7 tiếng là hoàn toàn có thể đạt được. Chỉ có điều nó còn phụ thuộc vào mức độ sử dụng của bạn, và khi chơi game nặng thì 2 – 3 tiếng là hợp lý. Những bộ phim độ phân giải cao, khi được phân giải qua vi xử lý GeForce GT 335M cũng sẽ cho bạn thời lượng 3 tiếng. Về vấn đề này việc sử dụng Optimus là đủ thuyết phục cho một sự khác biệt.
+Điều tôi thích ở chiếc M11x này đó là việc chuyển đổi Optimus được thực hiện hoàn toàn tự động. Bất cứ khi nào Nvidia driver nhận thấy một game được mở, nó sẽ tự chuyển sang chế độ ‘GPU’, và bạn sẽ thậm chí không nhận thấy điều đó. 
+
+Tất nhiên với những game mới, driver chưa hỗ trợ nó, nhưng trong vòng 10 giây bạn có thể tạo một profile riêng cho nó.
+Về mặt vi xử lý, tôi cảm thấy việc sử dụng Core i5 520UM là một lựa chọn sáng suốt, đảm bảo cân bằng giữa năng lượng trên vi xử lý với mức tiêu thụ điện năng. Những vi xử lý mới đem đến đủ sức mạnh cho nhiều ứng dụng, và cũng cân bằng với GPU. Nhiệt độ đạt vào khoảng 55 ~ 60 độ C khi sử dụng căng, hơi nóng như vẫn khá tốt. Âm thanh từ chiếc quạt có thể nghe thấy được, nhưng không quá ồn.
+Chúng tôi thấy rằng kết nối Ethernet 100 Mbit/giây cần phải được nâng cấp, vì Gigabit đang là xu thế hiện nay, và chúng tôi hi vọng sẽ được thấy một sự cải tiến trong tương lại không xa. Nhân tiện, kết nối wireless N hoạt động khá tốt, tôi không gặp trục trặc gì khi kết nối với mạng LAN của chúng tôi. Thậm chí ở ngoài tòa nhà, tốc độ kết nối vẫn ổn định và khá nhanh.
+Màn hình LCD tốt, với màu sắc đa dạng và thời gian phản ứng vừa đủ, tuy nhiên lớp phủ bên ngoài không ấn tượng cho lắm. Nó phản chiếu quá nhiều thứ ở vùng xung quanh, do đó đây là một nhược điểm khá khó chịu.
+Nhìn chung chúng tôi nghĩ rằng chiếc M11x là một chiếc ‘siêu di động’ tuyệt vời và dễ thương, Alienware chắc hẳn đã bố trí nhiều thành phần vào trong cấu trúc 11.25 x 9.19 x 1.29 inch này. Chỉ có một thiết sót, đó là không có ổ đĩa DVD-ROM, có nghĩa bạn sẽ phải sử dụng một ổ đĩa ngoài nếu muốn cài đặt game, nhưng hoặc không còn chỗ trống, hoặc đó đơn giản là do một sự hạn chế được tạo ra đâu đó bởi ai đó.
+Mức giá của M11x bắt đầu vào khoảng 799 USD/EUR cho phiên bản dùng Core 2 Duo, và 949 USB/EUR cho phiên bản Core i5. Core i5 làm cho nó đắt hơn chút, và sau đó bạn cần phải thêm các lựa chọn của mình, và chắc chắn sẽ đẩy giá cao hơn nữa. Dù vậy sản phẩm này sẽ vẫn có chỗ trên thị trường.
+Ngoài mức giá ra, chúng tôi không còn gì để nói về M11x. Đây có lẽ là một trong số những chiếc UltraPortable nhanh nhất mà bạn có thể có, cho phép bạn chơi game thỏa thích, tất nhiên là những game trong thời đại này.

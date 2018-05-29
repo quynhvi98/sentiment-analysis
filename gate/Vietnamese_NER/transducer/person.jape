@@ -1,0 +1,220 @@
+﻿Phase: Person
+Input: Lookup Token Split LocationWrap FacilityWrap OrganizationWrap
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NAME_CANDIDATE
+(
+	(
+		({Token.orth == allCaps})
+		({Token.string == "."})
+	)?
+	({Token.orth == upperInitial} | {Token.orth == allCaps})[1,5]
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NAME_PREFIX
+(
+	(
+		{Lookup.majorType == per_relationship} |
+		{Lookup.majorType == per_calling}
+	)?
+)
+
+/*---------------------------------------------------------------------------------------------------*
+ * Bỏ qua tên đáng ngờ
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: SkipSpur
+Priority: 35
+(
+	({Lookup.majorType == per_spur})
+)
+--> 
+{}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * Bỏ qua địa danh đã biết
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: SkipLocation
+Priority: 25
+(
+	({LocationWrap})
+)
+--> 
+{}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * Tránh nhầm lẫn với tên sản phẩm 
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: SkipProduct
+Priority: 25
+(
+	(
+		{Lookup.majorType == per_calling} |
+		{Lookup.majorType == per_relationship}
+	)
+	(
+		{Lookup.majorType == pro_brand} |
+		{Lookup.majorType == pro_known}
+	)
+	(NAME_CANDIDATE)?
+):skip
+-->
+:skip.SkipProduct={scope=Person}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * Tránh nhầm lẫn với tên tổ chức 
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: SkipOrganization
+Priority: 25
+(
+	(
+		{Lookup.majorType == per_calling} |
+		{Lookup.majorType == per_relationship}
+	)
+	(
+		{Lookup.majorType == org_known}
+	)
+	(NAME_CANDIDATE)?
+):skip
+-->
+:skip.SkipOrganization={}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: Ngô Phương Lan
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: ProperName1
+Priority: 15
+(
+	({Lookup.majorType == per_family-name, Token.orth == upperInitial})
+	(
+		({Lookup.majorType == per_family-name, Token.orth == upperInitial})?
+		({Lookup.majorType == per_middle-name, Token.orth == upperInitial})[1, 3]
+	)
+	({Lookup.majorType == per_first-name, Token.orth == upperInitial})
+):name
+-->
+:name.Person = {rule = "ProperName1"},
+:name.PersonWrap = {rule = "ProperName1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: bà Hoa
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Relationship1
+Priority: 20
+(
+	({Lookup.majorType == per_relationship}):relationship
+	(NAME_CANDIDATE):name
+):person
+-->
+:name.Person = {gender = :relationship.Lookup.gender, rule = "Relationship1"},
+:person.PersonWrap = {gender = :relationship.Lookup.gender, rule = "Relationship1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: thằng Thái
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Calling1
+Priority: 20
+(
+	({Lookup.majorType == per_calling}):calling
+	(NAME_CANDIDATE):name
+):person
+-->
+:name.Person = {gender = :calling.Lookup.gender, rule = "Calling1"},
+:person.PersonWrap = {gender = :calling.Lookup.gender, rule = "Calling1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: thằng Thái
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: People1
+Priority: 20
+(
+	({Lookup.majorType == per_people})
+	(NAME_CANDIDATE)
+):person
+-->
+:person.Person = {rule = "People1"},
+:person.PersonWrap = {rule = "People1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: bác sĩ Hùng
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Career1
+Priority: 20
+(
+	(NAME_PREFIX)?
+	({Lookup.majorType == per_career})
+	(NAME_CANDIDATE):name
+):person
+-->
+:name.Person = {rule = "Career1"},
+:person.PersonWrap = {rule = "Career1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: cựu giám đốc bệnh viện Hùng
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Position1
+Priority: 20
+(
+	(NAME_PREFIX)?
+	({Lookup.majorType == per_position, Lookup.minorType == prefix})?
+	(
+		({Lookup.majorType == per_position, Lookup.minorType == main})
+		(
+			{OrganizationWrap} |
+			{FacilityWrap} |
+			{Lookup.majorType == fac_type}
+		)
+	)
+	(NAME_CANDIDATE):name
+):person
+-->
+:name.Person = {rule = "Position1"},
+:person.PersonWrap = {rule = "Position1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: Obama
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: KnownPerson1
+Priority: 30
+(
+	({Lookup.majorType == per_known})
+):name
+-->
+:name.Person = {type = :name.Lookup.type, rule = "KnownPerson1"},
+:name.PersonWrap = {type = :name.Lookup.type, rule = "KnownPerson1"}
+
+
+/*---------------------------------------------------------------------------------------------------*/

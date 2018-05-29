@@ -1,0 +1,100 @@
+﻿Phase: Facility
+Input: Lookup Token NewLine LocationWrap
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NAME_CANDIDATE
+(
+	({Token.orth == upperInitial} | {Token.orth == allCaps})[1, 5]
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: UNIVERSITY_PREFIX
+(
+	(
+		({Token.string ==~ "[Tt]rường"} {Lookup.majorType == fac_school-stage}) |
+		({Lookup.majorType == fac_school-stage}) |
+		({Token.string ==~ "[Hh]ọc viện"}) |
+		({Token.string ==~ "[Hh]ọc"} {Token.string == "viện"})
+	)
+	({Lookup.majorType == fac_school-funding})?
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: UNIVERSITY_TYPE
+(
+	({Lookup.majorType == fac_school-type})
+	(
+		(
+			{Token.string ==~ "[Vv]à"} |
+			{Token.string == "-"}
+		)?
+		({Lookup.majorType == fac_school-type})
+	)?
+)
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: khách sạn Hilton, kênh đào Sue
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Facility1
+Priority: 20
+(
+	({Lookup.majorType == fac_type})
+	(NAME_CANDIDATE):name
+	(
+		({Lookup.majorType == loc_preposition})?
+		{LocationWrap}
+	)?
+):facility
+-->
+:name.Facility = {rule = "Facility1"},
+:facility.FacilityWrap = {rule = "Facility1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: đại học Kinh tế - Kỹ thuật Hải Dương
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: School1
+Priority: 30
+(
+	(UNIVERSITY_PREFIX)
+	(
+		((NAME_CANDIDATE) ({LocationWrap})?) |
+		((UNIVERSITY_TYPE) ({LocationWrap})?) |
+		((UNIVERSITY_TYPE) (NAME_CANDIDATE) ({LocationWrap})?)
+	)
+):facility
+-->
+:facility.Facility = {rule = "School1"},
+:facility.FacilityWrap = {rule = "School1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: MegaStar, Hanoi Cinematheque
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: KnownFacility1
+Priority: 10
+(
+	({Lookup.majorType == fac_known})
+):name
+-->
+:name.Facility = {rule = "KnownFacility1"},
+:name.FacilityWrap = {rule = "KnownFacility1"}
+
+
+/*---------------------------------------------------------------------------------------------------*/

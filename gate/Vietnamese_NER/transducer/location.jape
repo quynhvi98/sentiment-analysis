@@ -1,0 +1,296 @@
+﻿Phase: Location
+Input: Lookup Token NewLine
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NounPhrase
+(
+	({Token.category == "N"})[1, 3]
+	({Token.category == "A"})[0, 3]
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: NAME_CANDIDATE
+(
+	({Token.orth == upperInitial} | {Token.orth == allCaps})[1, 5]
+)
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Macro: DIRECTION
+(
+	({Lookup.majorType == loc_direction, Lookup.minorType == prefix})?
+	({Lookup.majorType == loc_direction, Lookup.minorType == main})
+	({Lookup.majorType == loc_direction, Lookup.minorType == surfix})?
+	(
+		(
+			{Token.string == ","} |
+			{Token.string == "-"} |
+			{Token.string == "và"}
+		)?
+		({Lookup.majorType == loc_direction, Lookup.minorType == prefix})?
+		({Lookup.majorType == loc_direction, Lookup.minorType == main})
+		({Lookup.majorType == loc_direction, Lookup.minorType == surfix})?
+	)*
+)
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * Tránh nhầm lẫn với tên sản phẩm 
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: SkipProduct																																																																																																																																																																																																																																																																																												
+Priority: 100
+(
+   (
+      {Lookup.majorType == pro_brand} |
+      {Lookup.majorType == pro_known} |
+      {Lookup.majorType == context}
+   )
+   (NAME_CANDIDATE)?
+):skip
+-->
+:skip.SkipProduct={scope=Location}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: công quốc Monaco, các tiểu vương quốc Arab thống nhất
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Country1
+Priority: 20
+(
+	({Lookup.majorType == loc_country, Lookup.minorType == prefix})
+	(NAME_CANDIDATE):name
+	({Lookup.majorType == loc_country, Lookup.minorType == surfix})?
+):location
+-->
+:name.Location = {type = "Country", rule = "Country1"},
+:location.LocationWrap = {type = "Country", rule = "Country1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: nước cộng hòa Peru
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Country2
+Priority: 30
+(
+	({Lookup.majorType == loc_country, Lookup.minorType == prefix})?
+	({Lookup.majorType == loc_form-of-government})
+	(NAME_CANDIDATE):name
+	({Lookup.majorType == loc_country, Lookup.minorType == surfix})?
+):location
+-->
+:name.Location = {type = "Country", rule = "Country2"},
+:location.LocationWrap = {type = "Country", rule = "Country2"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * Note: Very rare.
+ * VD: cộng hòa liên bang Đức, cộng hòa quần đảo Marshall
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: Country3
+Priority: 30
+(
+	({Lookup.majorType == loc_form-of-government})
+	({Lookup.majorType == loc_country, Lookup.minorType == prefix})?
+	(NAME_CANDIDATE):name
+	({Lookup.majorType == loc_country, Lookup.minorType == surfix})?
+):location
+-->
+:name.Location = {type = "Country", rule = "Country3"},
+:location.LocationWrap = {type = "Country", rule = "Country3"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: quần đảo Hoàng Sa, đồng bằng châu thổ sông Hồng
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: GeologicalRegion1
+Priority: 20
+(
+	(
+		({Lookup.majorType == loc_geological-region, Lookup.minorType == prefix})
+		(NAME_CANDIDATE):name
+	) |
+	(
+		({Lookup.majorType == loc_geological-region, Lookup.minorType == prefix})[2, 3]
+		(NAME_CANDIDATE):name2		
+	)
+):location
+-->
+:name.Location = {type = "Geological Region", rule = "GeologicalRegion1"},
+:name2.Location = {type = "Geological Region", rule = "GeologicalRegion1"},
+:location.LocationWrap = {type = "Geological Region", rule = "GeologicalRegion1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: quận Hai Bà Trưng
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: PoliticalUnit1
+Priority: 20
+(
+	({Lookup.majorType == loc_political-unit, Lookup.minorType == prefix})
+	(NAME_CANDIDATE):name
+):location
+-->
+:name.Location = {type = "Political Unit", rule = "PoliticalUnit1"},
+:location.LocationWrap = {type = "Political Unit", rule = "PoliticalUnit1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: đường Trần Khát Chân, ngách 12/12
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: PostalAddress1
+Priority: 20
+(
+	({Lookup.majorType == loc_postal-address, Lookup.minorType == prefix})
+	(
+		(
+			({Token.kind == number})
+			({Token.string == "/"})?
+			({Token.kind == number})?
+		) |
+		({Token.string ==~ "[0-9]+[A-Z, a-z]"}) |
+		(NAME_CANDIDATE)
+	):name
+):location
+-->
+:name.Location = {type = "Postal Address", rule = "PostalAddress1"},
+:location.LocationWrap = {type = "Postal Address", rule = "PostalAddress1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: 2/4 Khâm Thiên, 30A Bà Triệu
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: PostalAddress2
+Priority: 20
+(
+	(
+		{Token.kind == number} |
+		{Token.string ==~ "[0-9]+[A-Z, a-z]"}
+	)
+	(NAME_CANDIDATE):name
+):location
+-->
+:name.Location = {type = "Postal Address", rule = "PostalAddress2"},
+:location.LocationWrap = {type = "Postal Address", rule = "PostalAddress2"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: sao Mộc
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: AstralBody1
+Priority: 20
+(
+	({Lookup.majorType == loc_astral-body, Lookup.minorType == prefix})
+	(NAME_CANDIDATE):name
+):location
+-->
+:name.Location = {type = "Astral Body", rule = "AstralBody1"},
+:location.LocationWrap = {type = "Astral Body", rule = "AstralBody1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: gần Hàng Bông, khu Việt Bắc
+ * TODO: sửa lỗi tách đôi tên. vd: tại [Việt] [Nam]
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Preposition1
+Priority: 20
+(
+	(
+		({Lookup.majorType == loc_preposition}) |
+		({Lookup.majorType == loc_direction, Lookup.minorType == prefix})
+	)
+	(NAME_CANDIDATE):name
+	(
+		(
+				{Token.string == ","} |
+				{Token.string == "-"} |
+				{Token.string == "và"}
+		)
+		(NAME_CANDIDATE):name2
+	)?
+):location
+-->
+:name.Location = {type = "Other", rule = "Preposition1"},
+:name2.Location = {type = "Other", rule = "Preposition1"},
+:location.LocationWrap = {type = "Other", rule = "Preposition1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: phía Tây Bắc Việt Nam
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Direction1
+Priority: 5
+(
+	(DIRECTION)
+	({Token.string == "của"})?
+	(NAME_CANDIDATE):name
+):location
+-->
+:name.Location = {type = "Other", rule = "Direction1"},
+:location.LocationWrap = {type = "Other", rule = "Direction1"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: quốc gia phía Bắc, vịnh Bắc Bộ
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Direction2
+Priority: 30
+(
+	({Lookup.majorType == loc_direction, Lookup.minorType == prefix})?
+	(
+		({Lookup.majorType == loc_country, Lookup.minorType == prefix}) |
+		({Lookup.majorType == loc_geological-region, Lookup.minorType == prefix})[1, 2] |
+		({Lookup.majorType == loc_political-unit, Lookup.minorType == prefix}) |
+		({Lookup.majorType == loc_postal-address, Lookup.minorType == prefix})
+	)?
+	(DIRECTION)
+):location
+-->
+:location.LocationWrap = {type = "Other", rule = "Direction2"}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: Hàng Bún, Móng Cái
+ *---------------------------------------------------------------------------------------------------*/
+
+
+Rule: KnownLocation1
+Priority: 10
+(
+	({Lookup.majorType == loc_known})
+):name
+-->
+:name.Location = {type = :name.Lookup.minorType, subtype = :name.Lookup.subtype, rule = "KnownLocation1"},
+:name.LocationWrap = {type = :name.Lookup.minorType, subtype = :name.Lookup.subtype, rule = "KnownLocation1"}
+
+
+/*---------------------------------------------------------------------------------------------------*/

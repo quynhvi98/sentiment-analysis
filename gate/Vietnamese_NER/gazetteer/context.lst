@@ -1,0 +1,3365 @@
+Tất cả	ID=1	Left=8	Right=8007
+Sản phẩm	ID=2	Left=9	Right=7706
+Dịch vụ	ID=3	Left=7707	Right=7924
+Tổ chức	ID=4	Left=7925	Right=7996
+Con người	ID=5	Left=7997	Right=8004
+Quần áo nữ	ID=44	Left=11	Right=56
+Đầm	ID=46	Left=12	Right=13
+Váy	ID=47	Left=14	Right=15
+Áo sơ mi nữ	ID=48	Left=26	Right=27
+Áo khoác nữ	ID=49	Left=24	Right=25
+Đồ lót	ID=50	Left=18	Right=23
+Quần áo lót	ID=51	Left=19	Right=20
+Bộ quần áo nữ	ID=53	Left=32	Right=33
+Quần short	ID=54	Left=30	Right=31
+Áo đôi	ID=55	Left=28	Right=29
+Quần bò	ID=56	Left=40	Right=41
+Đồ bầu	ID=57	Left=38	Right=39
+Quần dài	ID=58	Left=36	Right=37
+Đồng phục	ID=59	Left=34	Right=35
+Áo hai dây	ID=60	Left=48	Right=49
+Đồ ngủ	ID=61	Left=46	Right=47
+Áo len	ID=62	Left=44	Right=45
+Legging	ID=63	Left=42	Right=43
+Đồ bơi nữ	ID=64	Left=50	Right=51
+Đồ gen	ID=65	Left=52	Right=53
+Dịch vụ may đo	ID=66	Left=54	Right=55
+Túi đi chơi	ID=69	Left=59	Right=60
+Túi đi làm	ID=70	Left=61	Right=62
+Ví tiền	ID=71	Left=63	Right=64
+Túi dự tiệc tối	ID=73	Left=67	Right=68
+Túi đi học	ID=74	Left=69	Right=70
+Khác	ID=75	Left=71	Right=482
+Ba lô	ID=80	Left=494	Right=495
+Vali hành lý	ID=81	Left=492	Right=493
+Trang sức	ID=82	Left=625	Right=668
+Đồng hồ	ID=84	Left=519	Right=532
+Quần áo nam	ID=85	Left=497	Right=518
+Thời trang trẻ em	ID=86	Left=557	Right=584
+Kính mắt	ID=87	Left=533	Right=556
+Phụ trang	ID=88	Left=677	Right=698
+Đồ cưới	ID=90	Left=699	Right=712
+Máy tính và mạng	ID=91	Left=714	Right=1057
+Laptop	ID=93	Left=715	Right=716
+Thiết bị máy tính	ID=95	Left=757	Right=818
+Máy tính để bàn	ID=96	Left=991	Right=996
+Phần mềm	ID=97	Left=997	Right=1056
+Máy chủ server	ID=98	Left=987	Right=988
+Máy tính bảng	ID=99	Left=989	Right=990
+Macbook	ID=100	Left=975	Right=976
+Dịch vụ IT	ID=101	Left=977	Right=986
+Netbook	ID=102	Left=971	Right=972
+Sân vườn	ID=107	Left=1299	Right=1394
+Phòng khách	ID=109	Left=1219	Right=1260
+Đồ dùng sinh hoạt	ID=110	Left=1059	Right=1132
+Phòng ngủ	ID=111	Left=1133	Right=1176
+Phòng em bé	ID=112	Left=1735	Right=1764
+Phụ kiện cho đồ đạc	ID=114	Left=1531	Right=1560
+Thờ cúng	ID=115	Left=1519	Right=1530
+Thiết bị an ninh	ID=120	Left=3255	Right=3352
+Bảo hộ lao động	ID=126	Left=2473	Right=2514
+Thiết bị ngân hàng	ID=127	Left=2465	Right=2472
+Trang thiết bị nhà hàng	ID=128	Left=3521	Right=3564
+Phòng cháy chữa cháy	ID=130	Left=3567	Right=3618
+Nông nghiệp	ID=132	Left=3649	Right=3668
+Thiết bị giao thông	ID=134	Left=3669	Right=3694
+Hoa	ID=138	Left=4363	Right=4396
+Đồ chơi	ID=139	Left=4325	Right=4362
+Nhạc cụ	ID=141	Left=4397	Right=4550
+Búp bê và thú bông	ID=142	Left=4575	Right=4580
+Đồ kỳ lạ	ID=143	Left=4573	Right=4574
+Tranh ảnh	ID=144	Left=4581	Right=4582
+Điều hòa	ID=147	Left=4689	Right=4690
+Điện máy gia dụng khác	ID=149	Left=4699	Right=4752
+Máy giặt	ID=150	Left=4753	Right=4754
+Máy hút bụi	ID=151	Left=4755	Right=4756
+Quạt điện	ID=152	Left=4585	Right=4586
+Bình nóng lạnh	ID=153	Left=4587	Right=4588
+Đèn	ID=154	Left=4589	Right=4600
+Máy phát điện dân dụng	ID=155	Left=4601	Right=4602
+Máy bơm nước dân dụng	ID=156	Left=4603	Right=4604
+Cây nước nóng lạnh	ID=157	Left=4605	Right=4606
+Ổn áp	ID=158	Left=4607	Right=4608
+Máy lọc nước	ID=159	Left=4609	Right=4614
+Quạt hơi nước	ID=160	Left=4763	Right=4764
+Phụ kiện điện lạnh	ID=162	Left=4759	Right=4760
+Máy phát điện hóa năng	ID=163	Left=4757	Right=4758
+Đồ văn phòng	ID=164	Left=4766	Right=5037
+Máy in và mực	ID=165	Left=4991	Right=5036
+Projector và màn chiếu	ID=166	Left=4963	Right=4990
+Thiết bị văn phòng khác	ID=167	Left=4913	Right=4962
+Văn phòng phẩm	ID=168	Left=4799	Right=4886
+Nội thất văn phòng	ID=169	Left=4781	Right=4798
+Máy photocopy và mực	ID=170	Left=4769	Right=4780
+Máy hủy tài liệu	ID=171	Left=4767	Right=4768
+Máy fax và mực	ID=172	Left=4907	Right=4912
+Máy chấm công	ID=173	Left=4903	Right=4906
+Máy quét	ID=174	Left=4889	Right=4902
+Máy scan ảnh	ID=175	Left=4887	Right=4888
+Điện thoại	ID=176	Left=5240	Right=5293
+Điện thoại di động	ID=177	Left=5283	Right=5284
+Linh phụ kiện điện thoại	ID=178	Left=5243	Right=5276
+Điện thoại Trung Quốc	ID=180	Left=5289	Right=5290
+Dịch vụ viễn thông	ID=182	Left=5285	Right=5286
+PDA Phone	ID=183	Left=5287	Right=5288
+PDA	ID=184	Left=5241	Right=5242
+Loa	ID=188	Left=5161	Right=5168
+Amplifier	ID=192	Left=5225	Right=5236
+Tai nghe	ID=194	Left=5237	Right=5238
+Mẹ và Bé	ID=195	Left=5808	Right=6165
+Đồ chơi cho bé	ID=196	Left=5999	Right=6044
+Đồ dùng cho bé	ID=197	Left=5863	Right=5998
+Sản phẩm cho mẹ	ID=200	Left=5823	Right=5862
+Đồ lưu niệm mừng bé chào đời	ID=201	Left=5809	Right=5822
+Nước hoa	ID=203	Left=5543	Right=5552
+Chăm sóc thân thể	ID=204	Left=5339	Right=5398
+Chăm sóc mặt	ID=205	Left=5295	Right=5338
+Trang điểm	ID=206	Left=5483	Right=5542
+Thực phẩm chức năng	ID=207	Left=5399	Right=5482
+Thiết bị chăm sóc sức khỏe	ID=209	Left=5697	Right=5738
+Chăm sóc tóc	ID=210	Left=5739	Right=5772
+Thiết bị chăm sóc sắc đẹp	ID=211	Left=5773	Right=5806
+Sức khỏe tình dục	ID=212	Left=5575	Right=5588
+Chăm sóc cân nặng	ID=213	Left=5589	Right=5602
+Thuốc	ID=214	Left=5603	Right=5624
+Mỹ phẩm cho nam	ID=215	Left=5625	Right=5650
+Sản phẩm giải độc	ID=216	Left=5553	Right=5568
+Liệu pháp tự nhiên	ID=217	Left=5569	Right=5574
+Máy ảnh số	ID=219	Left=6241	Right=6244
+Máy quay	ID=221	Left=6223	Right=6228
+Ống kính và bộ lọc	ID=222	Left=6229	Right=6238
+Đèn flash	ID=224	Left=6251	Right=6256
+Máy ảnh cơ	ID=225	Left=6247	Right=6250
+Phụ tùng máy ảnh	ID=226	Left=6245	Right=6246
+Xe tải	ID=228	Left=6845	Right=6846
+Xe hơi	ID=229	Left=6843	Right=6844
+Đồ chơi ô tô	ID=230	Left=6841	Right=6842
+Phương tiện khác	ID=233	Left=6673	Right=6724
+Chăm sóc xe ôtô	ID=234	Left=6601	Right=6672
+Xe máy	ID=235	Left=6535	Right=6600
+Xe đạp	ID=236	Left=6501	Right=6534
+Dịch vụ	ID=237	Left=6487	Right=6500
+Xe cổ	ID=238	Left=6483	Right=6486
+Đồ uống	ID=241	Left=6463	Right=6480
+Thực phẩm bồi bổ từ thiên nhiên	ID=243	Left=6413	Right=6436
+Rau quả	ID=245	Left=6381	Right=6388
+Ngũ cốc	ID=247	Left=6357	Right=6370
+Thủy hải sản	ID=248	Left=6281	Right=6304
+Sản phẩm Thịt cá	ID=249	Left=6305	Right=6326
+Đồ khô	ID=250	Left=6259	Right=6264
+Các sản phẩm từ Ong	ID=251	Left=6265	Right=6280
+Thêu tay	ID=253	Left=6955	Right=6956
+Đồ phong thủy	ID=254	Left=6951	Right=6952
+Đồng	ID=256	Left=6961	Right=6962
+Sơn mài	ID=257	Left=6963	Right=6964
+Mây tre đan	ID=258	Left=6957	Right=6958
+Khắc dấu và chạm nổi	ID=259	Left=6959	Right=6960
+Đan móc	ID=261	Left=6971	Right=6972
+Gỗ sơn thếp giả cổ	ID=263	Left=6967	Right=6968
+Thổ cẩm	ID=265	Left=6977	Right=6978
+Lụa truyền thống	ID=266	Left=6973	Right=6974
+Dịch vụ khác	ID=269	Left=7823	Right=7922
+Bảo trì và sửa chữa	ID=270	Left=7721	Right=7722
+Dịch vụ bất động sản	ID=271	Left=7723	Right=7724
+Thể thao	ID=273	Left=6980	Right=7475
+Thể dục thể hình	ID=275	Left=6981	Right=7018
+Bóng đá	ID=276	Left=7103	Right=7118
+Cầu lông	ID=277	Left=7085	Right=7102
+Bóng bàn	ID=279	Left=7043	Right=7064
+Golf	ID=280	Left=7161	Right=7184
+Thể dục thẩm mỹ	ID=281	Left=7137	Right=7160
+Ảo thuật	ID=282	Left=7129	Right=7136
+Võ thuật	ID=284	Left=7243	Right=7252
+Bóng rổ	ID=285	Left=7223	Right=7242
+Thiết bị sân vận động	ID=286	Left=7209	Right=7222
+Tennis	ID=287	Left=7185	Right=7208
+Điền kinh	ID=288	Left=7285	Right=7296
+Câu cá	ID=289	Left=7297	Right=7320
+Thể dục dụng cụ	ID=290	Left=7321	Right=7330
+Thể thao khác	ID=291	Left=7331	Right=7354
+Yoga	ID=292	Left=7355	Right=7364
+Khiêu vũ	ID=294	Left=7367	Right=7384
+Lướt sóng	ID=295	Left=7385	Right=7390
+Đồ lưu niệm thi đấu	ID=296	Left=7391	Right=7392
+Boxing	ID=297	Left=7393	Right=7408
+Bắn cung	ID=298	Left=7409	Right=7414
+Billiard	ID=299	Left=7415	Right=7426
+Bóng bầu dục	ID=300	Left=7427	Right=7438
+Bóng chày	ID=301	Left=7439	Right=7446
+Bóng chuyền	ID=302	Left=7447	Right=7462
+Bóng ném	ID=303	Left=7463	Right=7474
+Bowling	ID=304	Left=7261	Right=7272
+Đồ cổ khác	ID=309	Left=7477	Right=7500
+Sưu tầm khác	ID=310	Left=7527	Right=7544
+Điện thoại cổ	ID=311	Left=7525	Right=7526
+Đồ giả cổ	ID=312	Left=7559	Right=7570
+Văn phòng tứ bảo	ID=313	Left=7545	Right=7558
+Đồ điện cổ	ID=315	Left=7571	Right=7586
+Máy ảnh cổ	ID=317	Left=7601	Right=7602
+Dụng cụ phân định đồ cổ	ID=318	Left=7617	Right=7618
+Postcard	ID=319	Left=7615	Right=7616
+Phụ kiện chơi game	ID=322	Left=7627	Right=7676
+Máy chơi game	ID=323	Left=7677	Right=7678
+Thẻ game	ID=324	Left=7623	Right=7624
+Đồ lưu niệm về game	ID=325	Left=7625	Right=7626
+Nữ trang	ID=327	Left=638	Right=667
+Nhẫn	ID=331	Left=661	Right=662
+Mặt dây chuyền	ID=332	Left=655	Right=656
+Bộ trang sức	ID=333	Left=657	Right=658
+Hộp trang sức	ID=337	Left=647	Right=648
+Bờm tóc	ID=338	Left=645	Right=646
+Cài áo	ID=339	Left=643	Right=644
+Lắc chân	ID=340	Left=641	Right=642
+Trang sức cho nam	ID=342	Left=626	Right=633
+Dây chuyền	ID=343	Left=627	Right=628
+Vòng tay	ID=344	Left=631	Right=632
+Khuyên	ID=345	Left=629	Right=630
+Nhẫn cưới	ID=346	Left=636	Right=637
+Trang sức cho thuê	ID=347	Left=634	Right=635
+Giày dép nữ	ID=348	Left=586	Right=601
+Giày	ID=349	Left=591	Right=592
+Giày thể thao nữ	ID=350	Left=589	Right=590
+Sandal	ID=351	Left=587	Right=588
+Dép	ID=352	Left=593	Right=594
+Guốc	ID=354	Left=597	Right=598
+Tông	ID=355	Left=599	Right=600
+Giày dép nam	ID=356	Left=602	Right=609
+Giày thể thao nam	ID=357	Left=603	Right=604
+Sản phẩm dùng cho giầy dép	ID=360	Left=612	Right=621
+Miếng lót đế giày	ID=361	Left=615	Right=616
+Xi đánh giày	ID=362	Left=617	Right=618
+Bàn chải đánh giày	ID=363	Left=619	Right=620
+Đế giày	ID=364	Left=613	Right=614
+Tất	ID=365	Left=610	Right=611
+Đồng hồ đeo tay nam	ID=366	Left=528	Right=529
+Đồng hồ đeo tay nữ	ID=367	Left=530	Right=531
+Đồng hồ bỏ túi	ID=368	Left=522	Right=523
+Dây đeo đồng hồ	ID=369	Left=520	Right=521
+Dụng cụ sửa chữa đồng hồ	ID=370	Left=526	Right=527
+Phụ kiện đồng hồ	ID=371	Left=524	Right=525
+Áo sơ mi nam	ID=372	Left=500	Right=501
+Đồ lót nam	ID=373	Left=498	Right=499
+Áo khoác nam	ID=374	Left=504	Right=505
+Quần tây	ID=375	Left=502	Right=503
+Comple veston	ID=376	Left=512	Right=513
+Bộ quần áo nam	ID=377	Left=510	Right=511
+Đồ bơi nam	ID=378	Left=516	Right=517
+Áo len nam	ID=379	Left=514	Right=515
+Dịch vụ may đo quần áo nam	ID=380	Left=508	Right=509
+Áo may ô	ID=381	Left=506	Right=507
+Quần áo bé gái	ID=382	Left=560	Right=561
+Quần áo bé trai	ID=383	Left=558	Right=559
+Mũ	ID=385	Left=573	Right=574
+Kính râm an toàn	ID=387	Left=569	Right=570
+Đồng hồ trẻ em	ID=389	Left=579	Right=580
+Khăn quàng cổ	ID=390	Left=577	Right=578
+Thắt lưng	ID=391	Left=575	Right=576
+Giày dép bé trai	ID=393	Left=564	Right=565
+Kính nam	ID=395	Left=546	Right=547
+Kính nữ	ID=396	Left=554	Right=555
+Kính unisex	ID=397	Left=552	Right=553
+Gọng kính	ID=398	Left=550	Right=551
+Mắt kính	ID=399	Left=548	Right=549
+Kính thuốc	ID=400	Left=534	Right=541
+Kính thuốc nữ	ID=402	Left=535	Right=536
+Kính thuốc nam	ID=403	Left=537	Right=538
+Dụng cụ vệ sinh kính	ID=405	Left=544	Right=545
+Tóc giả	ID=407	Left=694	Right=695
+Găng tay	ID=410	Left=678	Right=679
+Tất chân	ID=411	Left=680	Right=681
+Phụ kiện tóc	ID=412	Left=688	Right=689
+Kẹp cài cà vạt	ID=413	Left=690	Right=691
+Tất quần	ID=414	Left=684	Right=685
+Khăn tay	ID=415	Left=686	Right=687
+Khuy măng séc	ID=416	Left=696	Right=697
+Nguyên liệu trang sức	ID=417	Left=96	Right=127
+Kim cương nhân tạo	ID=419	Left=101	Right=102
+Đá	ID=421	Left=120	Right=121
+Kim loại	ID=422	Left=124	Right=125
+Pha lê	ID=423	Left=122	Right=123
+Thạch anh	ID=424	Left=108	Right=109
+Chất dẻo nhựa	ID=425	Left=106	Right=107
+Gỗ	ID=427	Left=110	Right=111
+Hổ phách	ID=428	Left=116	Right=117
+Thủy tinh	ID=429	Left=114	Right=115
+Kim cương tự nhiên	ID=431	Left=99	Right=100
+Ngọc trai	ID=432	Left=97	Right=98
+Trang phục dân tộc	ID=433	Left=82	Right=95
+Áo dài nữ	ID=434	Left=83	Right=84
+Áo dài nam	ID=435	Left=85	Right=86
+Trang phục dân tộc khác	ID=436	Left=87	Right=88
+Áo tứ thân	ID=437	Left=89	Right=90
+Áo dài trẻ em	ID=438	Left=91	Right=92
+Áo bà ba	ID=439	Left=93	Right=94
+Nguyên liệu thời trang	ID=440	Left=72	Right=81
+Vải	ID=441	Left=73	Right=74
+Len chỉ	ID=442	Left=75	Right=76
+Khuy cúc	ID=444	Left=79	Right=80
+Quần áo	ID=445	Left=670	Right=671
+Phụ kiện	ID=447	Left=674	Right=675
+Trang phục chú rể	ID=449	Left=708	Right=709
+Phụ trang cô dâu	ID=450	Left=706	Right=707
+Bé gái thiên thần	ID=452	Left=702	Right=703
+Bé trai thiên thần	ID=453	Left=700	Right=701
+Pin laptop	ID=454	Left=754	Right=755
+AC Adapter (Bộ nguồn)	ID=455	Left=752	Right=753
+Bàn phím laptop	ID=456	Left=750	Right=751
+HDD 2.5inch (Ổ cứng laptop )	ID=458	Left=746	Right=747
+Đế tản nhiệt laptop	ID=459	Left=744	Right=745
+Display (màn hình Laptop)	ID=460	Left=742	Right=743
+RAM (laptop)	ID=461	Left=740	Right=741
+Các linh kiện khác của laptop	ID=462	Left=738	Right=739
+Đồ chơi laptop	ID=463	Left=736	Right=737
+Ổ quang laptop	ID=464	Left=732	Right=733
+Mainboard laptop	ID=465	Left=734	Right=735
+Giá đỡ laptop	ID=466	Left=728	Right=729
+Khóa chống trộm laptop	ID=467	Left=730	Right=731
+Đèn laptop	ID=468	Left=724	Right=725
+CPU laptop	ID=469	Left=726	Right=727
+Kệ máy tính xách tay	ID=470	Left=720	Right=721
+Ổ rắn (SSD)	ID=471	Left=722	Right=723
+FDD (Ổ đĩa mềm)	ID=472	Left=718	Right=719
+Mainboard	ID=474	Left=829	Right=830
+Video Card	ID=475	Left=831	Right=832
+RAM (Desktop)	ID=476	Left=825	Right=826
+CPU Desktop	ID=477	Left=827	Right=828
+Nguồn điện (PSU)	ID=479	Left=823	Right=824
+Các linh kiện khác (máy tính)	ID=480	Left=841	Right=842
+Các thiết bị tản nhiệt	ID=481	Left=839	Right=840
+Sound Card	ID=483	Left=843	Right=844
+CPU Cooler	ID=484	Left=835	Right=836
+TV card	ID=485	Left=833	Right=834
+PCMCIA Card	ID=486	Left=837	Right=838
+Thiết bị mạng	ID=487	Left=848	Right=921
+Access point (Wifi)	ID=489	Left=889	Right=890
+Modems	ID=490	Left=895	Right=896
+Tủ mạng	ID=491	Left=893	Right=894
+USB 3G	ID=492	Left=883	Right=884
+Wifi Card	ID=493	Left=881	Right=882
+Router	ID=494	Left=887	Right=888
+Phụ kiện mạng	ID=496	Left=873	Right=874
+Dây mạng	ID=497	Left=875	Right=876
+Antenna Wifi	ID=498	Left=877	Right=878
+Hạt mạng (Conector)	ID=500	Left=865	Right=866
+Kìm bấm cáp	ID=501	Left=867	Right=868
+Bộ chuyển đổi quang điện	ID=502	Left=869	Right=870
+Cáp quang	ID=504	Left=857	Right=858
+Usb wifi adapter	ID=505	Left=859	Right=860
+Dây nhảy quang	ID=506	Left=861	Right=862
+Rack mount	ID=509	Left=851	Right=852
+Modem quang	ID=510	Left=853	Right=854
+PLC Adapter	ID=511	Left=855	Right=856
+Bộ chuyển đổi giao thức	ID=512	Left=905	Right=906
+Bộ thích ứng điện lực	ID=513	Left=907	Right=908
+Máy hàn cáp quang KTS	ID=514	Left=909	Right=910
+Máy trạm và thiết bị cuối	ID=515	Left=911	Right=912
+Măng xông quang	ID=516	Left=897	Right=898
+Dây hàn quang	ID=517	Left=899	Right=900
+Bộ chuyển đổi giao diện	ID=518	Left=901	Right=902
+Bộ phận máy trạm	ID=519	Left=903	Right=904
+Mainframes	ID=520	Left=913	Right=914
+Máy đo công suất quang	ID=521	Left=915	Right=916
+Máy đo kiểm tra lỗi cáp quang	ID=522	Left=917	Right=918
+NetStation	ID=523	Left=919	Right=920
+Ổ cứng di động (Mobile HDD)	ID=525	Left=925	Right=926
+HDD 3.5 Inch (Ổ cứng Desktop)	ID=526	Left=927	Right=928
+DVD Drive	ID=527	Left=929	Right=930
+Hộp đựng ổ cứng(hdd box)	ID=528	Left=933	Right=934
+CD Drive	ID=529	Left=931	Right=932
+MO Drive	ID=530	Left=935	Right=936
+Linh kiện server	ID=532	Left=938	Right=967
+RAM (Server)	ID=533	Left=945	Right=946
+HDD SCSI	ID=534	Left=949	Right=950
+Card Raid Controller	ID=535	Left=947	Right=948
+Mainboard Server	ID=536	Left=961	Right=962
+Storage System	ID=537	Left=959	Right=960
+CPU Server	ID=538	Left=965	Right=966
+Nguồn Server	ID=539	Left=963	Right=964
+Hotswap Tray	ID=541	Left=951	Right=952
+Phụ kiện server	ID=542	Left=957	Right=958
+Hệ thống lưu trữ dữ liệu	ID=543	Left=955	Right=956
+Tape Drive	ID=544	Left=941	Right=942
+Thanh Rack	ID=545	Left=943	Right=944
+Cable SCSI server	ID=546	Left=939	Right=940
+Chuột máy tính	ID=548	Left=762	Right=763
+Màn hình LCD	ID=549	Left=764	Right=765
+USB memory	ID=550	Left=758	Right=759
+Loa máy tính	ID=551	Left=760	Right=761
+Bộ lưu điện UPS	ID=552	Left=778	Right=779
+Bàn phím	ID=553	Left=780	Right=781
+Kim từ điển	ID=554	Left=774	Right=775
+Webcam	ID=555	Left=776	Right=777
+Microphone	ID=556	Left=770	Right=771
+Màn hình cảm ứng LCD	ID=557	Left=772	Right=773
+USB Hub	ID=559	Left=768	Right=769
+Đầu đọc thẻ nhớ	ID=560	Left=796	Right=797
+Bàn di chuột	ID=561	Left=794	Right=795
+KVM Switch	ID=562	Left=792	Right=793
+Dụng cụ vệ sinh máy tính	ID=563	Left=790	Right=791
+Card mở rộng	ID=564	Left=788	Right=789
+Bộ chia màn hình	ID=565	Left=786	Right=787
+Bảng vẽ cảm ứng	ID=566	Left=784	Right=785
+Đệm lót chuột	ID=567	Left=782	Right=783
+Màn hình CRT	ID=568	Left=812	Right=813
+Màn hình cảm ứng LCD (Kiốt)	ID=569	Left=810	Right=811
+Điều khiển đa năng	ID=570	Left=808	Right=809
+Card kỹ xảo	ID=571	Left=806	Right=807
+Netcomputer	ID=572	Left=804	Right=805
+Bluetooth USB Adapter	ID=573	Left=802	Right=803
+Màn hình cảm ứng CRT	ID=574	Left=800	Right=801
+Mac Accesssories	ID=575	Left=798	Right=799
+Home theater PC (HTPC)	ID=576	Left=814	Right=815
+Màn hình cảm ứng LCD (treo)	ID=577	Left=816	Right=817
+Máy tính để bàn (lắp ráp)	ID=578	Left=992	Right=993
+Mac Desktop	ID=579	Left=994	Right=995
+Phần mềm an toàn và diệt virus	ID=580	Left=1000	Right=1001
+Phần mềm cho Windows	ID=581	Left=1002	Right=1003
+Hệ điều hành	ID=582	Left=1004	Right=1005
+Các loại phần mềm khác	ID=583	Left=1006	Right=1007
+Phần mềm kinh doanh và sản xuất	ID=584	Left=1008	Right=1031
+Phần mềm quản lý bán hàng	ID=585	Left=1009	Right=1010
+Phần mềm kế toán	ID=586	Left=1011	Right=1012
+Phần mềm quản lý nhà hàng	ID=587	Left=1013	Right=1014
+Phần mềm chấm công	ID=588	Left=1015	Right=1016
+Phần mềm quản lý nhân sự	ID=589	Left=1017	Right=1018
+Phần mềm quản lý tổng đài	ID=590	Left=1019	Right=1020
+Phần mềm quản lý khách hàng	ID=591	Left=1021	Right=1022
+Phần mềm quản lý sản xuất	ID=593	Left=1023	Right=1024
+Phần mềm quản lý đấu thầu	ID=594	Left=1029	Right=1030
+Phần mềm quản lý điện thoại	ID=595	Left=1027	Right=1028
+Phần mềm văn phòng	ID=596	Left=1034	Right=1035
+Phần mềm cho trẻ em	ID=599	Left=1036	Right=1037
+Phần mềm liên quan ứng dụng Internet	ID=600	Left=1042	Right=1043
+Phần mềm cho MAC	ID=602	Left=1046	Right=1047
+Phần mềm hỗ trợ lập trình	ID=603	Left=1044	Right=1045
+Phần mềm xuất bản web và desktop	ID=604	Left=1050	Right=1051
+Phần mềm nghe nhạc	ID=606	Left=1054	Right=1055
+Phần mềm PDA	ID=607	Left=1052	Right=1053
+Phần mềm video	ID=608	Left=998	Right=999
+Đồ họa Multimedia	ID=610	Left=129	Right=142
+Đồ họa máy tính	ID=611	Left=130	Right=131
+Kỹ thuật  Multimedia	ID=612	Left=136	Right=137
+Giáo trình về Multimedia	ID=613	Left=138	Right=139
+Phần mềm xử lý âm thanh	ID=614	Left=132	Right=133
+Phần mềm xử lý Multimedia và đồ họa	ID=615	Left=134	Right=135
+Xử lý video	ID=616	Left=140	Right=141
+Máy tính và Network khác	ID=617	Left=147	Right=148
+Lý thuyết về máy tính	ID=618	Left=143	Right=144
+Tin học cơ bản	ID=619	Left=145	Right=146
+Lập trình và ứng dụng	ID=620	Left=149	Right=230
+Phương pháp lập trình	ID=621	Left=154	Right=155
+PHP	ID=622	Left=150	Right=151
+C#	ID=623	Left=152	Right=153
+PASCAL	ID=624	Left=162	Right=163
+Java khác	ID=625	Left=160	Right=161
+Visual Studio khác	ID=626	Left=158	Right=159
+ActiveX	ID=627	Left=156	Right=157
+API	ID=628	Left=170	Right=171
+ASP.NET	ID=629	Left=168	Right=169
+Basic	ID=631	Left=164	Right=165
+C	ID=632	Left=178	Right=179
+C++	ID=633	Left=176	Right=177
+C++ Builder	ID=634	Left=174	Right=175
+CORBA	ID=635	Left=172	Right=173
+Delphi	ID=636	Left=186	Right=187
+Fortran	ID=637	Left=184	Right=185
+IDL	ID=638	Left=182	Right=183
+JavaScript	ID=639	Left=180	Right=181
+JINI	ID=640	Left=214	Right=215
+JSP	ID=641	Left=212	Right=213
+Kylix	ID=642	Left=218	Right=219
+LISP	ID=643	Left=216	Right=217
+Ngôn ngữ Assembly	ID=644	Left=206	Right=207
+Ngôn ngữ C khác	ID=645	Left=204	Right=205
+PERL	ID=646	Left=210	Right=211
+Prolog	ID=647	Left=208	Right=209
+Python	ID=648	Left=198	Right=199
+STL	ID=649	Left=196	Right=197
+VB	ID=651	Left=200	Right=201
+VBScript	ID=652	Left=190	Right=191
+VCL	ID=653	Left=188	Right=189
+Visual C#	ID=654	Left=194	Right=195
+Visual C++	ID=655	Left=192	Right=193
+Visual C++.NET	ID=656	Left=222	Right=223
+Win32 API	ID=657	Left=224	Right=225
+Windows API	ID=658	Left=226	Right=227
+Windows CE	ID=659	Left=228	Right=229
+Zope	ID=660	Left=220	Right=221
+Tin học văn phòng	ID=661	Left=303	Right=330
+Excel	ID=662	Left=326	Right=327
+Word	ID=663	Left=328	Right=329
+PowerPoint	ID=664	Left=318	Right=319
+Phần mềm chuyên nghiệp	ID=665	Left=320	Right=321
+Access	ID=666	Left=322	Right=323
+Microsoft Project	ID=667	Left=324	Right=325
+Office	ID=668	Left=310	Right=311
+Outlook	ID=669	Left=312	Right=313
+Office Xp	ID=672	Left=308	Right=309
+Phần mềm thống kê	ID=673	Left=306	Right=307
+WPS	ID=674	Left=304	Right=305
+Dreamweaver	ID=676	Left=254	Right=255
+Authorware	ID=677	Left=252	Right=253
+Công cụ thiết kế web khác	ID=678	Left=250	Right=251
+CSS	ID=679	Left=248	Right=249
+Fireworks	ID=681	Left=244	Right=245
+Flash cũ	ID=682	Left=242	Right=243
+Flash MX	ID=683	Left=240	Right=241
+GoLive	ID=684	Left=238	Right=239
+Macromedia	ID=687	Left=232	Right=233
+MFC	ID=688	Left=266	Right=267
+Microsoft FrontPage	ID=689	Left=268	Right=269
+SOAP	ID=690	Left=262	Right=263
+VRML	ID=691	Left=264	Right=265
+WebSphere	ID=692	Left=258	Right=259
+XSL	ID=694	Left=256	Right=257
+CAD	ID=695	Left=271	Right=302
+AutoCAD	ID=696	Left=284	Right=285
+Visio	ID=697	Left=286	Right=287
+ANSYS	ID=699	Left=282	Right=283
+AutoDesk	ID=700	Left=276	Right=277
+CAD khác	ID=701	Left=278	Right=279
+CAXA	ID=702	Left=272	Right=273
+CIBS	ID=703	Left=274	Right=275
+EDA	ID=704	Left=290	Right=291
+MATLAB	ID=705	Left=288	Right=289
+ProEngineer	ID=707	Left=292	Right=293
+SolidWorks	ID=708	Left=298	Right=299
+Visual Lisp	ID=710	Left=300	Right=301
+Quản trị dữ liệu	ID=711	Left=379	Right=408
+Oracle	ID=712	Left=382	Right=383
+Nguyên lý hệ quản trị dữ liệu	ID=713	Left=380	Right=381
+DB2	ID=716	Left=390	Right=391
+Informix	ID=719	Left=392	Right=393
+InterBase	ID=720	Left=396	Right=397
+JDBC	ID=721	Left=398	Right=399
+PowerBuilder	ID=722	Left=400	Right=401
+Quản lý kho dữ liệu	ID=723	Left=402	Right=403
+SQL Server	ID=724	Left=404	Right=405
+Sybase	ID=725	Left=406	Right=407
+Phần cứng máy tính	ID=726	Left=435	Right=440
+Cài đặt và sửa chữa máy tính	ID=727	Left=438	Right=439
+Kiến thức cở bản về phần cứng máy tính	ID=728	Left=436	Right=437
+An toàn Bảo mật	ID=729	Left=409	Right=410
+Giao tiếp mạng	ID=730	Left=411	Right=420
+Dịch vụ full mesh và Internet	ID=731	Left=412	Right=413
+Lý thuyết và ứng dụng	ID=732	Left=414	Right=415
+Network security	ID=734	Left=418	Right=419
+Hệ thống thông tin	ID=735	Left=421	Right=434
+Hệ thống quản trị thông tin	ID=736	Left=428	Right=429
+Hệ thống thông tin địa lý	ID=737	Left=426	Right=427
+Hệ thống viễn thám	ID=738	Left=424	Right=425
+Lý thuyết về hệ thống thông tin	ID=739	Left=422	Right=423
+Máy tính mô phỏng	ID=740	Left=432	Right=433
+Trí tuệ nhân tạo	ID=741	Left=430	Right=431
+An toàn phần mềm	ID=743	Left=348	Right=349
+Bảo dưỡng phần mềm	ID=744	Left=338	Right=339
+Chất lượng phần mềm	ID=745	Left=336	Right=337
+CMM	ID=746	Left=334	Right=335
+Đặc tả yêu cầu phần mềm	ID=747	Left=332	Right=333
+ISO 9000	ID=748	Left=346	Right=347
+Kiểm thử	ID=749	Left=344	Right=345
+Phát triển phần mềm	ID=750	Left=342	Right=343
+Quản trị dự án phần mềm	ID=751	Left=340	Right=341
+Quy trình phần mềm	ID=752	Left=350	Right=351
+UML	ID=753	Left=352	Right=353
+BIOS	ID=755	Left=368	Right=369
+DSP	ID=756	Left=374	Right=375
+FPGA	ID=757	Left=376	Right=377
+IC	ID=758	Left=370	Right=371
+JAVAME	ID=759	Left=372	Right=373
+Kiến trúc hệ thống và máy tính	ID=760	Left=360	Right=361
+MCU	ID=761	Left=362	Right=363
+Nguyên lý máy vi tính	ID=762	Left=356	Right=357
+PCB	ID=763	Left=358	Right=359
+Verilog	ID=764	Left=364	Right=365
+VHDL	ID=765	Left=366	Right=367
+Thẻ internet	ID=766	Left=442	Right=443
+Máy tính nhúng	ID=767	Left=444	Right=445
+Mini station	ID=768	Left=446	Right=447
+Mail server	ID=772	Left=978	Right=979
+Máy hút mùi	ID=773	Left=4670	Right=4671
+Nồi cơm điện	ID=775	Left=4668	Right=4669
+Máy xay sinh tố	ID=776	Left=4684	Right=4685
+Ấm siêu tốc	ID=777	Left=4686	Right=4687
+Máy sấy bát	ID=779	Left=4682	Right=4683
+Máy ép trái cây	ID=780	Left=4676	Right=4677
+Máy xay thực phẩm	ID=783	Left=4674	Right=4675
+Nồi áp suất điện	ID=784	Left=4648	Right=4649
+Máy làm sữa chua	ID=785	Left=4646	Right=4647
+Máy pha cafe	ID=786	Left=4644	Right=4645
+Máy làm sữa đậu nành	ID=787	Left=4642	Right=4643
+Máy làm kem tươi	ID=788	Left=4640	Right=4641
+Máy đánh trứng	ID=789	Left=4638	Right=4639
+Máy nướng bánh mỳ	ID=790	Left=4636	Right=4637
+Nồi hấp đa năng	ID=791	Left=4634	Right=4635
+Nồi nướng thủy tinh	ID=792	Left=4664	Right=4665
+Lò nướng giảm mỡ	ID=794	Left=4660	Right=4661
+Máy đánh cháo	ID=795	Left=4658	Right=4659
+Máy xay đá	ID=796	Left=4656	Right=4657
+Máy xay hạt	ID=797	Left=4654	Right=4655
+Máy dán miệng cốc	ID=798	Left=4652	Right=4653
+Máy làm đá siêu tốc	ID=799	Left=4650	Right=4651
+Máy làm lạnh nước hoa quả	ID=800	Left=4624	Right=4625
+Máy thái thịt	ID=802	Left=4628	Right=4629
+Máy nướng thịt gia đình	ID=803	Left=4630	Right=4631
+Máy trộn đồ uống	ID=804	Left=4616	Right=4617
+Máy làm bánh sandwich	ID=805	Left=4618	Right=4619
+Máy trồng rau	ID=806	Left=4620	Right=4621
+Máy làm bánh pizza	ID=807	Left=4622	Right=4623
+Máy vo gạo	ID=808	Left=4632	Right=4633
+Bếp các loại	ID=809	Left=1424	Right=1453
+Bếp gas âm	ID=810	Left=1449	Right=1450
+Bếp gas	ID=811	Left=1451	Right=1452
+Bếp từ	ID=812	Left=1441	Right=1442
+Bếp điện	ID=813	Left=1443	Right=1444
+Bếp tủ liền lò	ID=814	Left=1445	Right=1446
+Bếp ga du lịch	ID=815	Left=1447	Right=1448
+Bếp nướng	ID=816	Left=1435	Right=1436
+Bếp Domino	ID=817	Left=1433	Right=1434
+Phụ kiện bếp	ID=818	Left=1439	Right=1440
+Bếp hồng ngoại	ID=819	Left=1437	Right=1438
+Bình gas	ID=820	Left=1427	Right=1428
+Bếp nướng xúc xích	ID=821	Left=1425	Right=1426
+Bếp cồn	ID=822	Left=1431	Right=1432
+Bếp nướng thịt Doner	ID=823	Left=1429	Right=1430
+Nội thất nhà bếp	ID=824	Left=1396	Right=1423
+Chậu rửa bát	ID=825	Left=1405	Right=1406
+Vòi rửa bát	ID=826	Left=1409	Right=1410
+Bàn ghế phòng ăn	ID=827	Left=1407	Right=1408
+Tủ bếp	ID=828	Left=1399	Right=1400
+Giàn nước nóng năng lượng mặt trời	ID=830	Left=1403	Right=1404
+Khăn trải bàn ăn	ID=831	Left=1401	Right=1402
+Bình lọc nước	ID=832	Left=1415	Right=1416
+Bình đựng nước	ID=833	Left=1417	Right=1418
+Phụ kiện tủ bếp	ID=834	Left=1411	Right=1412
+Bộ nội thất phòng ăn	ID=835	Left=1413	Right=1414
+Bồn nước	ID=836	Left=1419	Right=1420
+Đồ trang trí	ID=837	Left=1421	Right=1422
+Chảo rán	ID=839	Left=1499	Right=1500
+Nồi thường	ID=840	Left=1505	Right=1506
+Bộ đồ nấu	ID=841	Left=1507	Right=1508
+Nồi lẩu	ID=844	Left=1513	Right=1514
+Ấm sắc	ID=845	Left=1515	Right=1516
+Vỉ nướng	ID=846	Left=1509	Right=1510
+Siêu sắc thuốc	ID=847	Left=1511	Right=1512
+Khay ăn	ID=856	Left=1479	Right=1480
+Đồ dùng khác	ID=857	Left=1482	Right=1495
+Thùng rác	ID=861	Left=1491	Right=1492
+Tạp dề	ID=862	Left=1489	Right=1490
+Bình xịt nước	ID=863	Left=1487	Right=1488
+Dụng cụ làm bánh	ID=864	Left=1454	Right=1455
+Dụng cụ cắt gọt	ID=865	Left=1456	Right=1457
+Đồ thủy tinh	ID=866	Left=1458	Right=1459
+Dụng cụ nấu ăn	ID=868	Left=1462	Right=1463
+Đồ dùng cho lò vi sóng	ID=869	Left=1464	Right=1465
+Sàn gỗ	ID=871	Left=1280	Right=1281
+Tranh nghệ thuật	ID=872	Left=1282	Right=1283
+Thảm	ID=873	Left=1284	Right=1285
+Rèm cửa	ID=874	Left=1286	Right=1287
+Vật dụng trang trí	ID=875	Left=1288	Right=1289
+Gỗ mỹ nghệ	ID=878	Left=1294	Right=1295
+Tranh đá quý	ID=880	Left=1264	Right=1265
+Tranh phòng trẻ em	ID=881	Left=1262	Right=1263
+Sắt nghệ thuật	ID=883	Left=1266	Right=1267
+Lịch	ID=884	Left=1272	Right=1273
+Cây nội thất	ID=885	Left=1270	Right=1271
+Sản phẩm mây tre đan	ID=887	Left=1274	Right=1275
+Camera giám sát	ID=888	Left=1320	Right=1321
+Chổi cạo vườn	ID=894	Left=1311	Right=1312
+Vòi phun	ID=895	Left=1309	Right=1310
+Cưa làm vườn	ID=897	Left=1315	Right=1316
+Bay trồng hoa	ID=898	Left=1313	Right=1314
+Cột phun nước	ID=900	Left=1391	Right=1392
+Đầu phun nước	ID=901	Left=1389	Right=1390
+Thiết bị điều khiển tưới sân vườn	ID=902	Left=1387	Right=1388
+Trang trí vườn	ID=903	Left=1356	Right=1385
+Tượng	ID=904	Left=1383	Right=1384
+Chuông gió	ID=906	Left=1379	Right=1380
+Ghế nằm	ID=908	Left=1375	Right=1376
+Xích đu	ID=909	Left=1373	Right=1374
+Dù	ID=910	Left=1371	Right=1372
+Cỏ	ID=911	Left=1369	Right=1370
+Gạch sân vườn	ID=912	Left=1365	Right=1366
+Hàng rào	ID=913	Left=1367	Right=1368
+Đế dù	ID=915	Left=1363	Right=1364
+Giàn hoa	ID=916	Left=1357	Right=1358
+Kệ	ID=917	Left=1359	Right=1360
+Thiết bị ánh sáng ngoài trời	ID=918	Left=1344	Right=1355
+Thiết bị ánh sáng khác	ID=919	Left=1353	Right=1354
+Đèn đường	ID=920	Left=1349	Right=1350
+Đèn lồng	ID=921	Left=1351	Right=1352
+Đèn chiếu sáng	ID=922	Left=1345	Right=1346
+Cột đèn	ID=923	Left=1347	Right=1348
+Thiết bị nấu ăn ngoài trời	ID=924	Left=1330	Right=1343
+Dụng cụ Picnic	ID=926	Left=1337	Right=1338
+Dụng cụ nướng than	ID=928	Left=1333	Right=1334
+Dụng cụ làm BBQ	ID=929	Left=1331	Right=1332
+Lò nướng gas ngoài trời	ID=930	Left=1335	Right=1336
+Máy phát điện ngoài trời	ID=933	Left=1322	Right=1323
+Trang trí lễ hội ngoài trời	ID=934	Left=1326	Right=1327
+Bồn cầu	ID=936	Left=1210	Right=1211
+Bồn tắm	ID=937	Left=1208	Right=1209
+Chậu rửa (Lavabo)	ID=938	Left=1214	Right=1215
+Bồn tắm spa	ID=939	Left=1212	Right=1213
+Phụ kiện thiết bị vệ sinh	ID=940	Left=1202	Right=1203
+Bồn tiểu	ID=942	Left=1206	Right=1207
+Máy sấy tay	ID=943	Left=1204	Right=1205
+Bộ nội thất phòng tắm	ID=944	Left=1192	Right=1193
+Vách tắm	ID=945	Left=1194	Right=1195
+Bộ xả tiểu nam	ID=946	Left=1196	Right=1197
+Thiết bị cảm ứng phòng tắm	ID=947	Left=1198	Right=1199
+Vòi xịt vệ sinh	ID=948	Left=1184	Right=1185
+Gương phòng tắm	ID=949	Left=1186	Right=1187
+Máy xông hơi ướt	ID=950	Left=1188	Right=1189
+Bể sục spa	ID=951	Left=1190	Right=1191
+Bàn xông	ID=952	Left=1178	Right=1179
+Buồng xông khô	ID=953	Left=1180	Right=1181
+Ghế xông	ID=954	Left=1182	Right=1183
+Móc khóa	ID=955	Left=1068	Right=1069
+Đồ dùng cá nhân	ID=960	Left=1118	Right=1123
+Ô đi mưa	ID=963	Left=1116	Right=1117
+Dung dịch xả	ID=965	Left=1128	Right=1129
+Giấy vệ sinh	ID=966	Left=1126	Right=1127
+Kem đánh răng	ID=969	Left=1104	Right=1105
+Bàn chải đánh răng	ID=970	Left=1102	Right=1103
+Thang	ID=971	Left=1100	Right=1101
+Máy khâu mini	ID=972	Left=1114	Right=1115
+Băng vệ sinh	ID=973	Left=1112	Right=1113
+Sản phẩm diệt côn trùng	ID=975	Left=1108	Right=1109
+Sản phẩm phòng chống côn trùng	ID=977	Left=1090	Right=1091
+Nước xúc miệng	ID=978	Left=1084	Right=1085
+Xe đẩy hành lý	ID=981	Left=1098	Right=1099
+Dụng cụ sửa chữa trong nhà	ID=982	Left=1092	Right=1093
+Vệ sinh phụ nữ	ID=983	Left=1094	Right=1095
+Xe đi chợ	ID=984	Left=1074	Right=1075
+Tủ vải	ID=985	Left=1076	Right=1077
+Máy tăm nước	ID=986	Left=1070	Right=1071
+Giấy thơm quần áo	ID=988	Left=1080	Right=1081
+Xịt phòng	ID=990	Left=1078	Right=1079
+Bàn ghế phòng khách	ID=991	Left=1258	Right=1259
+Tủ kệ phòng khách	ID=994	Left=1248	Right=1249
+Đèn trang trí phòng khách	ID=995	Left=1246	Right=1247
+Tủ rượu	ID=996	Left=1252	Right=1253
+Bộ nội thất phòng khách	ID=998	Left=1256	Right=1257
+Bàn trà đa năng	ID=999	Left=1254	Right=1255
+Đồng hồ cổ	ID=1000	Left=1228	Right=1229
+Giá để đồ	ID=1002	Left=1232	Right=1233
+Bình phong	ID=1005	Left=1234	Right=1235
+Bể cá treo	ID=1006	Left=1240	Right=1241
+Phụ kiện bể cá	ID=1007	Left=1238	Right=1239
+Vách ngăn phòng khách	ID=1008	Left=1220	Right=1221
+Cây thủy sinh	ID=1009	Left=1222	Right=1223
+Cá cảnh	ID=1010	Left=1224	Right=1225
+Bộ chăn ga gối đệm	ID=1011	Left=1144	Right=1145
+Bộ nội thất phòng ngủ	ID=1013	Left=1148	Right=1149
+Giường	ID=1014	Left=1150	Right=1159
+Giường đôi	ID=1015	Left=1157	Right=1158
+Giường hai tầng	ID=1016	Left=1151	Right=1152
+Giường đơn	ID=1017	Left=1153	Right=1154
+Giường xếp	ID=1018	Left=1155	Right=1156
+Gối ngủ	ID=1019	Left=1134	Right=1135
+Tủ quần áo	ID=1020	Left=1136	Right=1137
+Đèn ngủ	ID=1021	Left=1138	Right=1139
+Gối ôm	ID=1023	Left=1142	Right=1143
+Bàn ghế trang điểm	ID=1024	Left=1160	Right=1161
+Ga trải giường	ID=1025	Left=1162	Right=1163
+Tủ đựng đồ	ID=1026	Left=1164	Right=1165
+Chăn	ID=1027	Left=1166	Right=1167
+Màn (mùng)	ID=1028	Left=1168	Right=1169
+Gương phòng ngủ	ID=1029	Left=1170	Right=1171
+Chiếu	ID=1030	Left=1172	Right=1173
+Tủ thuốc	ID=1031	Left=1174	Right=1175
+Gối	ID=1033	Left=1738	Right=1739
+Máy báo khóc	ID=1037	Left=1746	Right=1747
+Màn chùm	ID=1039	Left=1750	Right=1751
+Túi ngủ	ID=1040	Left=1754	Right=1755
+Máy đuổi muỗi	ID=1041	Left=1752	Right=1753
+Máy ru ngủ	ID=1042	Left=1758	Right=1759
+Bonsai	ID=1047	Left=1581	Right=1582
+Cây hoa	ID=1048	Left=1567	Right=1568
+Cây ngoại thất	ID=1050	Left=1571	Right=1572
+Cây để bàn	ID=1051	Left=1569	Right=1570
+Phong lan	ID=1052	Left=1575	Right=1576
+Cây leo	ID=1053	Left=1573	Right=1574
+Dụng cụ chăm sóc	ID=1054	Left=1579	Right=1580
+Cây trồng bằng nước	ID=1055	Left=1577	Right=1578
+Chó	ID=1056	Left=1584	Right=1631
+Đồ dùng hằng ngày cho chó	ID=1057	Left=1585	Right=1616
+Đồ chơi cho thú nuôi	ID=1058	Left=1602	Right=1603
+Bàn chải lông	ID=1059	Left=1604	Right=1605
+Dụng cụ huấn luyện chó	ID=1061	Left=1612	Right=1613
+Dụng cụ sinh con cho chó	ID=1062	Left=1606	Right=1607
+Ghế ngồi trên ô tô	ID=1063	Left=1608	Right=1609
+Rọ mõm	ID=1066	Left=1586	Right=1587
+Thùng nhựa cho chó	ID=1068	Left=1598	Right=1599
+Trang sức cho chó	ID=1069	Left=1600	Right=1601
+Túi xách	ID=1070	Left=1594	Right=1595
+Vật dụng vệ sinh	ID=1071	Left=1596	Right=1597
+Thức ăn chó	ID=1073	Left=1623	Right=1626
+Xương và canxi cho chó	ID=1074	Left=1624	Right=1625
+Các giống chó	ID=1075	Left=1617	Right=1622
+Chó nước ngòai	ID=1076	Left=1620	Right=1621
+Chó Việt Nam	ID=1077	Left=1618	Right=1619
+Sản phẩm cho người yêu chó	ID=1078	Left=1629	Right=1630
+Chăm sóc sức khỏe chó	ID=1079	Left=1627	Right=1628
+Sách thanh thiếu nhi	ID=1080	Left=3904	Right=3905
+Lứa tuổi nhi đồng	ID=1081	Left=3902	Right=3903
+Tranh truyện hiện đại	ID=1082	Left=3900	Right=3901
+Lứa tuổi thiếu niên	ID=1083	Left=3898	Right=3899
+Cha mẹ và bé	ID=1084	Left=3912	Right=3913
+Các ấn phẩm khác	ID=1085	Left=3910	Right=3911
+Lứa tuổi mẫu giáo	ID=1086	Left=3908	Right=3909
+Bách khoa	ID=1087	Left=3906	Right=3907
+Sách song ngữ	ID=1089	Left=3796	Right=3797
+Trẻ dưới 3 tuổi	ID=1090	Left=3798	Right=3799
+Sách bán theo bộ	ID=1091	Left=3800	Right=3801
+Văn học nước ngoài	ID=1093	Left=3788	Right=3789
+Tiểu thuyết	ID=1094	Left=3790	Right=3791
+Truyện ngắn	ID=1095	Left=3792	Right=3793
+Truyện tranh	ID=1098	Left=3782	Right=3783
+Sách phê bình văn học	ID=1099	Left=3784	Right=3785
+Sách học tham khảo	ID=1102	Left=3774	Right=3775
+Dạy và học Nghề	ID=1104	Left=3828	Right=3829
+Văn học trong nước	ID=1105	Left=3826	Right=3827
+Ngoại ngữ	ID=1106	Left=3832	Right=3833
+Tiếng Anh	ID=1107	Left=3830	Right=3831
+Ngôn ngữ khác	ID=1108	Left=3820	Right=3821
+Tiếng Nhật	ID=1109	Left=3818	Right=3819
+Tiếng Pháp	ID=1110	Left=3824	Right=3825
+Tiếng Trung	ID=1111	Left=3822	Right=3823
+Tiếng Anh thiếu nhi	ID=1112	Left=3812	Right=3813
+Tiếng Đức	ID=1113	Left=3810	Right=3811
+Khoa học xã hội	ID=1114	Left=3816	Right=3817
+Văn hóa xã hội	ID=1115	Left=3814	Right=3815
+Giáo dục học	ID=1116	Left=3804	Right=3805
+Tâm lý học	ID=1117	Left=3802	Right=3803
+Xã hội học	ID=1118	Left=3808	Right=3809
+Ngôn ngữ học	ID=1119	Left=3806	Right=3807
+Thư viện học	ID=1120	Left=3862	Right=3863
+Nhân chủng học	ID=1121	Left=3864	Right=3865
+Sách bồi dưỡng	ID=1123	Left=3860	Right=3861
+Trưởng thành	ID=1124	Left=3854	Right=3855
+Thành công	ID=1125	Left=3856	Right=3857
+Bồi dưỡng ý chí	ID=1126	Left=3850	Right=3851
+Sách lược	ID=1127	Left=3852	Right=3853
+Sự nghiệp	ID=1128	Left=3846	Right=3847
+Ngoại giao	ID=1129	Left=3848	Right=3849
+Diễn thuyết	ID=1131	Left=3844	Right=3845
+Lễ nghi	ID=1132	Left=3838	Right=3839
+Ngạn ngôn	ID=1133	Left=3840	Right=3841
+Nữ công gia chánh	ID=1135	Left=3836	Right=3837
+Nuôi dạy con	ID=1136	Left=3896	Right=3897
+Sách nấu ăn	ID=1137	Left=3894	Right=3895
+Gia đình	ID=1138	Left=3892	Right=3893
+Hôn nhân	ID=1139	Left=3890	Right=3891
+Mang thai	ID=1140	Left=3888	Right=3889
+Quản lý kinh doanh	ID=1141	Left=3886	Right=3887
+Kế toán	ID=1142	Left=3884	Right=3885
+Quản lý doanh nghiệp	ID=1143	Left=3882	Right=3883
+Lập nghiệp và nhà doanh nghiệp	ID=1144	Left=3880	Right=3881
+Marketing Quảng cáo	ID=1145	Left=3878	Right=3879
+Kinh doanh tiêu thụ	ID=1146	Left=3876	Right=3877
+Sử ký thương mại	ID=1147	Left=3874	Right=3875
+Nguồn nhân lực	ID=1148	Left=3872	Right=3873
+Văn hóa doanh nghiệp	ID=1149	Left=3870	Right=3871
+Đàm phán thương mại	ID=1150	Left=3868	Right=3869
+MBA	ID=1151	Left=3866	Right=3867
+Thương mại điện tử	ID=1152	Left=4044	Right=4045
+Đầu tư tiền tệ	ID=1153	Left=4042	Right=4043
+Mẫu thư thương mại	ID=1154	Left=4048	Right=4049
+Tuổi mới lớn	ID=1157	Left=4050	Right=4051
+Tình yêu	ID=1158	Left=4056	Right=4057
+Phân tích và môi trường Kinh tế	ID=1160	Left=4060	Right=4061
+Chính sách thương mại	ID=1163	Left=4062	Right=4063
+Thuế	ID=1164	Left=4068	Right=4069
+Ngoại thương	ID=1165	Left=4066	Right=4067
+Kinh tế Việt Nam	ID=1166	Left=4072	Right=4073
+Lý thuyết về kinh tế	ID=1167	Left=4070	Right=4071
+Thống kế học	ID=1168	Left=4074	Right=4075
+WTO	ID=1169	Left=4076	Right=4077
+Bất động sản	ID=1170	Left=4078	Right=4079
+Bảo hiểm	ID=1171	Left=4080	Right=4081
+Lạm phát	ID=1172	Left=4082	Right=4083
+Lịch sử kinh tế	ID=1173	Left=4084	Right=4085
+Kinh tế Mỹ	ID=1174	Left=4086	Right=4087
+Kinh tế các khu vực	ID=1175	Left=4088	Right=4089
+Luật kinh tế	ID=1176	Left=4090	Right=4091
+Biểu mẫu các loại	ID=1177	Left=4092	Right=4093
+Kinh tế Trung Quốc	ID=1178	Left=4094	Right=4095
+Chính trị quân sự	ID=1179	Left=4096	Right=4097
+Chính trị Việt Nam	ID=1180	Left=4098	Right=4099
+Lý thuyết chính trị	ID=1181	Left=4100	Right=4101
+Chiến tranh Việt Nam	ID=1184	Left=4112	Right=4113
+Tác phẩm của nhà lãnh đạo	ID=1185	Left=4110	Right=4111
+Quân sự thế giới	ID=1186	Left=4108	Right=4109
+Quân sự Việt Nam	ID=1187	Left=4106	Right=4107
+Binh khí	ID=1188	Left=4120	Right=4121
+Kỹ thuật quân sự	ID=1189	Left=4118	Right=4119
+Lý thuyết quân sự	ID=1190	Left=4116	Right=4117
+Giáo trình đại học	ID=1192	Left=4128	Right=4129
+Lớp 10	ID=1193	Left=4126	Right=4127
+Lớp 6	ID=1194	Left=4124	Right=4125
+Lớp 11	ID=1195	Left=4122	Right=4123
+Lớp 12	ID=1196	Left=4136	Right=4137
+Lớp 8	ID=1197	Left=4134	Right=4135
+Lớp 3	ID=1198	Left=4132	Right=4133
+Lớp 7	ID=1199	Left=4130	Right=4131
+Lớp 5	ID=1200	Left=4142	Right=4143
+Lớp 1	ID=1201	Left=4144	Right=4145
+Lớp 2	ID=1202	Left=4138	Right=4139
+Lớp 9	ID=1203	Left=4140	Right=4141
+Lớp 4	ID=1204	Left=4150	Right=4151
+Âm nhạc	ID=1207	Left=4148	Right=4149
+Kiến trúc	ID=1208	Left=4158	Right=4159
+Nghệ thuật dân gian	ID=1210	Left=4154	Right=4155
+Nhiếp ảnh	ID=1211	Left=4156	Right=4157
+Thủ công mỹ nghệ	ID=1212	Left=4166	Right=4167
+Điêu khắc	ID=1213	Left=4168	Right=4169
+Múa	ID=1214	Left=4162	Right=4163
+Phong thủy	ID=1216	Left=3924	Right=3925
+Kinh dịch	ID=1217	Left=3922	Right=3923
+Tướng số	ID=1218	Left=3928	Right=3929
+Thế giới kỳ lạ	ID=1219	Left=3926	Right=3927
+Tâm linh	ID=1220	Left=3916	Right=3917
+Khoa học tự nhiên	ID=1221	Left=3914	Right=3915
+Hóa học	ID=1222	Left=3920	Right=3921
+Thiên văn học	ID=1223	Left=3918	Right=3919
+Vật lý	ID=1224	Left=3940	Right=3941
+Sinh học	ID=1225	Left=3938	Right=3939
+Toán học	ID=1226	Left=3944	Right=3945
+Địa chất	ID=1227	Left=3942	Right=3943
+Địa lý	ID=1228	Left=3932	Right=3933
+Khí tượng học	ID=1229	Left=3930	Right=3931
+Phương pháp nghiên cứu lịch sử khoa học tự nhiên	ID=1230	Left=3936	Right=3937
+Đạo Phật	ID=1232	Left=3954	Right=3955
+Thiên Chúa giáo	ID=1233	Left=3956	Right=3957
+Tôn giáo khác	ID=1234	Left=3958	Right=3959
+Triết học phương Đông	ID=1235	Left=3960	Right=3961
+Triết học phương Tây	ID=1236	Left=3946	Right=3947
+Ấn độ giáo	ID=1237	Left=3948	Right=3949
+Đạo Hồi	ID=1238	Left=3950	Right=3951
+Chủ nghĩa tư bản	ID=1240	Left=3970	Right=3971
+Khoa học thường thức	ID=1241	Left=3972	Right=3973
+Động vật	ID=1242	Left=3974	Right=3975
+Lịch sử học	ID=1243	Left=3976	Right=3977
+Bảo vệ môi trường	ID=1244	Left=3962	Right=3963
+Côn trùng	ID=1245	Left=3964	Right=3965
+Nhân loại	ID=1246	Left=3966	Right=3967
+Thực vật	ID=1247	Left=3968	Right=3969
+Sinh thái	ID=1248	Left=3992	Right=3993
+Chim	ID=1249	Left=3990	Right=3991
+Biển cả	ID=1250	Left=3988	Right=3989
+Động đất	ID=1251	Left=3986	Right=3987
+Khí tượng	ID=1252	Left=3984	Right=3985
+Thiên tai	ID=1253	Left=3982	Right=3983
+Thiên thể	ID=1254	Left=3980	Right=3981
+Sinh vật biển	ID=1255	Left=3978	Right=3979
+Sông hồ	ID=1256	Left=4008	Right=4009
+Từ điển các nước khác	ID=1258	Left=4004	Right=4005
+Từ điển tiếng Anh	ID=1259	Left=4002	Right=4003
+Từ điển chuyên ngành	ID=1260	Left=4000	Right=4001
+Từ điển tiếng Việt	ID=1261	Left=3998	Right=3999
+Bách khoa toàn thư	ID=1262	Left=3996	Right=3997
+Từ điển tiếng Nhật	ID=1263	Left=3994	Right=3995
+Từ điển tiếng Pháp	ID=1264	Left=4022	Right=4023
+Niên giám	ID=1265	Left=4024	Right=4025
+Sách nói	ID=1266	Left=4018	Right=4019
+Pháp Luật	ID=1267	Left=4020	Right=4021
+Pháp luật Việt Nam	ID=1268	Left=4014	Right=4015
+Pháp luật của các nước trên thế giới	ID=1269	Left=4016	Right=4017
+Công nghiệp nhẹ	ID=1271	Left=4012	Right=4013
+Giao thông vận tải	ID=1272	Left=4038	Right=4039
+Công nghiệp luyện kim	ID=1273	Left=4040	Right=4041
+Viễn thông	ID=1275	Left=4036	Right=4037
+Công nghiệp hóa học	ID=1276	Left=4030	Right=4031
+Dầu khí	ID=1277	Left=4032	Right=4033
+Khoa học môi trường	ID=1278	Left=4026	Right=4027
+Kỹ thuật khoáng sản	ID=1280	Left=4248	Right=4249
+Kỹ thuật năng lượng hạt nhân	ID=1281	Left=4250	Right=4251
+Kỹ thuật tự động hóa	ID=1282	Left=4244	Right=4245
+Ngành hàng không	ID=1283	Left=4246	Right=4247
+Vận động thể thao	ID=1285	Left=4258	Right=4259
+Cờ các loại	ID=1286	Left=4252	Right=4253
+Các loại bóng	ID=1287	Left=4254	Right=4255
+Bơi	ID=1288	Left=4232	Right=4233
+Văn hóa	ID=1289	Left=4234	Right=4235
+Văn hóa Việt Nam	ID=1290	Left=4228	Right=4229
+Văn hóa thế giới	ID=1291	Left=4230	Right=4231
+Văn hóa khu vực	ID=1292	Left=4240	Right=4241
+Phong tục tập quán Việt Nam	ID=1293	Left=4242	Right=4243
+Lý thuyết Văn hóa	ID=1294	Left=4236	Right=4237
+Thời trang	ID=1297	Left=4216	Right=4217
+Giảm béo	ID=1298	Left=4214	Right=4215
+Du lịch	ID=1299	Left=4212	Right=4213
+Du lịch trong nước	ID=1300	Left=4226	Right=4227
+Du lịch nước ngoài (tổng hợp)	ID=1301	Left=4224	Right=4225
+Kiến thức du lịch	ID=1302	Left=4222	Right=4223
+Châu Á	ID=1303	Left=4220	Right=4221
+Tranh ảnh du lịch	ID=1304	Left=4202	Right=4203
+Châu Âu	ID=1305	Left=4200	Right=4201
+Châu Đại Dương	ID=1306	Left=4198	Right=4199
+Châu Mỹ	ID=1307	Left=4196	Right=4197
+Châu Phi	ID=1308	Left=4210	Right=4211
+Tài liệu hướng dẫn viên du lịch	ID=1309	Left=4208	Right=4209
+Y học	ID=1310	Left=4206	Right=4207
+Y học cơ bản	ID=1311	Left=4204	Right=4205
+Đông y	ID=1312	Left=4308	Right=4309
+Nhi khoa	ID=1313	Left=4310	Right=4311
+Dược	ID=1314	Left=4312	Right=4313
+Sản phụ khoa	ID=1315	Left=4314	Right=4315
+Cấp cứu	ID=1317	Left=4318	Right=4319
+Nội khoa	ID=1318	Left=4320	Right=4321
+Mắt	ID=1320	Left=4292	Right=4293
+Ngoại khoa	ID=1321	Left=4294	Right=4295
+Sách danh nhân	ID=1323	Left=4298	Right=4299
+Danh nhân khác	ID=1324	Left=4300	Right=4301
+Danh nhân văn hóa	ID=1325	Left=4302	Right=4303
+Hồi ký	ID=1326	Left=4304	Right=4305
+Danh nhân khoa học	ID=1327	Left=4306	Right=4307
+Sức khỏe	ID=1328	Left=4278	Right=4279
+Phòng chống bệnh các loại	ID=1330	Left=4282	Right=4283
+Rèn luyện sức khỏe	ID=1333	Left=4284	Right=4285
+Chăm sóc phụ nữ có thai	ID=1334	Left=4290	Right=4291
+Sức khỏe nam giới	ID=1335	Left=4288	Right=4289
+Sức khỏe của phái đẹp	ID=1336	Left=4262	Right=4263
+Bác sĩ gia đình	ID=1337	Left=4260	Right=4261
+Chăm sóc sức khỏe trung lão niên	ID=1338	Left=4266	Right=4267
+Sức khỏe tâm lý	ID=1339	Left=4264	Right=4265
+Cây cảnh	ID=1342	Left=4274	Right=4275
+Nhà ở	ID=1343	Left=4272	Right=4273
+Việt Nam	ID=1345	Left=4194	Right=4195
+Thế giới	ID=1346	Left=4188	Right=4189
+Trung Quốc	ID=1347	Left=4190	Right=4191
+Lý thuyết Sử học	ID=1348	Left=4184	Right=4185
+Khảo cổ	ID=1349	Left=4186	Right=4187
+Ngôn ngữ Việt Nam	ID=1350	Left=4180	Right=4181
+Ngôn ngữ Trung quốc	ID=1351	Left=4182	Right=4183
+Ngôn ngữ Latin	ID=1352	Left=4176	Right=4177
+Sách ảnh	ID=1353	Left=4178	Right=4179
+Quà tặng lưu niệm	ID=1357	Left=3734	Right=3735
+Quà tặng độc đáo	ID=1358	Left=3730	Right=3731
+Vật để bàn	ID=1359	Left=3732	Right=3733
+Nến nghệ thuật	ID=1360	Left=3728	Right=3729
+Thiệp chúc mừng	ID=1361	Left=3726	Right=3727
+Bật lửa	ID=1362	Left=3724	Right=3725
+Pha Lê Cao Cấp	ID=1364	Left=3720	Right=3721
+Khung tranh	ID=1365	Left=3718	Right=3719
+Chặn Giấy	ID=1367	Left=3714	Right=3715
+Hộp đựng lưu niệm	ID=1368	Left=3712	Right=3713
+Thẻ quà tặng	ID=1370	Left=3708	Right=3709
+Linh vật theo tuổi	ID=1371	Left=3706	Right=3707
+Pha lê 3D	ID=1372	Left=3704	Right=3705
+Cắm Bút	ID=1373	Left=3702	Right=3703
+Mỹ phẩm	ID=1374	Left=3700	Right=3701
+Chữ ký người nổi tiếng	ID=1375	Left=3698	Right=3699
+Sản Phẩm Khuyến Mãi	ID=1376	Left=3760	Right=3761
+Bút viết	ID=1377	Left=3762	Right=3763
+Đồng hồ quà tặng khuyến mại	ID=1379	Left=3766	Right=3767
+Sổ Tay	ID=1380	Left=3752	Right=3753
+Gifts Set	ID=1381	Left=3754	Right=3755
+Kỉ niệm chương các loại	ID=1383	Left=3758	Right=3759
+Kỉ niệm chương	ID=1385	Left=3746	Right=3747
+Đĩa Tròn	ID=1387	Left=3750	Right=3751
+Đĩa Tròn Du Lịch	ID=1388	Left=3736	Right=3737
+Quà giáng sinh	ID=1390	Left=3740	Right=3741
+Quà Tết	ID=1391	Left=3742	Right=3743
+Hoa tình yêu	ID=1392	Left=4390	Right=4391
+Hoa tươi	ID=1393	Left=4388	Right=4389
+Hoa cưới	ID=1394	Left=4394	Right=4395
+Hoa sinh nhật	ID=1395	Left=4392	Right=4393
+Hoa khai trương	ID=1397	Left=4380	Right=4381
+Hoa đất sét	ID=1398	Left=4386	Right=4387
+Điện hoa	ID=1399	Left=4384	Right=4385
+Hoa văn phòng	ID=1400	Left=4374	Right=4375
+Hoa chia buồn	ID=1401	Left=4372	Right=4373
+Hoa hội nghị	ID=1403	Left=4376	Right=4377
+Hoa ngày lễ hội	ID=1404	Left=4366	Right=4367
+Hoa giấy	ID=1405	Left=4364	Right=4365
+Hoa theo mùa	ID=1406	Left=4370	Right=4371
+Hoa mừng tân gia	ID=1407	Left=4368	Right=4369
+Mô hình	ID=1408	Left=4336	Right=4337
+Đồ chơi điều khiển từ xa	ID=1411	Left=4330	Right=4331
+Bộ đồ chơi tập giả	ID=1412	Left=4344	Right=4345
+Đồ chơi hóa trang	ID=1415	Left=4338	Right=4339
+Đồ chơi ngoài trời và kiến trúc	ID=1416	Left=4352	Right=4353
+Mũi tên và phi tiêu	ID=1417	Left=4350	Right=4351
+Đồ chơi nước và cát	ID=1421	Left=4358	Right=4359
+Đồ chơi không gian	ID=1423	Left=4354	Right=4355
+Bộ bài	ID=1424	Left=4326	Right=4327
+Các loại cờ	ID=1425	Left=4328	Right=4329
+Băng đĩa học tập	ID=1426	Left=4552	Right=4553
+Đĩa cài phần mềm	ID=1429	Left=4562	Right=4563
+Phim nước ngoài	ID=1431	Left=4558	Right=4559
+Phim Việt Nam	ID=1432	Left=4568	Right=4569
+Nhạc Quốc tế	ID=1434	Left=4564	Right=4565
+Nhạc Việt Nam	ID=1435	Left=4566	Right=4567
+Thiết bị âm thanh chuyên nghiệp	ID=1436	Left=4482	Right=4483
+Cách âm studio	ID=1437	Left=4484	Right=4485
+Bộ điều chỉnh và Loa	ID=1438	Left=4478	Right=4479
+Amplifiers	ID=1439	Left=4480	Right=4481
+Dây cáp nối	ID=1440	Left=4520	Right=4521
+Ghi âm máy tính	ID=1441	Left=4518	Right=4519
+Ghi âm Multi-track	ID=1442	Left=4524	Right=4525
+Linh phụ kiện	ID=1443	Left=4522	Right=4523
+Rack Gear	ID=1444	Left=4528	Right=4529
+Thiết bị DJ	ID=1445	Left=4526	Right=4527
+Nhạc cụ phím	ID=1447	Left=4530	Right=4531
+Đàn Piano	ID=1448	Left=4536	Right=4537
+Đàn Organ	ID=1449	Left=4534	Right=4535
+Piano điện tử	ID=1450	Left=4540	Right=4541
+Nhạc cụ dây	ID=1451	Left=4538	Right=4539
+Đàn viôlin	ID=1452	Left=4544	Right=4545
+Đàn ghi ta	ID=1453	Left=4542	Right=4543
+Đàn viola	ID=1454	Left=4548	Right=4549
+Đàn mandolin	ID=1455	Left=4546	Right=4547
+Đàn violongxen (cello)	ID=1456	Left=4486	Right=4487
+Đàn luýt	ID=1457	Left=4488	Right=4489
+Đàn bầu	ID=1458	Left=4490	Right=4491
+Đàn hạc	ID=1459	Left=4492	Right=4493
+Đàn nguyệt (đàn kìm)	ID=1460	Left=4494	Right=4495
+Đàn nhị	ID=1461	Left=4496	Right=4497
+Đàn tam thập lục	ID=1462	Left=4498	Right=4499
+Đàn tranh (đàn thập lục)	ID=1463	Left=4500	Right=4501
+Nhạc cụ điện tử	ID=1464	Left=4502	Right=4503
+Guitar điện	ID=1465	Left=4504	Right=4505
+Trống điện tử	ID=1466	Left=4506	Right=4507
+Bàn phím điện tử	ID=1467	Left=4508	Right=4509
+Acoustic điện	ID=1468	Left=4510	Right=4511
+Phụ kiện nhạc cụ	ID=1469	Left=4512	Right=4513
+Linh phụ kiện đàn guitar	ID=1470	Left=4514	Right=4515
+Vật liệu đàn guitar	ID=1473	Left=4442	Right=4443
+Linh phụ kiện bộ gõ	ID=1474	Left=4440	Right=4441
+Linh phụ kiện đàn piano	ID=1475	Left=4438	Right=4439
+Máy nhịp	ID=1476	Left=4436	Right=4437
+Dây	ID=1477	Left=4434	Right=4435
+Móng	ID=1478	Left=4432	Right=4433
+Phơ	ID=1479	Left=4430	Right=4431
+Tăng âm đàn ghi ta	ID=1480	Left=4460	Right=4461
+Linh phụ kiện kèn acmonica	ID=1481	Left=4458	Right=4459
+Bộ gõ	ID=1482	Left=4456	Right=4457
+Trống jazz	ID=1483	Left=4454	Right=4455
+Chuông và bộ chuông	ID=1484	Left=4452	Right=4453
+Lục lạc	ID=1485	Left=4450	Right=4451
+Trống lục lạc	ID=1486	Left=4448	Right=4449
+Caxtanhet	ID=1487	Left=4446	Right=4447
+Chũm chọe	ID=1488	Left=4410	Right=4411
+Cồng	ID=1489	Left=4412	Right=4413
+Cồng Chiêng	ID=1490	Left=4406	Right=4407
+Đàn phiến gỗ	ID=1491	Left=4408	Right=4409
+Đàn phiến kim loại	ID=1492	Left=4402	Right=4403
+Phách	ID=1493	Left=4404	Right=4405
+Trống cơm	ID=1494	Left=4398	Right=4399
+Trống thiếu nhi	ID=1495	Left=4400	Right=4401
+Nhạc cụ hơi	ID=1496	Left=4426	Right=4427
+Harmonica	ID=1497	Left=4428	Right=4429
+Sáo kim	ID=1498	Left=4422	Right=4423
+Saxophone	ID=1499	Left=4424	Right=4425
+Clarinet	ID=1500	Left=4418	Right=4419
+Sáo trúc	ID=1501	Left=4420	Right=4421
+Accordion (phong cầm)	ID=1502	Left=4414	Right=4415
+Đàn môi	ID=1504	Left=4472	Right=4473
+Horn (kèn co)	ID=1505	Left=4470	Right=4471
+Kèn túi	ID=1506	Left=4476	Right=4477
+Oboe	ID=1507	Left=4474	Right=4475
+Tiêu	ID=1508	Left=4464	Right=4465
+Trombone (Trôm bôn)	ID=1509	Left=4462	Right=4463
+Trumphet	ID=1510	Left=4468	Right=4469
+Tuba	ID=1511	Left=4466	Right=4467
+Búp bê	ID=1513	Left=4576	Right=4577
+Vật nuôi khác	ID=1514	Left=1662	Right=1669
+Hamster	ID=1515	Left=458	Right=459
+Các loại bò sát	ID=1516	Left=452	Right=453
+Chuột bạch	ID=1517	Left=450	Right=451
+Lợn	ID=1518	Left=456	Right=457
+Ngựa	ID=1519	Left=454	Right=455
+Thỏ	ID=1520	Left=448	Right=449
+Gia cầm	ID=1521	Left=1663	Right=1668
+Gà	ID=1522	Left=1664	Right=1665
+Vịt	ID=1523	Left=1666	Right=1667
+Mèo	ID=1524	Left=1632	Right=1661
+Thức ăn mèo	ID=1525	Left=1633	Right=1634
+Các giống mèo	ID=1526	Left=1635	Right=1636
+Sản phẩm cho người yêu mèo	ID=1527	Left=1637	Right=1638
+Thuốc cho mèo	ID=1528	Left=1639	Right=1640
+Đồ dùng hằng ngày cho mèo	ID=1529	Left=1641	Right=1660
+Cào móng	ID=1530	Left=1650	Right=1651
+Đồ dùng cho mèo	ID=1532	Left=1642	Right=1643
+Dụng cụ huấn luyện mèo	ID=1533	Left=1644	Right=1645
+Hộp nằm	ID=1534	Left=1646	Right=1647
+Ổ nằm	ID=1535	Left=1648	Right=1649
+Túi đựng mèo	ID=1537	Left=1656	Right=1657
+Vòng cổ	ID=1538	Left=1658	Right=1659
+Cá cảnh và các loại thủy sinh	ID=1539	Left=1672	Right=1713
+Đồ cho cá	ID=1540	Left=1679	Right=1698
+Bể cá cảnh	ID=1541	Left=1692	Right=1693
+Cọ bể	ID=1542	Left=1694	Right=1695
+Cốc trộn CO2	ID=1543	Left=1696	Right=1697
+Đèn thủy sinh	ID=1544	Left=1684	Right=1685
+Ống hút nước	ID=1545	Left=1686	Right=1687
+Phân nền	ID=1546	Left=1688	Right=1689
+Rong	ID=1547	Left=1690	Right=1691
+Vật cảnh trong bể	ID=1548	Left=1680	Right=1681
+Vợt	ID=1549	Left=1682	Right=1683
+Các loại cá	ID=1550	Left=1673	Right=1678
+Cá cảnh biển	ID=1551	Left=1674	Right=1675
+Cá cảnh nước ngọt	ID=1552	Left=1676	Right=1677
+Dịch vụ thay nước bình cá cảnh	ID=1553	Left=1707	Right=1708
+Rùa	ID=1554	Left=1711	Right=1712
+Thuốc cho cá	ID=1556	Left=1701	Right=1702
+Thức ăn cho cá	ID=1557	Left=1699	Right=1700
+Chim cảnh	ID=1560	Left=1714	Right=1733
+Thức ăn cho chim	ID=1561	Left=1727	Right=1728
+Các loại chim cảnh	ID=1562	Left=1731	Right=1732
+Đồ chơi cho chim	ID=1564	Left=1721	Right=1722
+Dụng cụ cho ăn	ID=1565	Left=1719	Right=1720
+Lồng ấp trứng	ID=1566	Left=1725	Right=1726
+Thuốc cho chim	ID=1567	Left=1723	Right=1724
+Chỗ đậu cho chim	ID=1568	Left=1715	Right=1716
+Bệ đỡ lồng chim	ID=1569	Left=1717	Right=1718
+Dịch vụ phối giống	ID=1570	Left=1670	Right=1671
+Đồ thờ khác	ID=1571	Left=1528	Right=1529
+Bộ bàn tủ thờ	ID=1573	Left=1526	Right=1527
+Đỉnh thờ	ID=1574	Left=1520	Right=1521
+Lư	ID=1575	Left=1522	Right=1523
+Phụ kiện bàn	ID=1576	Left=1538	Right=1539
+Phụ kiện ghế	ID=1577	Left=1540	Right=1547
+Chân ghế	ID=1578	Left=1543	Right=1544
+Phụ kiện xoay	ID=1579	Left=1545	Right=1546
+Tay cầm	ID=1580	Left=1541	Right=1542
+Phụ kiện sofa	ID=1581	Left=1532	Right=1537
+Chân sofa	ID=1582	Left=1533	Right=1534
+Đinh	ID=1583	Left=1535	Right=1536
+Phụ kiện tủ	ID=1584	Left=1558	Right=1559
+Mắc áo	ID=1585	Left=1556	Right=1557
+Giá	ID=1586	Left=1554	Right=1555
+Chân tủ	ID=1587	Left=1552	Right=1553
+Đinh ốc	ID=1588	Left=1550	Right=1551
+Phụ kiện giường	ID=1589	Left=1548	Right=1549
+Kệ để hàng	ID=1592	Left=2459	Right=2460
+Xe đẩy mua hàng	ID=1593	Left=2457	Right=2458
+Xe chuyển hàng hoá	ID=1594	Left=2455	Right=2456
+Cổng kiểm soát siêu thị	ID=1595	Left=2453	Right=2454
+Kệ chứa trọng tải lớn	ID=1596	Left=2451	Right=2452
+Biển chỉ dẫn	ID=1597	Left=2449	Right=2450
+Thiết bị gỡ tem từ cứng	ID=1598	Left=2447	Right=2448
+Gương cầu lồi	ID=1599	Left=2445	Right=2446
+Kệ chứa hàng may mặc	ID=1600	Left=2439	Right=2440
+Sàn chứa hàng	ID=1601	Left=2441	Right=2442
+Thiết bị gỡ tem từ mềm	ID=1602	Left=2443	Right=2444
+Máy đếm tiền	ID=1604	Left=2419	Right=2420
+Đầu đọc mã vạch	ID=1605	Left=2421	Right=2422
+Máy in mã vạch	ID=1606	Left=2423	Right=2424
+Máy tính tiền	ID=1607	Left=2425	Right=2426
+Máy in hóa đơn	ID=1608	Left=2403	Right=2404
+Máy kiểm tra tiền	ID=1610	Left=2407	Right=2408
+Máy bán hàng	ID=1611	Left=2409	Right=2410
+Phụ kiện khác	ID=1612	Left=2411	Right=2412
+Máy hút chân không	ID=1613	Left=2413	Right=2414
+Cổng dò kim loại	ID=1614	Left=2415	Right=2416
+Tem từ dùng cho siêu thị	ID=1615	Left=2417	Right=2418
+Máy bó tiền	ID=1616	Left=2429	Right=2430
+Máy in thẻ	ID=1617	Left=2427	Right=2428
+Cân siêu thị	ID=1618	Left=2433	Right=2434
+Internet Kiosk	ID=1619	Left=2431	Right=2432
+Màn hình hiển thị giá	ID=1620	Left=2435	Right=2436
+Máy phát điện công nghiệp	ID=1621	Left=2326	Right=2327
+Quạt điện dân dụng	ID=1623	Left=2347	Right=2348
+Quạt điện công nghiệp	ID=1624	Left=2333	Right=2334
+Quạt thông gió dân dụng	ID=1625	Left=2331	Right=2332
+Quạt thông gió công nghiệp	ID=1626	Left=2337	Right=2338
+Máy làm mát không khí nhà xưởng	ID=1627	Left=2335	Right=2336
+Máy làm mát di động	ID=1628	Left=2341	Right=2342
+Quạt hướng trục	ID=1629	Left=2339	Right=2340
+Quạt li tâm	ID=1630	Left=2345	Right=2346
+Quạt cắt gió	ID=1631	Left=2343	Right=2344
+Thông gió hồi nhiệt	ID=1632	Left=2329	Right=2330
+Loại khác	ID=1633	Left=2296	Right=2297
+Máy ổn áp	ID=1634	Left=2292	Right=2293
+Thiết bị chiếu sáng	ID=1636	Left=2302	Right=2303
+Ắc quy	ID=1638	Left=2298	Right=2299
+Đóng ngắt điện	ID=1641	Left=2266	Right=2271
+Công tắc điện	ID=1642	Left=2267	Right=2268
+Tủ điện	ID=1644	Left=2272	Right=2273
+Dây dẫn điện	ID=1645	Left=2274	Right=2291
+Dây và cáp điện lực	ID=1646	Left=2275	Right=2276
+Dây điện dân dụng	ID=1647	Left=2277	Right=2278
+Cáp vặn xoắn	ID=1649	Left=2283	Right=2284
+Cáp trung thế	ID=1650	Left=2281	Right=2282
+Dây điện từ	ID=1652	Left=2289	Right=2290
+Dây trần	ID=1653	Left=2287	Right=2288
+Hộp đấu nối	ID=1656	Left=2316	Right=2317
+Ampe kế	ID=1657	Left=2314	Right=2315
+Ống luồn dây	ID=1658	Left=2306	Right=2313
+Ống luồn nổi	ID=1659	Left=2307	Right=2308
+Ống luồn chìm	ID=1660	Left=2311	Right=2312
+Phụ kiện ống luồn dây	ID=1661	Left=2309	Right=2310
+Chấn lưu	ID=1662	Left=2320	Right=2321
+Mặt nạ điện	ID=1663	Left=2318	Right=2319
+Điều hòa không khí	ID=1664	Left=2354	Right=2365
+Quạt hút gió	ID=1665	Left=2359	Right=2360
+Điều hòa công nghiệp	ID=1666	Left=2363	Right=2364
+Hệ thống hút gió CN	ID=1667	Left=2361	Right=2362
+Cầu hút gió thủ công	ID=1668	Left=2357	Right=2358
+Máy lạnh cục bộ	ID=1669	Left=2355	Right=2356
+Chống sét trực tiếp	ID=1670	Left=2352	Right=2353
+Chuông điện	ID=1671	Left=2350	Right=2351
+Hộp số điện	ID=1673	Left=2374	Right=2375
+Nam châm vĩnh cửu	ID=1674	Left=2380	Right=2381
+Chống sét lan truyền	ID=1675	Left=2378	Right=2379
+Role bảo vệ	ID=1676	Left=2368	Right=2369
+Bộ đếm	ID=1677	Left=2366	Right=2367
+Bộ nguồn	ID=1679	Left=2370	Right=2371
+Pin năng lượng mặt trời	ID=1680	Left=2388	Right=2389
+Dải dẫn điện	ID=1681	Left=2390	Right=2391
+Đầu cáp ngầm	ID=1682	Left=2392	Right=2393
+Sứ cách điện	ID=1683	Left=2394	Right=2395
+Thanh dẫn điện	ID=1684	Left=2382	Right=2383
+Thiết bị nối đất	ID=1685	Left=2384	Right=2385
+Thiết bị trung thế	ID=1686	Left=2386	Right=2387
+HT Camera giám sát	ID=1687	Left=3334	Right=3351
+Camera mạng (camera IP)	ID=1688	Left=3343	Right=3344
+Ống kính	ID=1692	Left=3335	Right=3336
+Bút quay camera	ID=1693	Left=3337	Right=3338
+Phần mềm ghi hình	ID=1694	Left=3339	Right=3340
+Camera giám sát mặt khuôn	ID=1695	Left=3341	Right=3342
+HT báo động khẩn cấp	ID=1697	Left=3270	Right=3283
+Còi báo động	ID=1698	Left=3281	Right=3282
+Đầu báo hồng ngoại	ID=1699	Left=3279	Right=3280
+Tay điều khiển	ID=1700	Left=3277	Right=3278
+Nút ấn khẩn cấp từ xa	ID=1701	Left=3275	Right=3276
+Bộ lặp tín hiệu	ID=1702	Left=3273	Right=3274
+Đầu báo rò gas	ID=1703	Left=3271	Right=3272
+Thiết bị an ninh rào điện tử	ID=1704	Left=3288	Right=3301
+Thiết bị phát hiện đột nhập	ID=1705	Left=3299	Right=3300
+Thiết bị nghe lén	ID=1706	Left=3297	Right=3298
+Đèn chỉ huy	ID=1707	Left=3295	Right=3296
+Cảnh báo nguy hiểm	ID=1708	Left=3293	Right=3294
+Máy dò tìm ma túy và chất nổ	ID=1709	Left=3291	Right=3292
+Máy quét thư	ID=1710	Left=3289	Right=3290
+HT Cảm biến và báo cháy	ID=1711	Left=3286	Right=3287
+Khoá cửa bằng vân tay	ID=1712	Left=3302	Right=3303
+Khóa khách sạn và Phụ kiện	ID=1713	Left=3304	Right=3317
+Khóa dùng thẻ	ID=1714	Left=3313	Right=3314
+Bộ tiết kiệm điện cảm ứng	ID=1715	Left=3315	Right=3316
+Két khóa điện trong phòng	ID=1716	Left=3309	Right=3310
+Khóa phòng tắm hơi	ID=1717	Left=3311	Right=3312
+Thiết bị Chuyển mạch	ID=1719	Left=3307	Right=3308
+HT Khoá cửa KTS	ID=1720	Left=3320	Right=3321
+An ninh Checkpoint	ID=1721	Left=3322	Right=3333
+Hệ thống an ninh siêu thị	ID=1722	Left=3327	Right=3332
+Tem an ninh	ID=1723	Left=3330	Right=3331
+Chống trộm hàng checkpoint	ID=1725	Left=3325	Right=3326
+Hệ thống an ninh thư viện	ID=1726	Left=3323	Right=3324
+Thiết bị và giải pháp GPS	ID=1727	Left=3318	Right=3319
+Két sắt bằng vân tay	ID=1728	Left=3258	Right=3259
+Hệ thống quản lý trực ban	ID=1729	Left=3256	Right=3257
+Hệ thống trông giữ xe tự động	ID=1730	Left=3262	Right=3263
+Hệ thống đỗ xe	ID=1731	Left=3260	Right=3261
+Hệ thống soi hành lý và bưu kiện	ID=1732	Left=3264	Right=3269
+Máy soi hành lý và bưu kiện	ID=1734	Left=3267	Right=3268
+Dụng cụ đo khác	ID=1736	Left=1937	Right=1938
+Đồng hồ đo nhiệt độ	ID=1737	Left=1935	Right=1936
+Thiết bị đo độ ẩm	ID=1738	Left=1941	Right=1942
+Thước kẹp	ID=1739	Left=1939	Right=1940
+Máy đo khoảng cách cầm tay	ID=1740	Left=1945	Right=1946
+Cân điện tử	ID=1741	Left=1943	Right=1944
+Thước Pan-me	ID=1742	Left=1949	Right=1950
+Máy đo độ cứng	ID=1743	Left=1947	Right=1948
+Cân nhà bếp	ID=1744	Left=1951	Right=1952
+Thước dây	ID=1745	Left=1953	Right=1954
+Thước đo độ sâu	ID=1746	Left=1955	Right=1956
+Thước đo độ cao	ID=1747	Left=1957	Right=1958
+Phụ kiện cân điện tử	ID=1748	Left=1959	Right=1960
+Thước đo độ dày	ID=1749	Left=1961	Right=1962
+Máy đo độ dày lớp phủ	ID=1750	Left=1963	Right=1964
+Thước thuỷ	ID=1751	Left=1965	Right=1966
+Thước đo lỗ	ID=1752	Left=1967	Right=1968
+Thiết bị đo ánh sáng	ID=1753	Left=1969	Right=1970
+Cân điện tử xe tải	ID=1754	Left=1971	Right=1972
+Cân bàn	ID=1755	Left=1973	Right=1974
+Thiết bị kiểm tra nước cầm tay	ID=1756	Left=1975	Right=1976
+Máy đo nhiệt độ	ID=1757	Left=1977	Right=1978
+Máy đo độ rung	ID=1758	Left=1979	Right=1980
+Cân cẩu	ID=1759	Left=1981	Right=1982
+Đồng hồ đo lưu lượng	ID=1760	Left=1901	Right=1902
+Máy đo vận tốc gió	ID=1761	Left=1899	Right=1900
+Thiết bị đo tốc độ vòng quay	ID=1762	Left=1897	Right=1898
+Thiết bị đo độ ồn	ID=1763	Left=1895	Right=1896
+Cân sàn	ID=1764	Left=1909	Right=1910
+Đồng hồ đo áp suất	ID=1765	Left=1907	Right=1908
+Máy đo tốc độ xe cơ giới	ID=1766	Left=1905	Right=1906
+Máy ép dùng để cắt mẫu	ID=1767	Left=1903	Right=1904
+Máy thử ma sát bôi trơn	ID=1768	Left=1917	Right=1918
+Máy đo lão hóa	ID=1769	Left=1915	Right=1916
+Máy thử va đập	ID=1770	Left=1913	Right=1914
+Thiết bị đo bụi	ID=1771	Left=1911	Right=1912
+Thiết bị đo khí độc	ID=1772	Left=1925	Right=1926
+Điện cực đo	ID=1773	Left=1923	Right=1924
+Thiết bị đo lực căng	ID=1774	Left=1921	Right=1922
+Công tắc lưu lượng	ID=1775	Left=1919	Right=1920
+Máy đo độ phóng xạ	ID=1776	Left=1931	Right=1932
+Máy thử sức bền vật liệu	ID=1777	Left=1933	Right=1934
+Thiết bị bơm lấy mẫu khí	ID=1778	Left=1927	Right=1928
+Thiết bị đo phân loại ống thủy tinh	ID=1779	Left=1929	Right=1930
+Nhà bếp công nghiệp	ID=1780	Left=1770	Right=1893
+Bếp	ID=1782	Left=1771	Right=1782
+Bếp gas công nghiệp	ID=1783	Left=1772	Right=1773
+Bếp điện công nghiệp	ID=1784	Left=1778	Right=1779
+Bếp hầm	ID=1785	Left=1780	Right=1781
+Bếp rán mặt phẳng	ID=1786	Left=1774	Right=1775
+Bếp hầm café	ID=1787	Left=1776	Right=1777
+Thiết bị làm bánh	ID=1788	Left=1785	Right=1800
+Lò nướng bánh	ID=1789	Left=1790	Right=1791
+Máy trộn bột	ID=1790	Left=1786	Right=1787
+Tủ trưng bày bánh	ID=1791	Left=1788	Right=1789
+Máy cán bột	ID=1792	Left=1796	Right=1797
+Tủ ủ bột	ID=1793	Left=1798	Right=1799
+Máy chia bột	ID=1794	Left=1792	Right=1793
+Máy đúc bột	ID=1795	Left=1794	Right=1795
+Thiết bị sơ chế	ID=1796	Left=1875	Right=1892
+Máy thái lát thịt	ID=1798	Left=1886	Right=1887
+Máy cưa xương	ID=1799	Left=1888	Right=1889
+Máy cắt rau củ	ID=1801	Left=1884	Right=1885
+Máy xắt thịt	ID=1802	Left=1878	Right=1879
+Máy giã tỏi	ID=1804	Left=1876	Right=1877
+Máy rửa bát công nghiệp	ID=1805	Left=1873	Right=1874
+Thiết bị trữ lạnh	ID=1807	Left=1865	Right=1872
+Tủ trữ lạnh	ID=1808	Left=1870	Right=1871
+Kho lạnh	ID=1809	Left=1868	Right=1869
+Bàn trữ lạnh	ID=1810	Left=1866	Right=1867
+Lò quay	ID=1811	Left=1861	Right=1862
+Tủ trưng bày thực phẩm	ID=1812	Left=1859	Right=1860
+Tủ cơm điện	ID=1813	Left=1857	Right=1858
+Tủ cơm gas	ID=1814	Left=1855	Right=1856
+Thiết bị chiên	ID=1816	Left=1851	Right=1852
+Thiết bị giữ nóng thức ăn	ID=1818	Left=1847	Right=1848
+Tủ hấp tầng	ID=1819	Left=1845	Right=1846
+Máy sản xuất đá viên	ID=1820	Left=1843	Right=1844
+Máy tách xương cá	ID=1821	Left=1841	Right=1842
+Bàn gia công	ID=1822	Left=1839	Right=1840
+Hệ thống gas công nghiệp	ID=1823	Left=1837	Right=1838
+Máy nổ ngô	ID=1824	Left=1829	Right=1830
+Máy cắt bánh	ID=1826	Left=1833	Right=1834
+Tủ tiệt trùng	ID=1827	Left=1835	Right=1836
+Máy làm sạch khăn	ID=1828	Left=1821	Right=1822
+Máy làm vỏ ốc quế	ID=1829	Left=1823	Right=1824
+Lò hâm buffet	ID=1830	Left=1825	Right=1826
+Máy vặt lông gia cầm	ID=1831	Left=1827	Right=1828
+Chậu rửa công nghiệp	ID=1832	Left=1813	Right=1814
+Máy sản xuất đá ống	ID=1833	Left=1815	Right=1816
+Tủ sấy thực phẩm	ID=1834	Left=1817	Right=1818
+Nồi cơm công nghiệp	ID=1835	Left=1819	Right=1820
+Máy rang hạt dẻ	ID=1836	Left=1805	Right=1806
+Khay cơm	ID=1837	Left=1807	Right=1808
+Lò xông khói	ID=1838	Left=1809	Right=1810
+Máy sắc thuốc và đóng gói tự động	ID=1839	Left=1811	Right=1812
+Máy vắt khô	ID=1840	Left=1803	Right=1804
+Thớt công nghiệp	ID=1841	Left=1801	Right=1802
+Bơm các loại	ID=1842	Left=2146	Right=2167
+Bơm định lượng	ID=1843	Left=2165	Right=2166
+Bơm cao áp	ID=1844	Left=2159	Right=2160
+Máy bơm bán chân không	ID=1845	Left=2157	Right=2158
+Bơm bánh răng	ID=1846	Left=2163	Right=2164
+Bơm quay tay	ID=1847	Left=2161	Right=2162
+Máy bơm xăng dầu	ID=1848	Left=2151	Right=2152
+Bơm áp suất	ID=1849	Left=2149	Right=2150
+Cò bơm xăng dầu	ID=1850	Left=2155	Right=2156
+Máy bơm hóa chất	ID=1851	Left=2153	Right=2154
+Phụ kiện máy bơm	ID=1852	Left=2147	Right=2148
+Thiết bị cầm tay	ID=1853	Left=2096	Right=2145
+Máy khoan cầm tay	ID=1854	Left=2143	Right=2144
+Máy mài cầm tay	ID=1855	Left=2141	Right=2142
+Máy dò kim loại cầm tay	ID=1856	Left=2129	Right=2130
+Súng bắn đinh	ID=1858	Left=2125	Right=2126
+Máy cưa lọng	ID=1859	Left=2127	Right=2128
+Máy cưa xích	ID=1860	Left=2137	Right=2138
+Máy cắt sắt	ID=1862	Left=2133	Right=2134
+Máy cưa đĩa	ID=1863	Left=2135	Right=2136
+Máy chà nhám rung	ID=1864	Left=2113	Right=2114
+Máy cắt nhôm	ID=1865	Left=2115	Right=2116
+Máy chà nhám	ID=1866	Left=2109	Right=2110
+Máy chà nhám băng	ID=1867	Left=2111	Right=2112
+Máy mài khuôn	ID=1868	Left=2121	Right=2122
+Phụ kiện máy cầm tay	ID=1869	Left=2123	Right=2124
+Máy chà nhám đĩa	ID=1870	Left=2117	Right=2118
+Súng dán keo	ID=1871	Left=2119	Right=2120
+Máy dò kim loại dưới lòng đất	ID=1872	Left=2103	Right=2104
+Máy đục bê tông	ID=1873	Left=2101	Right=2102
+Máy dò kim loại công nghiệp	ID=1874	Left=2099	Right=2100
+Súng xiết Bulông	ID=1875	Left=2097	Right=2098
+Máy cắt tôn cầm tay	ID=1876	Left=2107	Right=2108
+Máy vát góc cầm tay	ID=1877	Left=2105	Right=2106
+Máy chế biến công nghiệp	ID=1878	Left=2040	Right=2095
+Máy đóng gói	ID=1879	Left=2093	Right=2094
+Máy đóng đai thùng	ID=1880	Left=2083	Right=2084
+Máy in mã ngày	ID=1881	Left=2081	Right=2082
+Máy nghiền nguyên liệu	ID=1882	Left=2079	Right=2080
+Máy chiết xuất	ID=1883	Left=2077	Right=2078
+Máy siết nắp tự động	ID=1884	Left=2091	Right=2092
+Tủ lên men	ID=1885	Left=2089	Right=2090
+Máy phóng nhãn và co màng chai lọ	ID=1886	Left=2087	Right=2088
+Máy dán màng ly tự động	ID=1887	Left=2085	Right=2086
+Máy dán cốc	ID=1888	Left=2061	Right=2062
+Máy ép nhiệt	ID=1889	Left=2063	Right=2064
+Máy trộn hạt	ID=1890	Left=2065	Right=2066
+Máy đóng trà túi lọc	ID=1891	Left=2067	Right=2068
+Máy sấy đông khô	ID=1892	Left=2069	Right=2070
+Máy dán nhãn tự động	ID=1893	Left=2071	Right=2072
+Máy ghép mí lon	ID=1894	Left=2073	Right=2074
+Máy ép dầu đậu nành	ID=1896	Left=2045	Right=2046
+Máy cắt dây	ID=1897	Left=2047	Right=2048
+Máy sấy nguyên liệu nhựa	ID=1898	Left=2049	Right=2050
+Máy sấy rung tầng sôi	ID=1899	Left=2051	Right=2052
+Máy ép nhựa	ID=1900	Left=2053	Right=2054
+Máy làm túi	ID=1901	Left=2055	Right=2056
+Máy làm hộp cơm	ID=1902	Left=2057	Right=2058
+Máy tạo túi sử dụng hệ thống cắt dán nhiệt	ID=1904	Left=2043	Right=2044
+Máy thổi nhựa công nghiệp	ID=1905	Left=2041	Right=2042
+Phụ kiện thiết bị công nghiệp	ID=1906	Left=2018	Right=2039
+Phụ kiện máy hàn	ID=1907	Left=2029	Right=2030
+Ống thép	ID=1908	Left=2033	Right=2034
+Phụ kiện băng tải	ID=1909	Left=2031	Right=2032
+Van khí nén	ID=1910	Left=2037	Right=2038
+Phụ kiện máy khí nén	ID=1911	Left=2035	Right=2036
+Vải lọc	ID=1912	Left=2021	Right=2022
+Chổi than	ID=1913	Left=2019	Right=2020
+Bộ điều khiển van khí nén	ID=1914	Left=2025	Right=2026
+Giá đỡ chổi than	ID=1915	Left=2023	Right=2024
+Ống dẫn xăng dầu	ID=1916	Left=2027	Right=2028
+Thiết bị công nghiệp tổng hợp	ID=1917	Left=1984	Right=2017
+Xe nâng	ID=1918	Left=1987	Right=1988
+Băng tải	ID=1919	Left=1985	Right=1986
+Máy nghiền đá	ID=1920	Left=2003	Right=2004
+Dây chuyền sản xuất	ID=1921	Left=2001	Right=2002
+Bộ chuyển đổi tín hiệu	ID=1922	Left=1999	Right=2000
+Cầu trục	ID=1924	Left=1995	Right=1996
+Máy ép vỉ	ID=1925	Left=1993	Right=1994
+Dụng cụ niêm phong hàng hóa	ID=1926	Left=1991	Right=1992
+Máy tính công nghiệp	ID=1927	Left=1989	Right=1990
+Hệ thống quản lý tòa nhà	ID=1928	Left=2015	Right=2016
+Cổng trục	ID=1929	Left=2013	Right=2014
+Hệ thống sơn phun	ID=1930	Left=2011	Right=2012
+Buồng hút sơn	ID=1931	Left=2009	Right=2010
+Cán dao phay	ID=1932	Left=2007	Right=2008
+Thiết bị làm sạch	ID=1935	Left=2259	Right=2260
+Máy phun rửa áp lực	ID=1936	Left=2255	Right=2256
+Máy bắn tia nước cao áp	ID=1937	Left=2257	Right=2258
+Xe đẩy rác	ID=1938	Left=2251	Right=2252
+Phụ kiện thiết bị làm sạch	ID=1939	Left=2253	Right=2254
+Quạt sấy thảm	ID=1940	Left=2247	Right=2248
+Bộ lọc trung tâm	ID=1941	Left=2249	Right=2250
+Lò đốt rác thải	ID=1942	Left=2243	Right=2244
+Máy làm sạch nữ trang	ID=1943	Left=2245	Right=2246
+Dệt may công nghiệp	ID=1944	Left=2234	Right=2241
+Máy cắt khuôn mẫu may công nghiệp	ID=1945	Left=2239	Right=2240
+Máy may công nghiệp	ID=1946	Left=2235	Right=2236
+Máy trải vải	ID=1947	Left=2237	Right=2238
+Thiết bị cảm biến	ID=1948	Left=2204	Right=2233
+Cảm biến quang	ID=1949	Left=2225	Right=2232
+Cảm biến quang điện	ID=1950	Left=2228	Right=2229
+Cảm biến vùng	ID=1951	Left=2230	Right=2231
+Cảm biến sợi quang	ID=1952	Left=2226	Right=2227
+Cảm biến tiệm cận	ID=1953	Left=2217	Right=2222
+Cảm biến từ	ID=1954	Left=2220	Right=2221
+Cảm biến tiệm cận điện dung	ID=1955	Left=2218	Right=2219
+Thiết bị siêu âm khuyết tật vật liệu	ID=1956	Left=2207	Right=2208
+Công tắc hành trình	ID=1958	Left=2215	Right=2216
+Cảm biến mức	ID=1959	Left=2209	Right=2214
+Bộ điều khiển mức	ID=1960	Left=2212	Right=2213
+Cảm biến áp suất	ID=1962	Left=2223	Right=2224
+Hóa chất	ID=1963	Left=2178	Right=2203
+Hóa chất công nghiệp	ID=1964	Left=2201	Right=2202
+Mỡ công nghiệp	ID=1966	Left=2198	Right=2199
+Dầu công nghiệp	ID=1967	Left=2196	Right=2197
+Dụng cụ đựng hóa chất	ID=1968	Left=2187	Right=2188
+Hóa chất tinh khiết	ID=1969	Left=2189	Right=2190
+Chất làm bóng	ID=1970	Left=2191	Right=2192
+Chất tẩy trắng	ID=1971	Left=2193	Right=2194
+Chất trợ nhuộm	ID=1972	Left=2179	Right=2180
+Keo công nghiệp	ID=1973	Left=2181	Right=2182
+Phẩm nhuộm vải	ID=1974	Left=2183	Right=2184
+Trợ chất in vải	ID=1975	Left=2185	Right=2186
+Vệ sinh công nghiệp	ID=1976	Left=2168	Right=2177
+Màn ngăn PVC	ID=1977	Left=2171	Right=2172
+Xử lý chất thải	ID=1978	Left=2173	Right=2174
+Bể xử lý chất thải	ID=1979	Left=2175	Right=2176
+Nhà vệ sinh công cộng	ID=1980	Left=2169	Right=2170
+Thiết bị trường học	ID=1981	Left=3218	Right=3253
+Máy chiếu mô phỏng	ID=1982	Left=3249	Right=3250
+Bàn ghế học sinh	ID=1983	Left=3251	Right=3252
+Máy tính điện tử	ID=1984	Left=3225	Right=3226
+Thiết bị trình chiếu	ID=1986	Left=3221	Right=3222
+Sách giáo khoa điện tử	ID=1987	Left=3219	Right=3220
+Đồ chơi trong giáo dục	ID=1989	Left=3231	Right=3232
+Bàn ghế phòng thí nghiệm	ID=1990	Left=3229	Right=3230
+Thiết bị dạy và học các cấp	ID=1991	Left=3227	Right=3228
+Kính lúp	ID=1992	Left=3241	Right=3242
+Phòng học bộ môn	ID=1993	Left=3239	Right=3240
+Kính thiên văn	ID=1994	Left=3237	Right=3238
+Kính hiển vi	ID=1996	Left=3247	Right=3248
+Máy chấm thi	ID=1997	Left=3245	Right=3246
+Thiết bị chống cận thị	ID=1998	Left=3243	Right=3244
+Thiết bị phòng thí nghiệm	ID=2000	Left=3173	Right=3200
+Thiết bị xay nghiền	ID=2001	Left=3178	Right=3179
+Tủ ẩm	ID=2002	Left=3174	Right=3175
+Lò nung	ID=2003	Left=3176	Right=3177
+Máy bơm phòng thí nghiệm	ID=2004	Left=3184	Right=3185
+Máy li tâm	ID=2005	Left=3186	Right=3187
+Thiết bị bế cách thủy	ID=2006	Left=3180	Right=3181
+Thiết bị cô mẫu	ID=2007	Left=3182	Right=3183
+Thiết bị đông lạnh	ID=2008	Left=3192	Right=3193
+Thiết bị gia nhiệt	ID=2009	Left=3194	Right=3195
+Thiết bị khuấy trộn	ID=2010	Left=3188	Right=3189
+Thiết bị khử trùng	ID=2011	Left=3190	Right=3191
+Thiết bị lọc nước	ID=2012	Left=3196	Right=3197
+Thiết bị sấy	ID=2013	Left=3198	Right=3199
+Thiết bị đo lường kiểm nghiệm	ID=2014	Left=3201	Right=3216
+Thiết bị đo PH	ID=2015	Left=3214	Right=3215
+Thiết bị đo đa chỉ tiêu	ID=2016	Left=3204	Right=3205
+Thiết bị đo độ dẫn	ID=2017	Left=3202	Right=3203
+Khúc xạ kế	ID=2018	Left=3208	Right=3209
+Phân cực kế	ID=2019	Left=3206	Right=3207
+Thiết bị đo CO2	ID=2020	Left=3212	Right=3213
+Thiết bị đo độ nhớt	ID=2021	Left=3210	Right=3211
+Thiết bị công nghệ môi trường	ID=2022	Left=3145	Right=3152
+Thiết bị đo chỉ số môi trường	ID=2023	Left=3146	Right=3147
+Dụng cụ lấy mẫu	ID=2024	Left=3150	Right=3151
+Tủ vi khí hậu	ID=2025	Left=3148	Right=3149
+Dụng cụ thủy tinh	ID=2027	Left=3154	Right=3155
+Dụng cụ nhựa	ID=2028	Left=3156	Right=3157
+Thiết bị phân tích	ID=2029	Left=3159	Right=3172
+Máy siêu âm	ID=2030	Left=3170	Right=3171
+Máy quang phổ hồng ngoại	ID=2031	Left=3168	Right=3169
+Máy đo nhiệt lượng	ID=2032	Left=3160	Right=3161
+Máy sắc ký	ID=2033	Left=3162	Right=3163
+Thiết bị hấp thụ nguyên tử	ID=2035	Left=3166	Right=3167
+Thiết bị công nghệ sinh học	ID=2036	Left=3129	Right=3144
+Giải trình tự gen	ID=2037	Left=3130	Right=3131
+Máy đếm khuẩn lạc	ID=2038	Left=3132	Right=3133
+Máy lắc quay	ID=2039	Left=3134	Right=3135
+Thiết bị điện li	ID=2041	Left=3138	Right=3139
+Thiết bị lên men	ID=2042	Left=3140	Right=3141
+Thiết bị phòng sạch	ID=2043	Left=3142	Right=3143
+Thiết bị viễn thông	ID=2044	Left=3028	Right=3113
+Tổng đài điện thoại	ID=2045	Left=3029	Right=3030
+Điện thoại cố định	ID=2046	Left=3031	Right=3032
+Máy bộ đàm cầm tay	ID=2047	Left=3033	Right=3034
+Linh kiện tổng đài	ID=2048	Left=3067	Right=3068
+Điện thoại IP	ID=2049	Left=3069	Right=3070
+Card ghi âm điện thoại	ID=2050	Left=3071	Right=3072
+Thiết bị hội thảo	ID=2051	Left=3073	Right=3074
+Phụ kiện bộ đàm	ID=2052	Left=3075	Right=3076
+Cáp viễn thông	ID=2053	Left=3077	Right=3078
+Thiết bị định vị GPS	ID=2054	Left=3079	Right=3080
+Dây cáp mạng	ID=2055	Left=3081	Right=3082
+GPS-Hệ thống định vị vệ tinh	ID=2056	Left=3083	Right=3084
+Điện thoại hội nghị	ID=2057	Left=3085	Right=3086
+Thiết bị phòng chống sét	ID=2058	Left=3087	Right=3088
+Tai nghe điện thoại viên	ID=2059	Left=3089	Right=3090
+Máy ghi âm điện thoại	ID=2061	Left=3093	Right=3094
+Máy bộ đàm cố định	ID=2062	Left=3095	Right=3096
+Bộ phát CATV quang	ID=2063	Left=3097	Right=3098
+Thiết bị ghi âm bộ đàm	ID=2064	Left=3037	Right=3038
+Hệ thống trả lời tự động	ID=2065	Left=3035	Right=3036
+Máy bộ đàm hàng hải	ID=2066	Left=3041	Right=3042
+Giải pháp call center	ID=2067	Left=3039	Right=3040
+Thiết bị kích sóng điện thoại	ID=2068	Left=3045	Right=3046
+Hệ thống dồn chia kênh quang (CWDM system)	ID=2069	Left=3043	Right=3044
+Máy bộ đàm trạm	ID=2070	Left=3049	Right=3050
+Anten	ID=2071	Left=3047	Right=3048
+Máy bộ đàm hàng không	ID=2072	Left=3053	Right=3054
+Hệ thống chuyển tiếp	ID=2073	Left=3051	Right=3052
+GPRS Modem	ID=2074	Left=3057	Right=3058
+Protocol Converter	ID=2075	Left=3055	Right=3056
+Hệ thống Call Center	ID=2076	Left=3061	Right=3062
+Digital Video Optical	ID=2077	Left=3059	Right=3060
+Fibre Media Converter	ID=2078	Left=3065	Right=3066
+FTTH (Fiber to the home)	ID=2079	Left=3063	Right=3064
+GPS Module	ID=2080	Left=3103	Right=3104
+Optical test equipment	ID=2081	Left=3105	Right=3106
+PDH Multiplexer	ID=2082	Left=3099	Right=3100
+Phụ kiện quang	ID=2083	Left=3101	Right=3102
+Thiết bị phá sóng điện thoại	ID=2085	Left=3111	Right=3112
+Transceiver Module	ID=2086	Left=3107	Right=3108
+Thiết bị bưu chính	ID=2087	Left=3114	Right=3125
+Thùng thư	ID=2088	Left=3119	Right=3120
+Máy tính cước điện thoại	ID=2089	Left=3121	Right=3122
+Cân bưu kiện	ID=2090	Left=3115	Right=3116
+Máy buộc bưu kiện	ID=2091	Left=3117	Right=3118
+Xe đẩy bưu chính	ID=2092	Left=3123	Right=3124
+Máy bơm nước	ID=2093	Left=3020	Right=3025
+Máy bơm nước công nghiệp	ID=2094	Left=3021	Right=3022
+Máy bơm thoát nước thải	ID=2095	Left=3023	Right=3024
+Thiết bị lọc nước công nghiệp	ID=2096	Left=3006	Right=3007
+Máy nước nóng	ID=2097	Left=3004	Right=3005
+Thiết bị khử khuẩn	ID=2099	Left=3000	Right=3001
+Van	ID=2100	Left=3014	Right=3015
+Ống thép đen	ID=2101	Left=3012	Right=3013
+Đồng hồ nước	ID=2102	Left=3010	Right=3011
+Ống gang	ID=2103	Left=3008	Right=3009
+Kìm	ID=2107	Left=2721	Right=2722
+Tuốc nơ vít	ID=2108	Left=2729	Right=2730
+Cờ lê	ID=2109	Left=2727	Right=2728
+Búa cầm tay	ID=2110	Left=2725	Right=2726
+Cần mở	ID=2111	Left=2723	Right=2724
+Cảo	ID=2112	Left=2931	Right=2932
+Típ	ID=2113	Left=2933	Right=2934
+Cưa tay	ID=2114	Left=2935	Right=2936
+Chìa lục giác	ID=2115	Left=2937	Right=2938
+Ê tô	ID=2116	Left=2923	Right=2924
+Đầu socket	ID=2117	Left=2925	Right=2926
+Bộ cờ lê	ID=2118	Left=2927	Right=2928
+Kéo cắt công nghiệp	ID=2119	Left=2929	Right=2930
+Giũa	ID=2121	Left=2989	Right=2990
+Cần chữ T	ID=2122	Left=2991	Right=2992
+Thùng đựng đồ nghề	ID=2123	Left=2993	Right=2994
+Bộ chìa lục giác	ID=2124	Left=2939	Right=2940
+Bộ tuýp	ID=2125	Left=2941	Right=2942
+Bộ khẩu	ID=2126	Left=2943	Right=2944
+Mỏ lết	ID=2127	Left=2945	Right=2946
+Cần nối	ID=2128	Left=2741	Right=2742
+Bộ đột	ID=2129	Left=2739	Right=2740
+Bộ giũa	ID=2131	Left=2743	Right=2744
+Dao cắt ống	ID=2132	Left=2733	Right=2734
+Dao kỹ thuật	ID=2133	Left=2731	Right=2732
+Mũi khoan	ID=2134	Left=2737	Right=2738
+Rìu	ID=2135	Left=2735	Right=2736
+Bơm mỡ bò	ID=2136	Left=2917	Right=2918
+Bộ đục	ID=2138	Left=2921	Right=2922
+Bộ taro	ID=2139	Left=2919	Right=2920
+Cơ khí ô tô	ID=2140	Left=2899	Right=2906
+Đục sắt	ID=2141	Left=2897	Right=2898
+Dụng cụ cắt kính	ID=2142	Left=2909	Right=2910
+Tháo ráp piston	ID=2143	Left=2907	Right=2908
+Thiết bị chia độ	ID=2144	Left=2995	Right=2996
+Máy hàn công nghiệp	ID=2145	Left=2878	Right=2879
+Máy nén khí	ID=2146	Left=2874	Right=2875
+Máy chà sàn	ID=2147	Left=2876	Right=2877
+Máy hút bụi công nghiệp	ID=2148	Left=2870	Right=2871
+Máy giặt công nghiệp	ID=2149	Left=2872	Right=2873
+Máy hàn que	ID=2150	Left=2866	Right=2867
+Máy cắt Plasma	ID=2151	Left=2868	Right=2869
+Máy khoan bàn	ID=2152	Left=2892	Right=2893
+Máy đánh bóng	ID=2153	Left=2894	Right=2895
+Máy cắt cỏ	ID=2154	Left=2888	Right=2889
+Máy phun sơn	ID=2155	Left=2890	Right=2891
+Máy phay gỗ	ID=2156	Left=2884	Right=2885
+Máy khò	ID=2157	Left=2886	Right=2887
+Máy mài	ID=2158	Left=2880	Right=2881
+Máy thổi nhiệt	ID=2159	Left=2882	Right=2883
+Thiết bị trao đổi nhiệt	ID=2160	Left=2848	Right=2849
+Máy đóng băng dính thùng carton	ID=2161	Left=2846	Right=2847
+Máy INDATE lắp trên máy đóng gói đứng	ID=2162	Left=2844	Right=2845
+Máy thổi khí	ID=2163	Left=2842	Right=2843
+Máy hàn hồ quang	ID=2164	Left=2840	Right=2841
+Máy đột dập	ID=2165	Left=2838	Right=2839
+Máy phát hàn	ID=2166	Left=2836	Right=2837
+Máy sàng lọc	ID=2167	Left=2834	Right=2835
+Máy là công nghiệp	ID=2168	Left=2864	Right=2865
+Máy ép thủy lực	ID=2169	Left=2862	Right=2863
+Máy cưa	ID=2170	Left=2860	Right=2861
+Máy ren ống	ID=2171	Left=2858	Right=2859
+Máy cắt không khí	ID=2172	Left=2856	Right=2857
+Máy sấy công nghiệp	ID=2173	Left=2854	Right=2855
+Máy rút màng co	ID=2174	Left=2852	Right=2853
+Máy cắt mút xốp	ID=2175	Left=2850	Right=2851
+Máy khoan đứng	ID=2176	Left=2796	Right=2797
+Máy cắt ống thủy lực	ID=2177	Left=2794	Right=2795
+Máy khuấy trộn công nghiệp	ID=2178	Left=2800	Right=2801
+Máy đục lỗ	ID=2179	Left=2798	Right=2799
+Máy phay CNC	ID=2180	Left=2804	Right=2805
+Máy cắt tôn công nghiệp	ID=2181	Left=2802	Right=2803
+Máy cán	ID=2182	Left=2808	Right=2809
+Máy cắt góc thủy lực	ID=2183	Left=2806	Right=2807
+Máy uốn ống thường	ID=2184	Left=2780	Right=2781
+Máy uốn ống hai đầu	ID=2185	Left=2778	Right=2779
+Máy tiện bàn	ID=2186	Left=2784	Right=2785
+Máy lốc tôn	ID=2187	Left=2782	Right=2783
+Máy bào gỗ	ID=2188	Left=2788	Right=2789
+Máy chấn gấp thủy lực	ID=2189	Left=2786	Right=2787
+Máy chấn thủy lực	ID=2190	Left=2792	Right=2793
+Máy cưa bàn	ID=2192	Left=2762	Right=2763
+Máy cưa vòng	ID=2193	Left=2764	Right=2765
+Máy dập cơ	ID=2194	Left=2766	Right=2767
+Máy dập thủy lực	ID=2195	Left=2768	Right=2769
+Máy đồng hóa	ID=2196	Left=2770	Right=2771
+Máy đúc công nghiệp	ID=2197	Left=2772	Right=2773
+Máy gia công bằng tia lửa điện	ID=2198	Left=2774	Right=2775
+Máy hàn ống	ID=2199	Left=2776	Right=2777
+Máy hút chỉ	ID=2200	Left=2746	Right=2747
+Máy in nhãn mác	ID=2201	Left=2748	Right=2749
+Máy khoan cần	ID=2202	Left=2750	Right=2751
+Máy mài vô tâm	ID=2203	Left=2752	Right=2753
+Máy ổn nhiệt khuôn	ID=2204	Left=2754	Right=2755
+Máy phay giường	ID=2205	Left=2756	Right=2757
+Máy quấn dây đồng	ID=2206	Left=2758	Right=2759
+Máy tiện cao tốc	ID=2207	Left=2760	Right=2761
+Máy tiện CNC	ID=2208	Left=2824	Right=2825
+Máy tiện tự động	ID=2209	Left=2822	Right=2823
+Máy tiệt trùng	ID=2210	Left=2820	Right=2821
+Máy trung tâm gia công	ID=2211	Left=2818	Right=2819
+Máy uốn ống CNC	ID=2212	Left=2832	Right=2833
+Máy uốn ống cuốn xoắn	ID=2213	Left=2830	Right=2831
+Máy uốn ống góc nhỏ	ID=2214	Left=2828	Right=2829
+Máy uốn ống NC	ID=2215	Left=2826	Right=2827
+Máy uốn tôn	ID=2216	Left=2816	Right=2817
+Máy xung lỗ	ID=2217	Left=2814	Right=2815
+Máy xung tia lửa điện	ID=2218	Left=2812	Right=2813
+Tay gắp robot	ID=2219	Left=2810	Right=2811
+Lưỡi cưa	ID=2221	Left=2984	Right=2985
+Các sản phẩm cơ khí khác	ID=2222	Left=2982	Right=2983
+Đá cắt	ID=2223	Left=2980	Right=2981
+Đá mài	ID=2224	Left=2968	Right=2969
+Thiết bị nhà xưởng	ID=2225	Left=2970	Right=2971
+Đĩa chà nhám	ID=2226	Left=2964	Right=2965
+Dây đai	ID=2227	Left=2966	Right=2967
+Bu lông	ID=2228	Left=2976	Right=2977
+Băng keo chịu lực	ID=2229	Left=2978	Right=2979
+Bình khí nén	ID=2230	Left=2972	Right=2973
+Dây Curoa	ID=2231	Left=2974	Right=2975
+Đầu máy khoan	ID=2232	Left=2952	Right=2953
+Đai ốc	ID=2233	Left=2954	Right=2955
+Đinh tán	ID=2234	Left=2948	Right=2949
+Phụ kiện cân	ID=2235	Left=2950	Right=2951
+Quả cân	ID=2236	Left=2960	Right=2961
+Vít	ID=2237	Left=2962	Right=2963
+Xích	ID=2238	Left=2956	Right=2957
+Xích băng tải	ID=2239	Left=2958	Right=2959
+Đèn Led	ID=2241	Left=2713	Right=2714
+Board mạch điều khiển	ID=2242	Left=2717	Right=2718
+Mạch in	ID=2243	Left=2715	Right=2716
+Máy hàn chip	ID=2244	Left=2707	Right=2708
+Máy hàn dây(dùng cho mạch)	ID=2245	Left=2705	Right=2706
+Máy hàn phiến	ID=2246	Left=2711	Right=2712
+Máy in bề mặt	ID=2247	Left=2709	Right=2710
+Máy kiểm tra dây hàn	ID=2248	Left=2699	Right=2700
+Máy phủ băng dính trên phiến silic	ID=2249	Left=2697	Right=2698
+Máy siêu âm mối hàn	ID=2250	Left=2703	Right=2704
+Thiết bị in vi mạch trên đế wafer	ID=2251	Left=2701	Right=2702
+Thiết bị kiểm tra bo mạch	ID=2252	Left=2695	Right=2696
+Đồ kim khí	ID=2253	Left=2680	Right=2693
+Khóa	ID=2254	Left=2691	Right=2692
+Đai xích	ID=2257	Left=2683	Right=2684
+Tay nắm	ID=2258	Left=2685	Right=2686
+Hệ thống thiết bị kiểm tra và kiểm định ô tô	ID=2260	Left=2900	Right=2901
+Mô hình cắt bổ (Dùng đào tạo)	ID=2261	Left=2902	Right=2903
+Hệ thống đào tạo	ID=2262	Left=2904	Right=2905
+Động cơ các loại	ID=2263	Left=2914	Right=2915
+Hộp giảm tốc	ID=2264	Left=2912	Right=2913
+Vật liệu xây dựng	ID=2265	Left=2516	Right=2607
+Vật liệu hoàn thiện	ID=2266	Left=2517	Right=2584
+Cửa và phụ kiện cửa	ID=2268	Left=2518	Right=2551
+Cửa khác	ID=2269	Left=2519	Right=2520
+Cửa sổ	ID=2270	Left=2521	Right=2522
+Cửa cuốn	ID=2271	Left=2523	Right=2524
+Ổ khóa	ID=2272	Left=2549	Right=2550
+Cửa cổng	ID=2273	Left=2547	Right=2548
+Cửa xoay	ID=2274	Left=2545	Right=2546
+Cửa thủy lực	ID=2275	Left=2543	Right=2544
+Chốt cửa	ID=2276	Left=2541	Right=2542
+Cửa tự động	ID=2277	Left=2539	Right=2540
+Bản lề	ID=2278	Left=2537	Right=2538
+Cửa trượt	ID=2279	Left=2535	Right=2536
+Cửa xếp	ID=2280	Left=2533	Right=2534
+Cửa chống muỗi	ID=2281	Left=2531	Right=2532
+Cửa lưới	ID=2282	Left=2529	Right=2530
+Cửa tủ bếp	ID=2283	Left=2527	Right=2528
+Thiết bị hãm tốc (cùi chỏ)	ID=2284	Left=2525	Right=2526
+Tấm cách nhiệt	ID=2287	Left=2579	Right=2580
+Tấm tổng hợp sợi thủy tinh	ID=2288	Left=2575	Right=2576
+Tấm PE bạc	ID=2289	Left=2577	Right=2578
+Tấm cách nhiệt xốp	ID=2290	Left=2571	Right=2572
+Gạch cách nhiệt	ID=2291	Left=2573	Right=2574
+Tấm Polynum (lợp dưới tôn)	ID=2292	Left=2567	Right=2568
+Tôn cách nhiệt	ID=2293	Left=2569	Right=2570
+Vật liệu đóng trần	ID=2294	Left=2562	Right=2563
+Vật liệu lợp	ID=2295	Left=2564	Right=2565
+Kính	ID=2296	Left=2554	Right=2555
+Ống thoát	ID=2297	Left=2556	Right=2561
+Ống thoát rác	ID=2298	Left=2557	Right=2558
+Ống thông khói	ID=2299	Left=2559	Right=2560
+Vật liệu thô	ID=2300	Left=2585	Right=2606
+Sắt thép	ID=2302	Left=2586	Right=2587
+Tôn	ID=2303	Left=2588	Right=2589
+Ngói	ID=2304	Left=2596	Right=2597
+Gạch Xây	ID=2305	Left=2598	Right=2599
+Xi măng	ID=2306	Left=2592	Right=2593
+Phụ gia	ID=2307	Left=2594	Right=2595
+Bê Tông	ID=2308	Left=2602	Right=2603
+Nền móng	ID=2309	Left=2604	Right=2605
+Cát	ID=2310	Left=2600	Right=2601
+Thiết bị thi công	ID=2311	Left=2608	Right=2675
+Máy thi công	ID=2312	Left=2609	Right=2646
+Máy hàn	ID=2313	Left=2614	Right=2615
+Máy đầm	ID=2315	Left=2612	Right=2613
+Máy đục phá	ID=2316	Left=2620	Right=2621
+Máy cắt	ID=2317	Left=2622	Right=2623
+Máy trộn bê tông	ID=2318	Left=2616	Right=2617
+Máy toàn đạt	ID=2319	Left=2618	Right=2619
+Máy thủy bình	ID=2320	Left=2630	Right=2631
+Máy xúc	ID=2321	Left=2628	Right=2629
+Máy cầm tay	ID=2322	Left=2626	Right=2627
+Máy làm vệ sinh	ID=2323	Left=2624	Right=2625
+Máy xoa nền	ID=2324	Left=2638	Right=2639
+Máy bơm bê tông	ID=2326	Left=2634	Right=2635
+Máy đào thủy lực	ID=2327	Left=2632	Right=2633
+Máy kinh vĩ	ID=2328	Left=2644	Right=2645
+Máy đóng (ép) cọc	ID=2329	Left=2642	Right=2643
+Máy ngành gỗ	ID=2330	Left=2640	Right=2641
+Tời	ID=2332	Left=2655	Right=2656
+Xe lu	ID=2333	Left=2653	Right=2654
+Cẩu tháp	ID=2334	Left=2651	Right=2652
+Vận thăng	ID=2335	Left=2649	Right=2650
+Xe thang	ID=2339	Left=2663	Right=2664
+Xe san gạt	ID=2340	Left=2665	Right=2666
+Xe ủi	ID=2341	Left=2667	Right=2668
+Cần trục	ID=2342	Left=2669	Right=2670
+Tường rào cách âm	ID=2343	Left=2671	Right=2672
+Xe trải thảm	ID=2344	Left=2673	Right=2674
+Thang máy	ID=2345	Left=2676	Right=2677
+Máy đóng chứng từ	ID=2347	Left=2468	Right=2469
+Máy đếm tiền xu	ID=2348	Left=2470	Right=2471
+Quần áo đồng phục	ID=2349	Left=2474	Right=2475
+Nón bảo hộ	ID=2352	Left=2482	Right=2483
+Kính an toàn	ID=2353	Left=2480	Right=2481
+Khẩu trang bảo hộ	ID=2354	Left=2486	Right=2487
+Mặt nạ lọc độc	ID=2356	Left=2490	Right=2491
+Mặt nạ bảo hộ	ID=2357	Left=2488	Right=2489
+Nút chống ồn	ID=2358	Left=2494	Right=2495
+Áo phản quang	ID=2359	Left=2492	Right=2493
+Quần áo chịu nhiệt chống cháy	ID=2360	Left=2498	Right=2499
+Quần áo chống hoá chất	ID=2361	Left=2496	Right=2497
+Chụp tai chống ồn	ID=2362	Left=2502	Right=2503
+Fin lọc	ID=2363	Left=2500	Right=2501
+Bồn rửa mặt khẩn cấp	ID=2364	Left=2506	Right=2507
+Tấm che mặt bảo hộ	ID=2365	Left=2504	Right=2505
+Bảo hộ hàng hải	ID=2366	Left=2510	Right=2511
+Bảo hộ cứu hỏa	ID=2367	Left=2508	Right=2509
+Lót đầu gối	ID=2368	Left=2512	Right=2513
+Bộ bàn ghế	ID=2370	Left=3541	Right=3542
+Ghế	ID=2371	Left=3543	Right=3552
+Phủ bàn ghế	ID=2372	Left=3527	Right=3528
+Bàn	ID=2373	Left=3529	Right=3540
+Sofa	ID=2374	Left=3523	Right=3524
+Bảng viết LED và phụ kiện	ID=2375	Left=3525	Right=3526
+Quầy bar	ID=2376	Left=3553	Right=3554
+Máy bán hàng tự động	ID=2380	Left=3556	Right=3557
+Dụng cụ y tế	ID=2381	Left=3380	Right=3447
+Thiết bị y tế	ID=2382	Left=3381	Right=3382
+Thiết bị đo huyết áp	ID=2383	Left=3383	Right=3384
+Vật tư thiết bị y tế	ID=2384	Left=3399	Right=3400
+Giường bệnh viện	ID=2385	Left=3397	Right=3398
+Xe dành cho người khuyết tật	ID=2386	Left=3395	Right=3396
+Xi lanh (bơm kim tiêm)	ID=2387	Left=3393	Right=3394
+Găng tay y tế	ID=2388	Left=3391	Right=3392
+Dụng cụ tai mũi họng	ID=2389	Left=3389	Right=3390
+Chỉ phẫu thuật	ID=2390	Left=3387	Right=3388
+Dao phẫu thuật	ID=2392	Left=3415	Right=3416
+Bình ôxy	ID=2393	Left=3413	Right=3414
+Ghế vệ sinh	ID=2394	Left=3411	Right=3412
+Phim chụp X-Quang	ID=2395	Left=3409	Right=3410
+Khung tập đi	ID=2396	Left=3407	Right=3408
+Dụng cụ chuẩn đoán bệnh	ID=2397	Left=3405	Right=3406
+Banh bụng	ID=2398	Left=3403	Right=3404
+Chọc dò	ID=2400	Left=3425	Right=3426
+Dụng cụ đường tiết niệu	ID=2402	Left=3429	Right=3430
+Dụng cụ khoa xương	ID=2403	Left=3431	Right=3432
+Dụng cụ nhãn khoa	ID=2404	Left=3417	Right=3418
+Dụng cụ phẫu thuật tim mạch	ID=2405	Left=3419	Right=3420
+Dụng cụ phụ khoa	ID=2406	Left=3421	Right=3422
+Dụng cụ sản khoa	ID=2407	Left=3423	Right=3424
+Dụng cụ thí nghiệm	ID=2408	Left=3439	Right=3440
+Kéo phẫu thuật	ID=2409	Left=3441	Right=3442
+Kìm mang kim	ID=2410	Left=3443	Right=3444
+Nỉa các loại	ID=2411	Left=3445	Right=3446
+Panh gắp Amydan và các loại khác đặc biệt	ID=2412	Left=3433	Right=3434
+Panh sát khuẩn	ID=2413	Left=3435	Right=3436
+Vật tư phòng thí nghiệm	ID=2414	Left=3437	Right=3438
+Máy móc y tế	ID=2415	Left=3448	Right=3519
+Máy đo nồng độ cồn	ID=2416	Left=3497	Right=3498
+Máy xông mũi họng	ID=2417	Left=3495	Right=3496
+Máy hút dịch	ID=2418	Left=3501	Right=3502
+Máy tạo Oxy	ID=2419	Left=3499	Right=3500
+Bút đo nhiệt kế	ID=2420	Left=3489	Right=3490
+Máy sinh hóa	ID=2421	Left=3487	Right=3488
+Máy thử nước tiểu	ID=2422	Left=3493	Right=3494
+Máy đo nồng độ Oxy trong máu	ID=2423	Left=3491	Right=3492
+Máy điện tim	ID=2424	Left=3513	Right=3514
+Dao mổ điện	ID=2425	Left=3511	Right=3512
+Máy xét nghiệm máu	ID=2426	Left=3517	Right=3518
+Ghế nha khoa	ID=2427	Left=3515	Right=3516
+Máy chuẩn độ điện thế	ID=2428	Left=3505	Right=3506
+Máy theo dõi tim thai	ID=2429	Left=3503	Right=3504
+Máy rửa flim X-Quang tự động	ID=2430	Left=3509	Right=3510
+Máy đo độ loãng xương	ID=2431	Left=3507	Right=3508
+Máy nội soi	ID=2432	Left=3471	Right=3472
+Máy chụp X-Quang	ID=2433	Left=3469	Right=3470
+Kính hiển vi điện tử	ID=2434	Left=3467	Right=3468
+Máy điện não	ID=2435	Left=3465	Right=3466
+Cân phân tích	ID=2436	Left=3479	Right=3480
+Máy chuẩn đoán ung thư	ID=2437	Left=3477	Right=3478
+Máy chụp cắt lớp vi tính	ID=2438	Left=3475	Right=3476
+Máy đo độ nhớt	ID=2439	Left=3473	Right=3474
+Máy đo lưu huyết não	ID=2440	Left=3455	Right=3456
+Máy gây mê	ID=2441	Left=3453	Right=3454
+Máy giải trình ADN tự động	ID=2442	Left=3451	Right=3452
+Máy hiệu chuẩn	ID=2443	Left=3449	Right=3450
+Máy quang phổ	ID=2444	Left=3463	Right=3464
+Máy soi cổ tử cung kỹ thuật số	ID=2445	Left=3461	Right=3462
+Máy soi da	ID=2446	Left=3459	Right=3460
+Máy tán sỏi	ID=2447	Left=3457	Right=3458
+Máy xử lý mô	ID=2448	Left=3483	Right=3484
+Monitor chuyên dụng	ID=2449	Left=3485	Right=3486
+Monitor y tế	ID=2450	Left=3481	Right=3482
+Đồ sơ cứu	ID=2451	Left=3364	Right=3379
+Túi cứu thương	ID=2452	Left=3375	Right=3376
+Thuốc giảm đau tức thời	ID=2455	Left=3373	Right=3374
+Băng nhựa co giãn	ID=2457	Left=3369	Right=3370
+Nẹp gỗ	ID=2458	Left=3365	Right=3366
+Tủ y tế	ID=2459	Left=3354	Right=3363
+Tủ sấy thiết bị y tế	ID=2460	Left=3359	Right=3360
+Tủ hút khí độc	ID=2461	Left=3361	Right=3362
+Tủ lạnh phòng thí nghiệm	ID=2462	Left=3355	Right=3356
+Tủ tạo môi trường	ID=2463	Left=3357	Right=3358
+Thiết bị chữa cháy	ID=2464	Left=3568	Right=3601
+Máy bơm chữa cháy	ID=2465	Left=3585	Right=3586
+Bình chữa cháy	ID=2466	Left=3589	Right=3590
+Vòi chữa cháy	ID=2467	Left=3587	Right=3588
+Trụ chữa cháy	ID=2468	Left=3593	Right=3594
+Bình chữa cháy tự động	ID=2469	Left=3591	Right=3592
+Họng tiếp nước	ID=2470	Left=3597	Right=3598
+Lăng phun chữa cháy	ID=2471	Left=3595	Right=3596
+Hệ thống chữa cháy bề mặt	ID=2472	Left=3571	Right=3572
+Bình chứa foam	ID=2473	Left=3569	Right=3570
+Bộ trộn Foam	ID=2474	Left=3575	Right=3576
+Dung dịch foam	ID=2475	Left=3573	Right=3574
+Hệ thống chữa cháy bằng khí tự xả	ID=2476	Left=3579	Right=3580
+Hệ thống chữa cháy tự động	ID=2477	Left=3577	Right=3578
+Súng phun foam	ID=2478	Left=3583	Right=3584
+Xe chữa cháy	ID=2479	Left=3581	Right=3582
+Xe đẩy chữa cháy Foam	ID=2480	Left=3599	Right=3600
+Hệ thống báo cháy tự động	ID=2482	Left=3606	Right=3613
+Trung tâm báo cháy	ID=2483	Left=3607	Right=3608
+Hệ thống báo cháy thông thường	ID=2484	Left=3609	Right=3610
+Hệ thống báo cháy địa chỉ	ID=2485	Left=3611	Right=3612
+Hộp tủ phòng cháy chữa cháy	ID=2487	Left=3616	Right=3617
+Ống thoát hiểm	ID=2488	Left=3602	Right=3603
+Thuyền cao su bơm hơi	ID=2490	Left=3621	Right=3622
+Tàu chở dầu	ID=2491	Left=3623	Right=3624
+Thuyền máy	ID=2492	Left=3625	Right=3626
+Phụ kiện tàu thuyền	ID=2493	Left=3628	Right=3647
+La bàn	ID=2495	Left=3631	Right=3632
+Các loại động cơ lắp tàu	ID=2496	Left=3645	Right=3646
+Cáp điện tàu thủy	ID=2497	Left=3643	Right=3644
+Hóa chất hàng hải	ID=2498	Left=3641	Right=3642
+Kẽm chống hà	ID=2499	Left=3639	Right=3640
+Thiết bị lọc dầu và hệ thống xử lý dầu	ID=2500	Left=3637	Right=3638
+Xích neo	ID=2502	Left=3633	Right=3634
+Thức ăn chăn nuôi	ID=2503	Left=3662	Right=3667
+Phụ gia thức ăn chăn nuôi	ID=2504	Left=3665	Right=3666
+Nguyên liệu chế biến thức ăn chăn nuôi	ID=2505	Left=3663	Right=3664
+Máy xới đất	ID=2507	Left=3659	Right=3660
+Bình trừ sâu	ID=2508	Left=3657	Right=3658
+Thuốc trừ sâu	ID=2511	Left=3651	Right=3652
+Thiết bị an toàn giao thông	ID=2512	Left=3678	Right=3693
+Cột trụ	ID=2513	Left=3691	Right=3692
+Đinh phản quang	ID=2514	Left=3687	Right=3688
+Biển báo	ID=2515	Left=3689	Right=3690
+Cáp hộ giao thông	ID=2516	Left=3683	Right=3684
+Cột biển báo	ID=2517	Left=3685	Right=3686
+Gờ giảm tốc	ID=2518	Left=3679	Right=3680
+Tấm chống lóa	ID=2519	Left=3681	Right=3682
+Đèn giao thông	ID=2520	Left=3674	Right=3675
+Dải phân cách	ID=2521	Left=3676	Right=3677
+Gậy điều khiển giao thông	ID=2522	Left=3670	Right=3671
+Lan can cầu	ID=2523	Left=3672	Right=3673
+Tủ lạnh	ID=2524	Left=4694	Right=4695
+Tủ đông	ID=2525	Left=4696	Right=4697
+Tủ mát	ID=2526	Left=4692	Right=4693
+Bàn là	ID=2527	Left=4700	Right=4701
+Máy hút ẩm	ID=2528	Left=4728	Right=4729
+Máy sấy tóc	ID=2529	Left=4726	Right=4727
+Máy lọc không khí	ID=2530	Left=4732	Right=4733
+Thiết bị sưởi	ID=2531	Left=4730	Right=4731
+Pin thông dụng (AAA battery)	ID=2533	Left=4718	Right=4719
+Đồng hồ treo tường	ID=2534	Left=4724	Right=4725
+Máy đánh giầy	ID=2535	Left=4722	Right=4723
+Máy sấy khô quần áo	ID=2536	Left=4712	Right=4713
+Máy phun sương	ID=2537	Left=4710	Right=4711
+Thiết bị chạy điện khác	ID=2538	Left=4716	Right=4717
+Máy nước nóng bơm nhiệt	ID=2539	Left=4714	Right=4715
+Sạc pin	ID=2541	Left=4702	Right=4703
+Bộ điều khiển điện tử	ID=2542	Left=4708	Right=4709
+Thiết bị đuổi chuột	ID=2543	Left=4706	Right=4707
+Bệt toilet tự động	ID=2544	Left=4744	Right=4745
+Máy khử mùi giày	ID=2545	Left=4746	Right=4747
+Máy xịt phòng tự động	ID=2546	Left=4748	Right=4749
+Máy đánh răng	ID=2547	Left=4750	Right=4751
+Máy là hơi	ID=2548	Left=4736	Right=4737
+Đệm nước mát	ID=2549	Left=4738	Right=4739
+Máy thổi bụi	ID=2550	Left=4740	Right=4741
+Phụ kiện máy lọc không khí	ID=2551	Left=4742	Right=4743
+Bộ nguồ̀n rung	ID=2552	Left=4734	Right=4735
+Đèn điện	ID=2553	Left=4594	Right=4595
+Đèn sạc	ID=2554	Left=4596	Right=4597
+Đèn pin	ID=2555	Left=4598	Right=4599
+Đèn bàn	ID=2556	Left=4590	Right=4591
+Đèn diệt côn trùng	ID=2557	Left=4592	Right=4593
+Máy lọc nước tinh khiết	ID=2558	Left=4610	Right=4611
+Phụ kiện máy lọc nước	ID=2559	Left=4612	Right=4613
+Máy in	ID=2560	Left=5004	Right=5029
+Máy in laser	ID=2561	Left=5013	Right=5014
+Máy in All in One	ID=2562	Left=5015	Right=5016
+Máy in phun	ID=2563	Left=5017	Right=5018
+Máy in kim	ID=2564	Left=5005	Right=5006
+Máy in khổ lớn trong nhà	ID=2565	Left=5007	Right=5008
+Máy in thẻ nhựa	ID=2566	Left=5009	Right=5010
+Máy in di động	ID=2567	Left=5011	Right=5012
+Máy in sổ	ID=2568	Left=5021	Right=5022
+POS printer	ID=2569	Left=5023	Right=5024
+Máy in khổ lớn ngoài trời	ID=2570	Left=5025	Right=5026
+Máy in băng rôn	ID=2571	Left=5027	Right=5028
+Mực in	ID=2573	Left=5030	Right=5031
+Dụng cụ đổ mực máy in	ID=2574	Left=5032	Right=5033
+Dây dẫn mực	ID=2575	Left=5034	Right=5035
+Băng mực cho máy in Kim	ID=2576	Left=4998	Right=4999
+Khay mực in	ID=2577	Left=4996	Right=4997
+Đầu in	ID=2578	Left=5002	Right=5003
+Dụng cụ vệ sinh máy in	ID=2579	Left=5000	Right=5001
+Bộ nhớ máy in	ID=2580	Left=4994	Right=4995
+Tấm vinyl	ID=2581	Left=4992	Right=4993
+Máy chiếu Projector	ID=2582	Left=4970	Right=4977
+Máy chiếu vật thể	ID=2583	Left=4971	Right=4972
+Máy chiếu hắt	ID=2584	Left=4975	Right=4976
+Máy chiếu 3D	ID=2585	Left=4973	Right=4974
+Màn chiếu Projector	ID=2586	Left=4988	Right=4989
+Bóng đèn máy chiếu	ID=2587	Left=4986	Right=4987
+Bút lazer	ID=2588	Left=4980	Right=4981
+Thiết bị hội nghị truyền hình	ID=2589	Left=4978	Right=4979
+Bộ chuyển đổi và điều khiển tín hiệu	ID=2590	Left=4984	Right=4985
+Màn hình LED	ID=2591	Left=4982	Right=4983
+Hệ thống hiển thị lớn	ID=2592	Left=4966	Right=4967
+Màn cảm ứng (dán ngoài)	ID=2593	Left=4968	Right=4969
+Màn hình cảm ứng	ID=2594	Left=4964	Right=4965
+Máy văn phòng khác	ID=2595	Left=4934	Right=4953
+Máy đóng sách	ID=2596	Left=4939	Right=4940
+Máy ép Plastic	ID=2597	Left=4941	Right=4942
+Máy cắt DECAL	ID=2598	Left=4935	Right=4936
+Bảng tương tác	ID=2599	Left=4937	Right=4938
+Máy điêu khắc	ID=2600	Left=4949	Right=4950
+Máy dập nổi thẻ	ID=2601	Left=4951	Right=4952
+Phôi thẻ	ID=2602	Left=4945	Right=4946
+Máy vẽ sơ đồ	ID=2603	Left=4947	Right=4948
+Hệ thống xếp hàng tự động	ID=2604	Left=4943	Right=4944
+Bảng điện tử	ID=2605	Left=4960	Right=4961
+Máy đọc mã vạch và phụ kiện	ID=2606	Left=4954	Right=4959
+Máy đọc mã vạch	ID=2607	Left=4957	Right=4958
+Phụ kiện máy đọc mã vạch	ID=2608	Left=4955	Right=4956
+Thùng rác thông minh	ID=2609	Left=4926	Right=4927
+Máy kiểm kho	ID=2610	Left=4924	Right=4925
+Thẻ cảm ứng	ID=2611	Left=4922	Right=4923
+Hệ thống kiểm soát ra vào	ID=2612	Left=4920	Right=4921
+Máy khoan chứng từ	ID=2613	Left=4918	Right=4919
+Máy đánh chữ	ID=2614	Left=4916	Right=4917
+Bàn ký điện tử	ID=2615	Left=4914	Right=4915
+Máy đọc chính tả	ID=2616	Left=4932	Right=4933
+Vi phim (microfilm)	ID=2617	Left=4930	Right=4931
+Thiết bị đọc thẻ cảm ứng	ID=2618	Left=4928	Right=4929
+Bút viết giấy	ID=2619	Left=4808	Right=4809
+Văn phòng phẩm khác	ID=2620	Left=4806	Right=4807
+Giấy in	ID=2622	Left=4802	Right=4803
+Bìa hồ sơ	ID=2624	Left=4854	Right=4855
+Giấy nhắn	ID=2626	Left=4858	Right=4859
+Máy tính calculator	ID=2630	Left=4866	Right=4867
+Khay kệ tài liệu	ID=2631	Left=4868	Right=4869
+Trình ký	ID=2634	Left=4874	Right=4875
+Bảng kẹp giấy	ID=2635	Left=4876	Right=4877
+Bút xóa	ID=2637	Left=4880	Right=4881
+Kéo	ID=2638	Left=4882	Right=4883
+Dao dọc giấy	ID=2639	Left=4884	Right=4885
+Mực dấu	ID=2641	Left=4822	Right=4823
+Bộ văn phòng phẩm	ID=2642	Left=4828	Right=4829
+Ghim bấm	ID=2643	Left=4826	Right=4827
+Bì thư	ID=2644	Left=4832	Right=4833
+Sổ chứng từ	ID=2645	Left=4830	Right=4831
+Con dấu	ID=2646	Left=4836	Right=4837
+Phân trang	ID=2647	Left=4834	Right=4835
+Bút nhớ dòng	ID=2648	Left=4840	Right=4841
+Gáy lò xo đóng sổ	ID=2650	Left=4844	Right=4845
+Gọt bút	ID=2651	Left=4842	Right=4843
+Máy đóng số xoay	ID=2652	Left=4848	Right=4849
+Keo dán	ID=2653	Left=4846	Right=4847
+Thước	ID=2655	Left=4850	Right=4851
+Nhãn dán	ID=2656	Left=4814	Right=4815
+Hộp dấu tự động	ID=2657	Left=4816	Right=4817
+Gỡ ghim	ID=2658	Left=4810	Right=4811
+Khay đựng dấu	ID=2659	Left=4812	Right=4813
+Phiếu chi	ID=2660	Left=4818	Right=4819
+Bàn làm việc văn phòng	ID=2662	Left=3530	Right=3531
+Bàn giám đốc	ID=2663	Left=3532	Right=3533
+Bàn họp	ID=2664	Left=3536	Right=3537
+Bàn vi tính	ID=2666	Left=3534	Right=3535
+Ghế máy tính	ID=2667	Left=3544	Right=3545
+Ghế phòng họp	ID=2668	Left=3548	Right=3549
+Ghế giám đốc	ID=2669	Left=3550	Right=3551
+Ghế băng công cộng	ID=2670	Left=3546	Right=3547
+Tủ hồ sơ	ID=2671	Left=4796	Right=4797
+Vách ngăn văn phòng	ID=2672	Left=4788	Right=4789
+Sofa tiếp khách	ID=2674	Left=4784	Right=4785
+Bảng phòng họp	ID=2675	Left=4782	Right=4783
+Bàn ghế máy tính	ID=2676	Left=4794	Right=4795
+Bục phát biểu	ID=2677	Left=4792	Right=4793
+Giường gấp văn phòng	ID=2678	Left=4790	Right=4791
+Máy photocopy	ID=2679	Left=4770	Right=4771
+Mực máy photocopy	ID=2680	Left=4778	Right=4779
+Linh phụ kiện máy photocopy	ID=2681	Left=4776	Right=4777
+Dụng cụ đổ mực	ID=2682	Left=4774	Right=4775
+Dụng cụ làm sạch	ID=2683	Left=4772	Right=4773
+Máy fax	ID=2684	Left=4910	Right=4911
+Mực máy Fax	ID=2685	Left=4908	Right=4909
+Phụ kiện máy chấm công	ID=2686	Left=4904	Right=4905
+Máy quét hình phẳng (scanner)	ID=2687	Left=4900	Right=4901
+Máy quét ảnh	ID=2688	Left=4894	Right=4895
+Máy quét di động	ID=2689	Left=4892	Right=4893
+Bút quét	ID=2690	Left=4898	Right=4899
+Máy quét thẻ từ	ID=2691	Left=4896	Right=4897
+Thiết bị hỗ trợ mạng cho máy quét ảnh	ID=2692	Left=4890	Right=4891
+Pin điện thoại	ID=2693	Left=5270	Right=5271
+Vỏ máy điện thoại	ID=2694	Left=5274	Right=5275
+Bao đựng điện thoại	ID=2695	Left=5272	Right=5273
+Đồ trang trí điện thoại	ID=2696	Left=5264	Right=5265
+Phụ kiện điện thoại khác	ID=2697	Left=5262	Right=5263
+Thẻ nhớ	ID=2699	Left=5266	Right=5267
+Tai nghe không dây bluetooth	ID=2700	Left=5256	Right=5257
+Phụ kiện kết nối	ID=2701	Left=5254	Right=5255
+Sạc điện thoại	ID=2702	Left=5260	Right=5261
+Bút chấm điện thoại	ID=2703	Left=5258	Right=5259
+Bàn phím điện thoại	ID=2704	Left=5246	Right=5247
+Thiết bị VOIP	ID=2705	Left=5248	Right=5249
+Thiết bị sửa chữa	ID=2706	Left=5250	Right=5251
+Sạc pin năng lượng mặt trời	ID=2707	Left=5252	Right=5253
+Linh kiện sửa chữa bộ đàm	ID=2708	Left=5244	Right=5245
+Sim	ID=2709	Left=5278	Right=5279
+Thẻ điện thoại	ID=2710	Left=5280	Right=5281
+Đầu ghi hình camera giám sát	ID=2711	Left=5094	Right=5095
+Phụ kiện camera giám sát	ID=2712	Left=5086	Right=5087
+Dây nối (Cable)	ID=2713	Left=5088	Right=5089
+Hệ thống giám sát	ID=2715	Left=5092	Right=5093
+Máy chiếu phim tại nhà	ID=2716	Left=5078	Right=5079
+Đầu ghi phát VTRs	ID=2717	Left=5080	Right=5081
+Bộ phân phối hình ảnh	ID=2718	Left=5082	Right=5083
+Ăng ten chảo Parabol	ID=2719	Left=5084	Right=5085
+Thẻ giải mã	ID=2720	Left=5076	Right=5077
+Màn hình camera giám sát	ID=2721	Left=5074	Right=5075
+HDD Recorder	ID=2722	Left=5072	Right=5073
+Mobile TV	ID=2723	Left=5070	Right=5071
+Thiết bị quan sát chuyên dụng	ID=2724	Left=5068	Right=5069
+Máy giám sát bảo vệ	ID=2725	Left=5066	Right=5067
+Ống kính máy chiếu	ID=2726	Left=5064	Right=5065
+Tivi	ID=2727	Left=5046	Right=5061
+Tivi LCD	ID=2728	Left=5059	Right=5060
+Tivi LED	ID=2729	Left=5057	Right=5058
+Tivi CRT	ID=2730	Left=5055	Right=5056
+Tivi Plasma	ID=2731	Left=5053	Right=5054
+Tivi 3D	ID=2732	Left=5051	Right=5052
+Tivi OLED	ID=2733	Left=5049	Right=5050
+TV Rear Projection	ID=2734	Left=5047	Right=5048
+Phụ kiện cho tivi	ID=2735	Left=5044	Right=5045
+Đầu thu kỹ thuật số	ID=2736	Left=5040	Right=5041
+Bộ truyền hình vệ tinh	ID=2737	Left=5042	Right=5043
+Loa Hi-end	ID=2738	Left=5164	Right=5165
+Home Theater Speaker	ID=2739	Left=5166	Right=5167
+Loa phóng thanh	ID=2740	Left=5162	Right=5163
+Máy nghe nhạc Mp4	ID=2741	Left=5186	Right=5187
+Máy ghi âm	ID=2742	Left=5182	Right=5183
+Máy nghe nhạc Mp3	ID=2743	Left=5184	Right=5185
+Máy nghe nhạc Trung Quốc	ID=2745	Left=5180	Right=5181
+Linh kiện máy nghe nhạc	ID=2746	Left=5174	Right=5175
+Máy nghe nhạc Mp5	ID=2747	Left=5176	Right=5177
+Portable Media Player (PMP)	ID=2748	Left=5170	Right=5171
+Máy ghi âm băng từ	ID=2749	Left=5172	Right=5173
+Dàn máy mini	ID=2750	Left=5098	Right=5099
+Đầu Karaoke	ID=2751	Left=5100	Right=5101
+Phụ kiện thiết bị âm thanh	ID=2752	Left=5124	Right=5125
+Dây dẫn Hi-End	ID=2753	Left=5122	Right=5123
+Máy trợ giảng	ID=2754	Left=5128	Right=5129
+Radio Cassette	ID=2755	Left=5126	Right=5127
+Bộ trộn âm (Mixer)	ID=2756	Left=5132	Right=5133
+Dây dẫn Hi-fi	ID=2757	Left=5130	Right=5131
+Máy thu Receiver	ID=2759	Left=5134	Right=5135
+Bộ âm thanh lưu động	ID=2760	Left=5108	Right=5109
+Bộ xử lý Processors	ID=2762	Left=5112	Right=5113
+Chỉnh âm Equalizers	ID=2763	Left=5110	Right=5111
+HeadAmp (Headphone amplifier)	ID=2764	Left=5116	Right=5117
+Bộ điều chỉnh âm thanh Tuners	ID=2765	Left=5114	Right=5115
+MiniDisc Player	ID=2766	Left=5120	Right=5121
+Bộ giải mã DAC	ID=2767	Left=5118	Right=5119
+Đường chuyển crossovers	ID=2768	Left=5102	Right=5103
+Network Multimedia System	ID=2769	Left=5104	Right=5105
+Thiết bị thám tử	ID=2770	Left=5212	Right=5213
+Máy đọc sách điện tử	ID=2771	Left=5214	Right=5215
+Bút thông minh	ID=2773	Left=5218	Right=5219
+Máy học ngoại ngữ	ID=2774	Left=5220	Right=5221
+Đồng hồ camera	ID=2777	Left=5198	Right=5199
+Máy báo giờ tự động	ID=2778	Left=5200	Right=5201
+Thiết bị tự động hóa	ID=2779	Left=5202	Right=5203
+Máy chấm đọc	ID=2780	Left=5204	Right=5205
+Đồng hồ MP3	ID=2781	Left=5206	Right=5207
+Máy phát hiện nói dối	ID=2782	Left=5208	Right=5209
+Móc chìa khóa có đèn	ID=2783	Left=5210	Right=5211
+Máy đổi giọng	ID=2784	Left=5194	Right=5195
+Thiết bị đo thời tiết	ID=2785	Left=5192	Right=5193
+Thấu kính Fresnel	ID=2786	Left=5190	Right=5191
+DVD Blu-Ray Player	ID=2792	Left=5146	Right=5147
+Đầu DVD di động (có màn hình)	ID=2793	Left=5144	Right=5145
+HDD Karaoke	ID=2794	Left=5142	Right=5143
+Máy chơi đĩa Laser	ID=2795	Left=5140	Right=5141
+VCD Player	ID=2796	Left=5148	Right=5149
+Amplifier Hi-end	ID=2797	Left=5234	Right=5235
+Power Amplifier	ID=2798	Left=5232	Right=5233
+Premain Amplifier Hi-End	ID=2799	Left=5230	Right=5231
+Power-Amplifier Hi-end	ID=2800	Left=5226	Right=5227
+Premain Amplifier	ID=2801	Left=5228	Right=5229
+Đồ chơi vận động reo hò	ID=2803	Left=6014	Right=6029
+Đồ chơi khác	ID=2805	Left=6027	Right=6028
+Đồ chơi bóp chíp	ID=2807	Left=6023	Right=6024
+Lều bóng ngộ nghĩnh	ID=2810	Left=6015	Right=6016
+Đồ chơi cho bé sơ sinh	ID=2811	Left=6000	Right=6011
+Đồ chơi phát triển	ID=2812	Left=6005	Right=6006
+Đồ chơi có nhạc	ID=2814	Left=6001	Right=6002
+Thảm nằm chơi	ID=2816	Left=6009	Right=6010
+Đồ chơi gỗ	ID=2817	Left=6042	Right=6043
+Đồ chơi vải	ID=2818	Left=6038	Right=6039
+Đồ chơi tắm	ID=2819	Left=6040	Right=6041
+Đồ chơi đất nặn	ID=2820	Left=6034	Right=6035
+Ghế thư giãn	ID=2821	Left=6036	Right=6037
+Thùng đựng đồ chơi	ID=2822	Left=6030	Right=6031
+Đồ chơi giấy	ID=2823	Left=6032	Right=6033
+Đồ dùng ăn uống	ID=2824	Left=5934	Right=5981
+Hộp chia sữa	ID=2831	Left=5938	Right=5939
+Yếm ăn các loại	ID=2839	Left=5954	Right=5955
+Túi nhai thức ăn	ID=2841	Left=5964	Right=5965
+Nồi ủ	ID=2843	Left=5977	Right=5978
+Máy xay	ID=2844	Left=5975	Right=5976
+Dụng cụ nghiền thức ăn	ID=2846	Left=5971	Right=5972
+Máy khử độc rau quả	ID=2847	Left=5969	Right=5970
+Đồ dùng khi đi ra ngoài	ID=2849	Left=5864	Right=5881
+Xe đẩy	ID=2850	Left=5873	Right=5874
+Địu em bé	ID=2851	Left=5875	Right=5876
+Ghế ngồi xe hơi	ID=2852	Left=5865	Right=5866
+Túi đựng đồ mang theo	ID=2853	Left=5867	Right=5868
+Nôi xách tay	ID=2854	Left=5869	Right=5870
+Khẩu trang	ID=2855	Left=5871	Right=5872
+Phụ kiện xe đẩy	ID=2857	Left=5879	Right=5880
+Đồ học tập	ID=2858	Left=5882	Right=5893
+Sách	ID=2861	Left=5890	Right=5891
+Đồ an toàn	ID=2865	Left=5894	Right=5931
+Chặn chân cửa ra vào	ID=2866	Left=5905	Right=5906
+Bảo vệ đầu gối cho bé tập bò	ID=2867	Left=5903	Right=5904
+Bịt góc nhọn	ID=2868	Left=5897	Right=5898
+Ghế ngồi xe hơi an toàn	ID=2869	Left=5895	Right=5896
+Kim băng an toàn	ID=2870	Left=5901	Right=5902
+Đồ an toàn phòng tắm	ID=2871	Left=5899	Right=5900
+Dụng cụ che chắn ổ điện	ID=2872	Left=5917	Right=5918
+Dây dắt tập đi	ID=2873	Left=5915	Right=5916
+Khóa an toàn	ID=2874	Left=5921	Right=5922
+Cặp nhiệt độ cho trẻ	ID=2875	Left=5919	Right=5920
+Cửa chặn cầu thang an toàn	ID=2876	Left=5909	Right=5910
+Đai an toàn đi xe máy	ID=2877	Left=5907	Right=5908
+Dây dắt chống lạc	ID=2878	Left=5913	Right=5914
+Máy quay theo dõi trẻ	ID=2879	Left=5911	Right=5912
+Gối bảo vệ đi xe máy	ID=2880	Left=5927	Right=5928
+Ghế ngồi xe máy	ID=2881	Left=5929	Right=5930
+Kẹp giữ trẻ khi ngủ	ID=2882	Left=5923	Right=5924
+Tay vịn giường	ID=2883	Left=5925	Right=5926
+Đồ trang trí phòng	ID=2884	Left=5982	Right=5983
+Bể phao	ID=2887	Left=5987	Right=5988
+Áo khoác tắm	ID=2888	Left=5991	Right=5992
+Kính bơi	ID=2889	Left=5993	Right=5994
+Bỉm bơi	ID=2890	Left=5989	Right=5990
+Máy giữ ấm giấy ướt	ID=2891	Left=5996	Right=5997
+Các loại sữa dinh dưỡng	ID=2892	Left=6152	Right=6153
+Các loại bột ăn dặm	ID=2893	Left=6154	Right=6155
+Đồ ăn đóng lọ	ID=2894	Left=6148	Right=6149
+Vitamin bổ sung cho trẻ	ID=2898	Left=6158	Right=6159
+Kem đánh răng an toàn	ID=2903	Left=6123	Right=6124
+Sản phẩm chống côn trùng	ID=2905	Left=6131	Right=6132
+Cân em bé	ID=2908	Left=6141	Right=6142
+Tông đơ	ID=2909	Left=6139	Right=6140
+Khăn xô	ID=2910	Left=6137	Right=6138
+Tưa lưỡi	ID=2911	Left=6135	Right=6136
+Thước đo chiều cao	ID=2913	Left=6119	Right=6120
+Thiết bị Sơ cứu khẩn cấp	ID=2914	Left=6121	Right=6122
+Chăm sóc da	ID=2915	Left=6050	Right=6067
+Sữa dưỡng da và giữ ẩm cho bé	ID=2916	Left=6051	Right=6052
+Phấn rôm	ID=2918	Left=6055	Right=6056
+Kem chống nẻ	ID=2919	Left=6057	Right=6058
+Dầu massage	ID=2920	Left=6059	Right=6060
+Sữa chống nắng	ID=2921	Left=6061	Right=6062
+Nước muối sinh lý	ID=2922	Left=6063	Right=6064
+Dầu thơm	ID=2923	Left=6065	Right=6066
+Nhiệt kế đo nước nóng	ID=2928	Left=6077	Right=6078
+Báo nước nóng	ID=2929	Left=6075	Right=6076
+Mũ trùm tóc	ID=2930	Left=6081	Right=6082
+Bộ đồ tắm	ID=2931	Left=6079	Right=6080
+Giá đỡ tắm	ID=2932	Left=6085	Right=6086
+Găng tay tắm	ID=2933	Left=6083	Right=6084
+Chậu rửa mặt	ID=2934	Left=6087	Right=6088
+Chăm sóc bé ốm	ID=2936	Left=6092	Right=6115
+Nhiệt kế đa năng	ID=2937	Left=6101	Right=6102
+Túi chườm nóng lạnh	ID=2939	Left=6103	Right=6104
+Dụng cụ uống thuốc an toàn	ID=2940	Left=6109	Right=6110
+Hộp chăm sóc y tế an toàn	ID=2944	Left=6099	Right=6100
+Nhỏ mắt chống viêm	ID=2945	Left=6097	Right=6098
+Máy đo nhiệt độ tai an toàn	ID=2946	Left=6095	Right=6096
+Hộp đựng thuốc	ID=2947	Left=6093	Right=6094
+Giấy ướt các loại	ID=2948	Left=6048	Right=6049
+Giấy thấm một chiều	ID=2949	Left=6046	Right=6047
+Dành cho bà mẹ sau sinh	ID=2950	Left=5844	Right=5861
+Thấm sữa	ID=2952	Left=5857	Right=5858
+Kem phục hồi sau sinh	ID=2953	Left=5855	Right=5856
+Áo ngực cho bé bú	ID=2957	Left=5847	Right=5848
+Dành cho bà mẹ mang thai	ID=2959	Left=5824	Right=5843
+Thực phẩm dinh dưỡng	ID=2961	Left=5841	Right=5842
+Thời trang bà bầu	ID=2962	Left=5835	Right=5836
+Máy nghe nhạc thông minh cho thai nhi	ID=2963	Left=5837	Right=5838
+Sản phẩm massage	ID=2964	Left=5831	Right=5832
+Chăm sóc sức khỏe khác	ID=2966	Left=5827	Right=5828
+Vitamin bổ sung	ID=2967	Left=5829	Right=5830
+Máy theo dõi thai	ID=2968	Left=5825	Right=5826
+Hộp lưu niệm cho bé	ID=2970	Left=5816	Right=5817
+Dụng cụ in bàn tay bé	ID=2971	Left=5818	Right=5819
+Gối thiên thần	ID=2972	Left=5812	Right=5813
+Khung ảnh cho bé	ID=2973	Left=5814	Right=5815
+Thiệp thông báo bé chào đời	ID=2974	Left=5810	Right=5811
+Nước hoa nữ giới	ID=2975	Left=5550	Right=5551
+Nước hoa nam giới	ID=2976	Left=5546	Right=5547
+Nước hoa cho cả nam và nữ	ID=2977	Left=5544	Right=5545
+Nựớc hoa cho trẻ	ID=2978	Left=5548	Right=5549
+Bộ mỹ phẩm chăm sóc da	ID=2979	Left=5364	Right=5365
+Sữa tắm	ID=2980	Left=5362	Right=5363
+Dụng cụ làm móng	ID=2982	Left=5359	Right=5360
+Sơn móng	ID=2983	Left=5357	Right=5358
+Chăm sóc da tay	ID=2984	Left=5351	Right=5352
+Chăm sóc da chân	ID=2985	Left=5349	Right=5350
+Dưỡng móng	ID=2986	Left=5355	Right=5356
+Móng giả	ID=2987	Left=5353	Right=5354
+Sp làm mềm móng	ID=2989	Left=5345	Right=5346
+Kem dưỡng da toàn thân	ID=2990	Left=5342	Right=5343
+Sữa dưỡng thể	ID=2991	Left=5340	Right=5341
+Khử mùi cơ thể	ID=2992	Left=5390	Right=5391
+Sản phẩm chống nắng	ID=2993	Left=5392	Right=5393
+Sản phẩm làm nở ngực	ID=2994	Left=5394	Right=5395
+Sp làm đẹp từ thiên nhiên	ID=2995	Left=5396	Right=5397
+Sản phẩm làm tan mỡ	ID=2996	Left=5382	Right=5383
+Xà bông	ID=2997	Left=5384	Right=5385
+Kem làm săn chắc da	ID=2998	Left=5386	Right=5387
+Muối tắm	ID=2999	Left=5388	Right=5389
+Kem tẩy da chết toàn thân	ID=3001	Left=5376	Right=5377
+Kem tẩy lông	ID=3002	Left=5378	Right=5379
+Kem làm hồng nhũ hoa	ID=3003	Left=5380	Right=5381
+Kem làm mờ sẹo	ID=3004	Left=5366	Right=5367
+Kem nở mông	ID=3005	Left=5368	Right=5369
+Phun da	ID=3006	Left=5370	Right=5371
+Cao dán giảm cân	ID=3007	Left=5372	Right=5373
+Son môi	ID=3008	Left=5514	Right=5515
+Phấn mắt	ID=3009	Left=5512	Right=5513
+Dụng cụ trang điểm	ID=3010	Left=5488	Right=5511
+Cọ trang điểm	ID=3011	Left=5501	Right=5502
+Dụng cụ trang điểm khác	ID=3012	Left=5509	Right=5510
+Mút trang điểm	ID=3014	Left=5505	Right=5506
+Uốn mi	ID=3015	Left=5503	Right=5504
+Túi mỹ phẩm	ID=3016	Left=5495	Right=5496
+Lông mi giả	ID=3018	Left=5491	Right=5492
+Keo gắn mi	ID=3019	Left=5489	Right=5490
+Răng giả	ID=3020	Left=5499	Right=5500
+Vỏ hộp phấn	ID=3021	Left=5497	Right=5498
+Mascara	ID=3022	Left=5486	Right=5487
+Phấn má	ID=3024	Left=5530	Right=5531
+Phấn phủ	ID=3025	Left=5532	Right=5533
+Kẻ viền mắt	ID=3026	Left=5526	Right=5527
+Kem lót	ID=3027	Left=5528	Right=5529
+Bộ trang điểm	ID=3028	Left=5538	Right=5539
+Son bóng	ID=3029	Left=5540	Right=5541
+Son dưỡng	ID=3030	Left=5534	Right=5535
+Che khuyết điểm	ID=3031	Left=5536	Right=5537
+Kẻ lông mày	ID=3032	Left=5520	Right=5521
+Kẻ viền môi	ID=3033	Left=5522	Right=5523
+Phấn light	ID=3034	Left=5516	Right=5517
+Sáp môi	ID=3035	Left=5518	Right=5519
+Sp chào hàng dùng thử	ID=3036	Left=5524	Right=5525
+Kem dưỡng da mặt	ID=3037	Left=5336	Right=5337
+Sữa rửa mặt	ID=3038	Left=5332	Right=5333
+Mặt nạ	ID=3039	Left=5334	Right=5335
+Chăm sóc mắt	ID=3040	Left=5312	Right=5319
+Sản phẩm đặc trị vùng mắt	ID=3041	Left=5313	Right=5314
+Kem chống nhăn vùng mắt	ID=3042	Left=5317	Right=5318
+Tẩy trang mắt môi	ID=3043	Left=5315	Right=5316
+Kem trị nám	ID=3044	Left=5322	Right=5323
+Kem chống lão hóa	ID=3045	Left=5320	Right=5321
+Tinh dầu	ID=3046	Left=5326	Right=5327
+Kem trị mụn	ID=3047	Left=5324	Right=5325
+Kem làm trắng da	ID=3048	Left=5298	Right=5299
+Tẩy trang	ID=3049	Left=5296	Right=5297
+Nước hoa hồng	ID=3050	Left=5302	Right=5303
+Kem chống nhăn	ID=3051	Left=5300	Right=5301
+Kem chống nắng	ID=3052	Left=5306	Right=5307
+Dưỡng môi	ID=3053	Left=5304	Right=5305
+Kem tẩy da chết	ID=3054	Left=5310	Right=5311
+Kem nẻ	ID=3055	Left=5308	Right=5309
+Kem chống thâm do mụn	ID=3056	Left=5328	Right=5329
+Kem chống nẻ môi	ID=3057	Left=5330	Right=5331
+Vitamin và khoáng chất	ID=3058	Left=5454	Right=5469
+Giảm cân- chống béo phì	ID=3059	Left=5459	Right=5460
+Dinh dưỡng chống lão hóa	ID=3060	Left=5461	Right=5462
+Tăng cường sức khỏe trẻ em	ID=3061	Left=5463	Right=5464
+Tăng cường sức khỏe nữ giới	ID=3062	Left=5465	Right=5466
+Tăng cường sức khỏe nam giới	ID=3063	Left=5467	Right=5468
+Dinh dưỡng tăng cân	ID=3064	Left=5455	Right=5456
+Tăng cường sức khỏe người già	ID=3065	Left=5457	Right=5458
+DD hỗ trợ điều trị	ID=3066	Left=5400	Right=5453
+DD hỗ trợ điều trị bệnh xương khớp	ID=3067	Left=5401	Right=5402
+DD hỗ trợ điều trị tiểu đường	ID=3070	Left=5407	Right=5408
+DD hỗ trợ điều trị tim mạch	ID=3071	Left=5409	Right=5410
+DD hỗ trợ điều trị ung thư	ID=3073	Left=5439	Right=5440
+DD chống căng thẳng thần kinh	ID=3074	Left=5441	Right=5442
+DD hỗ trợ điều trị bệnh gan	ID=3077	Left=5447	Right=5448
+DD hỗ trợ điều trị huyết áp cao	ID=3079	Left=5451	Right=5452
+DD hỗ trợ điều trị tai biến	ID=3080	Left=5421	Right=5422
+DD hỗ trợ điều trị bệnh trĩ	ID=3081	Left=5423	Right=5424
+DD hỗ trợ điều trị bệnh dạ dày	ID=3082	Left=5425	Right=5426
+DD giảm cholesterol	ID=3083	Left=5427	Right=5428
+DD chống thiếu máu	ID=3084	Left=5429	Right=5430
+DD hỗ trợ điều trị bệnh đại tràng	ID=3087	Left=5435	Right=5436
+DD hỗ trợ điều trị bệnh gout	ID=3088	Left=5413	Right=5414
+DD thải độc- phòng ung bướu	ID=3089	Left=5411	Right=5412
+DD hỗ trợ điều trị các bệnh viêm	ID=3090	Left=5417	Right=5418
+DD hỗ trợ điều trị bệnh về phổi	ID=3091	Left=5415	Right=5416
+DD hỗ trợ điều trị huyết áp thấp	ID=3092	Left=5419	Right=5420
+Thảo dược	ID=3093	Left=5476	Right=5481
+Thảo dược khác	ID=3094	Left=5479	Right=5480
+Thảo dược làm đẹp	ID=3095	Left=5477	Right=5478
+Dinh dưỡng hoạt động thể thao	ID=3096	Left=5472	Right=5473
+Đồ uống tăng lực	ID=3097	Left=5470	Right=5471
+Sản phẩm làm sạch và giải độc tố	ID=3098	Left=5474	Right=5475
+Máy đo huyết áp	ID=3099	Left=5698	Right=5699
+Máy tập chạy bộ	ID=3100	Left=5702	Right=5703
+Máy tập thể dục	ID=3101	Left=5700	Right=5701
+Máy đo đường huyết	ID=3102	Left=5704	Right=5705
+Nội thất công cộng	ID=3103	Left=1765	Right=1766
+Máng đèn	ID=3104	Left=2396	Right=2397
+Thiết bị kiểm tra dòng điện	ID=3105	Left=2398	Right=2399
+Cặp nhiệt độ	ID=3106	Left=5726	Right=5727
+Máy khí dung họng mũi siêu âm	ID=3107	Left=5728	Right=5729
+Máy trợ thính	ID=3108	Left=5734	Right=5735
+Máy tập lắc giảm béo	ID=3109	Left=5736	Right=5737
+Máy kích thích giảm đau	ID=3110	Left=5730	Right=5731
+Máy đếm bước chân	ID=3111	Left=5732	Right=5733
+Máy đo mỡ	ID=3112	Left=5714	Right=5715
+Máy theo dõi nhịp tim	ID=3113	Left=5716	Right=5717
+Thiết bị lưu động	ID=3114	Left=5710	Right=5711
+Máy dậm chân	ID=3115	Left=5712	Right=5713
+Máy đo oxy trong máu	ID=3116	Left=5722	Right=5723
+Máy ion giải độc tố	ID=3117	Left=5724	Right=5725
+Bơm insulin	ID=3118	Left=5718	Right=5719
+Máy trợ hô hấp	ID=3119	Left=5720	Right=5721
+Hộp test thử cho máy đường huyết	ID=3120	Left=5708	Right=5709
+Thiết bị chỉnh hình	ID=3121	Left=5706	Right=5707
+Máy massage chân	ID=3124	Left=5694	Right=5695
+Máy massage toàn thân	ID=3125	Left=5692	Right=5693
+Đệm massage	ID=3126	Left=5690	Right=5691
+Ghế massage	ID=3127	Left=5688	Right=5689
+Massage thẩm mỹ	ID=3129	Left=5672	Right=5673
+Gối massage	ID=3130	Left=5670	Right=5671
+Máy massage ngực	ID=3131	Left=5668	Right=5669
+Massage châm cứu	ID=3132	Left=5682	Right=5683
+Dầu và kem massage	ID=3133	Left=5680	Right=5681
+Bồn massage	ID=3134	Left=5678	Right=5679
+Đá massage	ID=3135	Left=5676	Right=5677
+Máy massage đầu	ID=3136	Left=5660	Right=5661
+Giường massage	ID=3137	Left=5662	Right=5663
+Lót giầy massage	ID=3138	Left=5664	Right=5665
+Dép massage	ID=3139	Left=5666	Right=5667
+Máy châm cứu dò huyệt	ID=3140	Left=5652	Right=5653
+Bàn massage	ID=3141	Left=5654	Right=5655
+Nến massage	ID=3142	Left=5656	Right=5657
+Bóng massage lăn	ID=3143	Left=5658	Right=5659
+Dầu gội đầu	ID=3144	Left=5754	Right=5755
+Phụ kiện thiết bị làm tóc	ID=3146	Left=5758	Right=5771
+Lược	ID=3148	Left=5761	Right=5762
+Lô cuộn tóc	ID=3149	Left=5763	Right=5764
+Kéo xén và tỉa tóc	ID=3150	Left=5765	Right=5766
+Bình xịt tóc	ID=3152	Left=5759	Right=5760
+Dầu xả	ID=3153	Left=5748	Right=5749
+Bộ chăm sóc tóc	ID=3154	Left=5752	Right=5753
+Gel tạo kiểu	ID=3155	Left=5750	Right=5751
+Thuốc mọc tóc	ID=3156	Left=5742	Right=5743
+Thuốc nhuộm tóc	ID=3157	Left=5740	Right=5741
+Thuốc uốn tóc	ID=3158	Left=5746	Right=5747
+Thiết bị giảm cân	ID=3160	Left=5784	Right=5785
+Máy làm đẹp da	ID=3161	Left=5782	Right=5783
+Máy cạo râu	ID=3162	Left=5788	Right=5789
+Máy tẩy lông cho nữ	ID=3164	Left=5776	Right=5777
+Máy làm đẹp đa chức năng	ID=3165	Left=5774	Right=5775
+Thiết bị làm sạch răng	ID=3166	Left=5780	Right=5781
+Máy sấy khô móng	ID=3167	Left=5778	Right=5779
+Nồi Wax	ID=3168	Left=5802	Right=5803
+Máy xông khô	ID=3169	Left=5804	Right=5805
+Xăm hình	ID=3170	Left=5798	Right=5799
+Máy làm sạch lỗ chân lông	ID=3171	Left=5800	Right=5801
+Máy hấp tóc Ozone	ID=3172	Left=5794	Right=5795
+Máy tạo làn da rám nắng	ID=3173	Left=5796	Right=5797
+Máy vẽ móng tay	ID=3174	Left=5790	Right=5791
+Thiết bị làm sạch tai	ID=3175	Left=5792	Right=5793
+Bao cao su	ID=3176	Left=5584	Right=5585
+Sản phẩm tráng dương	ID=3177	Left=5586	Right=5587
+Sản phẩm hỗ trợ quan hệ khác	ID=3178	Left=5580	Right=5581
+Gel bôi trơn	ID=3179	Left=5582	Right=5583
+Sản phẩm ích âm	ID=3180	Left=5576	Right=5577
+Que thử thai	ID=3181	Left=5578	Right=5579
+Cân sức khỏe	ID=3182	Left=5598	Right=5599
+Thuốc hỗ trợ điều chỉnh cân nặng	ID=3183	Left=5600	Right=5601
+Lịch theo dõi và bảng tính cân nặng	ID=3187	Left=5590	Right=5591
+Thuốc tây y	ID=3188	Left=5622	Right=5623
+Thuốc đông y	ID=3189	Left=5620	Right=5621
+Thuốc trị nám và tàn nhang	ID=3191	Left=5616	Right=5617
+Sản phẩm cai thuốc lá	ID=3192	Left=5614	Right=5615
+Thuốc trị mụn trứng cá	ID=3193	Left=5612	Right=5613
+Miếng dán khử độc	ID=3194	Left=5610	Right=5611
+Dụng cụ sơ cứu	ID=3195	Left=5608	Right=5609
+Thuốc tẩy trắng răng	ID=3196	Left=5606	Right=5607
+Sợi tơ làm sạch răng	ID=3197	Left=5604	Right=5605
+Sản phẩm dưỡng da nam	ID=3198	Left=5648	Right=5649
+Kem cạo râu	ID=3199	Left=5646	Right=5647
+Sản phẩm khử mùi nam	ID=3200	Left=5628	Right=5629
+Bộ mỹ phẩm cho nam	ID=3201	Left=5626	Right=5627
+Sữa rửa mặt nam	ID=3203	Left=5630	Right=5631
+Sản phẩm đặc trị cho nam	ID=3204	Left=5636	Right=5637
+Sữa tắm nam	ID=3205	Left=5634	Right=5635
+Dầu gội đầu nam	ID=3206	Left=5640	Right=5641
+Son dưỡng môi nam	ID=3207	Left=5638	Right=5639
+Miếng làm sạch da cho nam	ID=3208	Left=5644	Right=5645
+Xà bông nam	ID=3209	Left=5642	Right=5643
+Thảo dược giải độc	ID=3210	Left=5558	Right=5559
+Giải độc bằng trị liệu ánh sáng	ID=3212	Left=5562	Right=5563
+Dầu cao con hổ	ID=3213	Left=5560	Right=5561
+Chất rửa độc tố	ID=3215	Left=5564	Right=5565
+Nam châm giải độc	ID=3216	Left=5554	Right=5555
+Liệu pháp hương liệu	ID=3217	Left=5570	Right=5571
+Châm cứu	ID=3218	Left=5572	Right=5573
+Máy ảnh số chuyên dụng	ID=3219	Left=6242	Right=6243
+Tủ chống ẩm	ID=3222	Left=6172	Right=6173
+Chân máy ảnh (Tripod)	ID=3224	Left=6176	Right=6177
+Chân máy quay	ID=3225	Left=6178	Right=6179
+Băng trắng video	ID=3226	Left=6180	Right=6181
+Giấy in ảnh	ID=3227	Left=6182	Right=6183
+Ống kính máy quay	ID=3228	Left=6184	Right=6185
+Cáp nối	ID=3230	Left=6188	Right=6189
+Máy in ảnh	ID=3231	Left=6190	Right=6191
+Đế pin (Battery Grip)	ID=3233	Left=6196	Right=6197
+Bộ lọc (Filter)	ID=3234	Left=6194	Right=6195
+Ống ngắm che nắng (Hood)	ID=3235	Left=6192	Right=6193
+Thiết bị lưu ảnh số	ID=3236	Left=6206	Right=6207
+Nắp đậy	ID=3237	Left=6204	Right=6205
+Adapter Memory Card	ID=3238	Left=6202	Right=6203
+Giấy ép plastic	ID=3239	Left=6200	Right=6201
+Tấm dán bảo vệ	ID=3240	Left=6214	Right=6215
+Chân đèn	ID=3241	Left=6212	Right=6213
+Mực in ảnh	ID=3242	Left=6210	Right=6211
+Điều khiển từ xa	ID=3243	Left=6208	Right=6209
+Thiết bị vệ sinh	ID=3244	Left=6220	Right=6221
+Phần mềm sửa ảnh	ID=3245	Left=6218	Right=6219
+Phim	ID=3246	Left=6216	Right=6217
+Máy quay phim	ID=3247	Left=6226	Right=6227
+Máy quay phim chuyên dụng	ID=3248	Left=6224	Right=6225
+Ống kính máy ảnh	ID=3249	Left=6234	Right=6235
+Bộ lọc	ID=3250	Left=6230	Right=6231
+Phụ kiện bộ lọc	ID=3251	Left=6232	Right=6233
+Phụ kiện ống kính	ID=3252	Left=6236	Right=6237
+Bộ đèn Flash	ID=3253	Left=6254	Right=6255
+Phụ kiện đèn flash	ID=3254	Left=6252	Right=6253
+Máy ảnh cơ chuyên dụng	ID=3255	Left=6248	Right=6249
+Thiết bị điện 12V	ID=3256	Left=6822	Right=6839
+Đèn xenon	ID=3258	Left=6825	Right=6826
+Ổn định dòng	ID=3260	Left=6835	Right=6836
+Đèn trần	ID=3261	Left=6837	Right=6838
+Ắc qui khô	ID=3262	Left=6831	Right=6832
+Bộ dây giắc	ID=3263	Left=6833	Right=6834
+Đèn gầm	ID=3264	Left=6823	Right=6824
+Loa và hệ thống loa	ID=3265	Left=6800	Right=6801
+Ampli ôtô	ID=3266	Left=6804	Right=6805
+Màn hình	ID=3268	Left=6794	Right=6795
+Đầu đĩa có màn hình	ID=3271	Left=6796	Right=6797
+Bộ chia tín hiệu video	ID=3272	Left=6816	Right=6817
+Hộp đen GPS quản lý đội xe	ID=3274	Left=6820	Right=6821
+Thiết bị báo động ô tô	ID=3275	Left=6818	Right=6819
+Đầu thu TV KTS	ID=3277	Left=6806	Right=6807
+Bộ đổi đĩa CD xe ô tô	ID=3278	Left=6812	Right=6813
+Loa trầm phụ	ID=3279	Left=6810	Right=6811
+Máy dò rada và sóng lazer	ID=3280	Left=6790	Right=6791
+Mặt dưỡng	ID=3282	Left=6856	Right=6857
+Nước hoa ôtô	ID=3283	Left=6858	Right=6859
+Tủ lạnh ô tô	ID=3284	Left=6848	Right=6849
+Sản phẩm làm sạch	ID=3285	Left=6850	Right=6851
+Khoá chống trộm	ID=3286	Left=6852	Right=6853
+Chắn nắng	ID=3287	Left=6854	Right=6855
+Bơm lốp	ID=3288	Left=6868	Right=6869
+Phim kính cách nhiệt	ID=3289	Left=6870	Right=6871
+Máy khử mùi	ID=3291	Left=6874	Right=6875
+Gạt mưa	ID=3292	Left=6860	Right=6861
+Giá gài điện thoại trên ôtô	ID=3293	Left=6862	Right=6863
+Bạt phủ xe	ID=3296	Left=6922	Right=6923
+Thiết bị bảo vệ	ID=3297	Left=6920	Right=6921
+Gương chiếu hậu ôtô	ID=3298	Left=6918	Right=6919
+Chống ồn xe hơi	ID=3299	Left=6916	Right=6917
+Chụp ống xả	ID=3300	Left=6914	Right=6915
+Ốp bảo vệ đèn	ID=3301	Left=6912	Right=6913
+Móc khóa ôtô	ID=3302	Left=6910	Right=6911
+Bình hơi vá vỏ cấp tốc	ID=3303	Left=6908	Right=6909
+Túi đựng đồ đa năng	ID=3304	Left=6938	Right=6939
+Bọc tay lái	ID=3306	Left=6934	Right=6935
+Đuôi gió	ID=3308	Left=6930	Right=6931
+Bộ chống xước badosoc	ID=3309	Left=6928	Right=6929
+Ănten ôtô	ID=3310	Left=6926	Right=6927
+Chắn bùn	ID=3311	Left=6924	Right=6925
+Bộ tự vá lốp	ID=3312	Left=6888	Right=6889
+Máy chống ngủ gật	ID=3313	Left=6890	Right=6891
+Bình cứu hỏa ôtô	ID=3314	Left=6884	Right=6885
+Trang trí la zăng	ID=3315	Left=6886	Right=6887
+Dây đeo trang trí	ID=3317	Left=6882	Right=6883
+Thiết bị cảnh báo áp suất lốp	ID=3318	Left=6876	Right=6877
+Thiết bị hiển thị tốc độ trên kính lái	ID=3319	Left=6878	Right=6879
+Lưới tản nhiệt	ID=3320	Left=6904	Right=6905
+Bao vải bảo vệ gương	ID=3321	Left=6906	Right=6907
+Bình hút ẩm ôtô	ID=3322	Left=6900	Right=6901
+Dây bảo hiểm	ID=3323	Left=6902	Right=6903
+Đồng hồ nhiệt độ xe	ID=3324	Left=6896	Right=6897
+Ghế ngồi cho trẻ	ID=3325	Left=6898	Right=6899
+Hốc hút gió nắp capô	ID=3326	Left=6892	Right=6893
+Nẹp sườn	ID=3327	Left=6894	Right=6895
+Tấm chống trượt	ID=3328	Left=6944	Right=6945
+Tay bấm số	ID=3329	Left=6946	Right=6947
+Thùng đựng đá trên ôtô	ID=3330	Left=6940	Right=6941
+Viền đèn	ID=3331	Left=6942	Right=6943
+Lốp xe ôtô	ID=3332	Left=6746	Right=6747
+Đèn ôtô	ID=3333	Left=6748	Right=6749
+Nội thất	ID=3334	Left=6742	Right=6743
+Hệ thống động cơ	ID=3336	Left=6730	Right=6731
+Còi	ID=3337	Left=6732	Right=6733
+Lazăng ôtô	ID=3338	Left=6726	Right=6727
+Hệ thống phanh	ID=3339	Left=6728	Right=6729
+Ghế ô tô	ID=3340	Left=6738	Right=6739
+Điện và cảm biến	ID=3341	Left=6740	Right=6741
+Thân vỏ	ID=3342	Left=6734	Right=6735
+Gương tìm kiếm vật thể	ID=3343	Left=6736	Right=6737
+Thiết bị chẩn đoán lỗi ô tô	ID=3344	Left=6772	Right=6773
+Hệ thống đánh lửa	ID=3345	Left=6770	Right=6771
+Hệ thống gầm máy	ID=3346	Left=6768	Right=6769
+Hệ thống bơm	ID=3347	Left=6766	Right=6767
+Hệ thống điều hòa	ID=3348	Left=6780	Right=6781
+Hệ thống lái	ID=3349	Left=6778	Right=6779
+Đồng hồ ô tô	ID=3350	Left=6776	Right=6777
+Hệ thống làm mát	ID=3351	Left=6774	Right=6775
+Hệ thống bộ cam	ID=3352	Left=6756	Right=6757
+Công tắc	ID=3354	Left=6752	Right=6753
+Dẫn khí	ID=3355	Left=6750	Right=6751
+Động cơ nitơ	ID=3356	Left=6764	Right=6765
+Hệ thống dẫn nhiên liệu	ID=3357	Left=6762	Right=6763
+Hệ thống hộp số	ID=3358	Left=6760	Right=6761
+Hệ truyền động	ID=3359	Left=6758	Right=6759
+Ống xả	ID=3360	Left=6782	Right=6783
+Tap bi ô tô	ID=3361	Left=6784	Right=6785
+Vòng bi	ID=3362	Left=6786	Right=6787
+Xe chuyên dụng	ID=3363	Left=6680	Right=6681
+Xe đầu kéo	ID=3365	Left=6684	Right=6685
+Xe cẩu	ID=3366	Left=6686	Right=6687
+Tàu thuyền	ID=3367	Left=6688	Right=6699
+Các loại thuyền khác	ID=3368	Left=6689	Right=6690
+Du thuyền	ID=3369	Left=6691	Right=6692
+Thuyền buồm	ID=3370	Left=6693	Right=6694
+Thuyền câu cá	ID=3371	Left=6695	Right=6696
+Thuyền lặn	ID=3372	Left=6697	Right=6698
+Rơ Moóc	ID=3373	Left=6674	Right=6675
+Xích lô	ID=3375	Left=6678	Right=6679
+Xe tăng	ID=3376	Left=6710	Right=6711
+Xe lăn	ID=3377	Left=6708	Right=6709
+Xe ba bánh	ID=3378	Left=6714	Right=6715
+Xe máy thể thao	ID=3379	Left=6712	Right=6713
+Xe trượt tuyết	ID=3381	Left=6716	Right=6717
+Xe trượt cát	ID=3382	Left=6722	Right=6723
+Trực thăng	ID=3383	Left=6720	Right=6721
+Máy bay	ID=3384	Left=6702	Right=6703
+Phương tiện dùng trong quân đội	ID=3385	Left=6700	Right=6701
+Khinh khí cầu	ID=3387	Left=6704	Right=6705
+Sản phẩm sửa chữa gara ôtô	ID=3388	Left=6646	Right=6671
+Sơn ô tô và sản phẩm hỗ trợ	ID=3391	Left=6667	Right=6668
+Máy tháo lắp lốp xe (tyre changer)	ID=3392	Left=6661	Right=6662
+Tủ đồ nghề sửa chữa	ID=3393	Left=6663	Right=6664
+Máy thay dầu động cơ ôtô	ID=3395	Left=6659	Right=6660
+Máy cân vành lốp xe (wheel balancer)	ID=3397	Left=6655	Right=6656
+Quận dây dẫn truyền chất lỏng (hose reel)	ID=3398	Left=6649	Right=6650
+Súng bơm mỡ bôi trơn	ID=3399	Left=6651	Right=6652
+Dung dịch bảo dưỡng lốp xe	ID=3402	Left=6611	Right=6612
+Dung dịch rửa xe	ID=3404	Left=6607	Right=6608
+Chống nước mưa (Clear view)	ID=3405	Left=6609	Right=6610
+Dung dịch vệ sinh	ID=3409	Left=6643	Right=6644
+Chất khử mùi	ID=3410	Left=6641	Right=6642
+Chất phủ bóng	ID=3411	Left=6639	Right=6640
+Dung dịch bảo dưỡng	ID=3412	Left=6637	Right=6638
+Dầu máy ôtô	ID=3413	Left=6634	Right=6635
+Thiết bị chăm sóc chuyên dụng	ID=3414	Left=6618	Right=6633
+Máy rửa xe tự động	ID=3415	Left=6631	Right=6632
+Khăn lau xe chuyên dụng	ID=3416	Left=6629	Right=6630
+Súng phun phủ gầm xe	ID=3417	Left=6627	Right=6628
+Găng tay rửa xe	ID=3418	Left=6625	Right=6626
+Máy súc béc	ID=3419	Left=6623	Right=6624
+Súng phun cát làm sạch máy	ID=3420	Left=6621	Right=6622
+Vòi rửa xe	ID=3421	Left=6619	Right=6620
+Phụ tùng xe máy	ID=3423	Left=6536	Right=6579
+Khóa chống trộm xe máy	ID=3424	Left=6561	Right=6562
+Bugi xe máy	ID=3426	Left=6565	Right=6566
+Xích cam xe máy	ID=3427	Left=6567	Right=6568
+Đèn xe máy	ID=3428	Left=6553	Right=6554
+Lốp xe máy	ID=3429	Left=6555	Right=6556
+Bánh mâm xe máy	ID=3430	Left=6557	Right=6558
+Bi nồi xe máy	ID=3431	Left=6559	Right=6560
+Bô thắng (đĩa) xe máy	ID=3432	Left=6545	Right=6546
+Bô thắng (má phanh) xe máy	ID=3433	Left=6547	Right=6548
+Cốp xe máy	ID=3434	Left=6549	Right=6550
+Gác chân xe máy	ID=3435	Left=6551	Right=6552
+Gương xe máy	ID=3436	Left=6537	Right=6538
+Nan hoa xe máy	ID=3437	Left=6539	Right=6540
+Ốp lườn xe máy	ID=3438	Left=6541	Right=6542
+Pô xe máy	ID=3439	Left=6543	Right=6544
+Săm xe máy	ID=3440	Left=6573	Right=6574
+Tấm chắn bùn xe máy	ID=3441	Left=6571	Right=6572
+Tay phanh xe máy	ID=3442	Left=6577	Right=6578
+Tem xe máy	ID=3443	Left=6575	Right=6576
+Vành xe máy	ID=3444	Left=6569	Right=6570
+Mũ bảo hiểm	ID=3445	Left=6594	Right=6595
+Xe tay gas	ID=3446	Left=6598	Right=6599
+Trang phục bảo hiểm	ID=3447	Left=6596	Right=6597
+Phụ kiện trang trí xe máy	ID=3448	Left=6588	Right=6589
+Xe số	ID=3449	Left=6586	Right=6587
+Xe máy cổ	ID=3450	Left=6592	Right=6593
+Xe máy điện	ID=3451	Left=6590	Right=6591
+Dầu nhớt cho động cơ xe máy	ID=3452	Left=6582	Right=6583
+Xe máy phân khối lớn	ID=3453	Left=6580	Right=6581
+Dịch vụ vẽ mũ bảo hiểm	ID=3454	Left=6584	Right=6585
+Xe đạp điện	ID=3455	Left=6532	Right=6533
+Phụ tùng xe đạp	ID=3456	Left=6502	Right=6521
+Phụ tùng khác	ID=3457	Left=6507	Right=6508
+Khóa xe đạp	ID=3458	Left=6505	Right=6506
+Bọc tay lái xe đạp	ID=3459	Left=6503	Right=6504
+Chuông xe đạp	ID=3460	Left=6515	Right=6516
+Ghi đông xe	ID=3461	Left=6513	Right=6514
+Gương xe đạp	ID=3462	Left=6511	Right=6512
+Khung xe	ID=3463	Left=6509	Right=6510
+Nan hoa	ID=3464	Left=6519	Right=6520
+Xe đạp truyền thống	ID=3466	Left=6524	Right=6525
+Xe đạp trẻ em	ID=3467	Left=6522	Right=6523
+Xe địa hình thể thao	ID=3468	Left=6530	Right=6531
+Xe đạp thời trang	ID=3469	Left=6528	Right=6529
+Xe đạp biểu diễn	ID=3470	Left=6526	Right=6527
+Cho thuê ôtô	ID=3471	Left=6488	Right=6489
+Cho thuê xe cưới	ID=3472	Left=6494	Right=6495
+Sửa chữa ôtô	ID=3473	Left=6496	Right=6497
+Cho thuê xe máy	ID=3474	Left=6490	Right=6491
+Sửa chữa xe máy	ID=3476	Left=6498	Right=6499
+Xe ô tô cổ	ID=3477	Left=6484	Right=6485
+Kẹo	ID=3478	Left=6438	Right=6439
+Bánh bisque	ID=3479	Left=6440	Right=6441
+Chocolate	ID=3480	Left=6450	Right=6451
+Sản phẩm truyền thống	ID=3482	Left=6442	Right=6449
+Bánh chưng	ID=3484	Left=6445	Right=6446
+Ô mai	ID=3487	Left=6456	Right=6457
+Mứt (jam)	ID=3488	Left=6460	Right=6461
+Snack	ID=3489	Left=6458	Right=6459
+Trà các loại	ID=3490	Left=6466	Right=6467
+Café	ID=3492	Left=6470	Right=6471
+Rượu các loại	ID=3493	Left=6468	Right=6469
+Nước giải khát không gas	ID=3494	Left=6474	Right=6475
+Bia	ID=3495	Left=6472	Right=6473
+Nước hoa quả	ID=3496	Left=6478	Right=6479
+Nước giải khát có gas	ID=3497	Left=6476	Right=6477
+Đồ ăn liền	ID=3498	Left=6390	Right=6403
+Mì ăn liền	ID=3499	Left=6391	Right=6392
+Cháo ăn liền	ID=3500	Left=6395	Right=6396
+Thực phẩm ăn liền khác	ID=3501	Left=6393	Right=6394
+Phở ăn liền	ID=3502	Left=6399	Right=6400
+Miến ăn liền	ID=3503	Left=6397	Right=6398
+Bún ăn liền	ID=3504	Left=6401	Right=6402
+Đồ hộp	ID=3505	Left=6404	Right=6405
+Đồ ăn nhanh	ID=3506	Left=6406	Right=6407
+Món ăn nhà hàng	ID=3507	Left=6408	Right=6409
+Nhân sâm	ID=3509	Left=6414	Right=6415
+Linh Chi	ID=3510	Left=6416	Right=6417
+Tổ yến	ID=3511	Left=6418	Right=6419
+Trùng Thảo	ID=3512	Left=6420	Right=6421
+Nhung hươu	ID=3513	Left=6422	Right=6423
+Sản phẩm dùng làm thuốc	ID=3514	Left=6424	Right=6429
+Nghệ	ID=3515	Left=6425	Right=6426
+Tam Thất	ID=3516	Left=6427	Right=6428
+Vải khô	ID=3517	Left=6430	Right=6431
+Long nhãn	ID=3518	Left=6432	Right=6433
+Wolfberry	ID=3519	Left=6434	Right=6435
+Sữa	ID=3520	Left=6378	Right=6379
+Đường	ID=3522	Left=6374	Right=6375
+Trứng	ID=3523	Left=6372	Right=6373
+Nấm	ID=3526	Left=6382	Right=6383
+Hạt nêm	ID=3530	Left=6340	Right=6341
+Mì chính	ID=3531	Left=6338	Right=6339
+Gia vị lẩu	ID=3536	Left=6352	Right=6353
+Gia vị lá (rau thơm …)	ID=3537	Left=6354	Right=6355
+Gia vị nướng	ID=3538	Left=6348	Right=6349
+Jam	ID=3539	Left=6350	Right=6351
+Gạo	ID=3541	Left=6362	Right=6363
+Bánh mỳ	ID=3542	Left=6358	Right=6359
+Bột	ID=3543	Left=6360	Right=6361
+Mỳ	ID=3544	Left=6366	Right=6367
+Tương đen	ID=3545	Left=6368	Right=6369
+Tương hột	ID=3546	Left=6364	Right=6365
+Thực phẩm từ Cá	ID=3547	Left=6290	Right=6291
+Thực phẩm từ tảo	ID=3548	Left=6286	Right=6287
+Thực phẩm từ Mực	ID=3549	Left=6288	Right=6289
+Thực phẩm từ tôm	ID=3550	Left=6282	Right=6283
+Hải sâm	ID=3551	Left=6284	Right=6285
+Thực phẩm từ động vật có vỏ	ID=3552	Left=6298	Right=6299
+Cua	ID=3553	Left=6296	Right=6297
+Bào ngư	ID=3554	Left=6302	Right=6303
+Sứa	ID=3556	Left=6294	Right=6295
+Thực phẩm từ cua	ID=3557	Left=6292	Right=6293
+Giò chả	ID=3558	Left=6320	Right=6321
+Thịt	ID=3559	Left=6306	Right=6319
+Các loại thịt khác	ID=3560	Left=6313	Right=6314
+Thịt lợn	ID=3561	Left=6311	Right=6312
+Thịt gà	ID=3562	Left=6317	Right=6318
+Thịt trâu bò	ID=3563	Left=6315	Right=6316
+Thịt dê	ID=3564	Left=6309	Right=6310
+Thịt vịt	ID=3565	Left=6307	Right=6308
+Thịt hun khói	ID=3567	Left=6322	Right=6323
+Hạt Sen	ID=3568	Left=6260	Right=6261
+Mộc nhĩ	ID=3569	Left=6262	Right=6263
+Sữa ong chúa	ID=3570	Left=6274	Right=6275
+Mật ong	ID=3571	Left=6276	Right=6277
+Các loại sản phẩm ong khác	ID=3572	Left=6266	Right=6267
+Chất tổ ong	ID=3573	Left=6268	Right=6269
+Keo ong	ID=3574	Left=6270	Right=6271
+Phấn hoa	ID=3575	Left=6272	Right=6273
+Sáp ong	ID=3576	Left=6278	Right=6279
+Vé	ID=3577	Left=7726	Right=7745
+Vé máy bay	ID=3578	Left=7735	Right=7736
+Vé tàu xe	ID=3579	Left=7737	Right=7738
+Vé xem kịch	ID=3580	Left=7727	Right=7728
+Vé sự kiện	ID=3581	Left=7729	Right=7730
+Vé xem phim	ID=3582	Left=7731	Right=7732
+Vé vào các điểm du lịch	ID=3583	Left=7733	Right=7734
+Vé xem ca nhạc	ID=3584	Left=7739	Right=7740
+Vé thi đấu thể thao	ID=3585	Left=7741	Right=7742
+Vé xem nghệ thuật khác	ID=3586	Left=7743	Right=7744
+Tour du lịch	ID=3587	Left=7758	Right=7821
+Tour trong nước	ID=3588	Left=7785	Right=7820
+Du lịch Nha Trang	ID=3589	Left=7814	Right=7815
+Du lịch hàng ngày	ID=3590	Left=7816	Right=7817
+Du lịch Biển	ID=3591	Left=7818	Right=7819
+Du lịch Miền Bắc	ID=3592	Left=7806	Right=7807
+Du lịch Đà Lạt	ID=3593	Left=7808	Right=7809
+Du lịch Sa Pa	ID=3594	Left=7810	Right=7811
+Du lịch Miền Nam	ID=3595	Left=7812	Right=7813
+Du lịch Miền Trung	ID=3596	Left=7798	Right=7799
+Du lịch Hạ Long	ID=3597	Left=7800	Right=7801
+Du lịch Miền Tây	ID=3598	Left=7802	Right=7803
+Du lịch xuyên Việt	ID=3599	Left=7804	Right=7805
+Du lịch Phú Quốc	ID=3601	Left=7790	Right=7791
+Du lịch Đà Nẵng	ID=3602	Left=7796	Right=7797
+Du lịch Côn Đảo	ID=3603	Left=7794	Right=7795
+Du lịch Huế	ID=3604	Left=7788	Right=7789
+Du lịch mạo hiểm	ID=3605	Left=7786	Right=7787
+Tour nước ngoài	ID=3606	Left=7759	Right=7784
+Du lịch Trung Quốc	ID=3607	Left=7782	Right=7783
+Du lịch Thái Lan	ID=3608	Left=7776	Right=7777
+Du lịch Campuchia	ID=3609	Left=7774	Right=7775
+Du lịch Singapore	ID=3610	Left=7780	Right=7781
+Du lịch Hong Kong	ID=3611	Left=7778	Right=7779
+Du lịch Hàn quốc	ID=3612	Left=7768	Right=7769
+Du lịch Lào	ID=3613	Left=7766	Right=7767
+Du lịch Malaysia	ID=3614	Left=7772	Right=7773
+Du lịch Ấn độ	ID=3615	Left=7770	Right=7771
+Du lịch Châu Âu	ID=3616	Left=7762	Right=7763
+Du lịch Mỹ	ID=3617	Left=7764	Right=7765
+Du lịch Nga	ID=3618	Left=7760	Right=7761
+Món ăn	ID=3620	Left=7753	Right=7754
+Buffe	ID=3621	Left=7755	Right=7756
+Cho thuê xe du lịch	ID=3622	Left=7746	Right=7747
+Giá phòng	ID=3624	Left=7749	Right=7750
+Thiết kế	ID=3625	Left=7906	Right=7921
+Thiết kế nội thất	ID=3626	Left=7917	Right=7918
+Thiết kế kiến trúc tổng hợp	ID=3627	Left=7919	Right=7920
+Thiết kế khác	ID=3628	Left=7913	Right=7914
+Thiết kế Website	ID=3629	Left=7915	Right=7916
+Thiết kế đồ họa	ID=3630	Left=7909	Right=7910
+Thiết kế thời trang	ID=3631	Left=7911	Right=7912
+Thiết kế thương hiệu	ID=3632	Left=7907	Right=7908
+Dịch vụ cưới hỏi	ID=3633	Left=7904	Right=7905
+Cho thuê	ID=3634	Left=7890	Right=7903
+Cho thuê xe ô tô các loại	ID=3635	Left=7901	Right=7902
+Cho thuê Văn phòng	ID=3639	Left=7893	Right=7894
+SMS marketing	ID=3642	Left=478	Right=479
+Dịch vụ xây dựng	ID=3643	Left=476	Right=477
+Visa hộ chiếu	ID=3645	Left=472	Right=473
+Dịch vụ in sao băng đĩa	ID=3646	Left=470	Right=471
+Dịch vụ giúp việc	ID=3647	Left=468	Right=469
+Dịch thuật	ID=3648	Left=460	Right=461
+Dịch vụ thu âm	ID=3649	Left=462	Right=463
+Vệ sĩ	ID=3650	Left=464	Right=465
+Công chứng	ID=3651	Left=466	Right=467
+In ấn	ID=3652	Left=7874	Right=7875
+Chuyển phát nhanh	ID=3654	Left=7885	Right=7886
+Dịch vụ xuất nhập khẩu	ID=3655	Left=7887	Right=7888
+Vận tải nội địa	ID=3656	Left=7877	Right=7878
+Vận tải quốc tế	ID=3657	Left=7879	Right=7880
+Giá cước chuyển hàng	ID=3658	Left=7881	Right=7882
+Thủ tục xuất nhập khẩu	ID=3659	Left=7883	Right=7884
+Mua sắm trực tuyến	ID=3661	Left=7867	Right=7868
+Vay mượn tài chính	ID=3662	Left=7869	Right=7870
+Tổ chức sự kiện	ID=3664	Left=7846	Right=7847
+Làm đẹp	ID=3665	Left=7834	Right=7845
+Spa	ID=3666	Left=7837	Right=7838
+Hair Salon	ID=3667	Left=7835	Right=7836
+Thẩm mỹ viện	ID=3668	Left=7841	Right=7842
+Dịch vụ làm đẹp khác	ID=3669	Left=7839	Right=7840
+Dạy nghề làm đẹp	ID=3670	Left=7843	Right=7844
+Tư vấn luật	ID=3671	Left=7848	Right=7865
+Thành lập doanh nghiệp	ID=3672	Left=7851	Right=7852
+Tư vấn kế toán	ID=3673	Left=7849	Right=7850
+Dịch vụ luật sư	ID=3674	Left=7855	Right=7856
+Bản quyền	ID=3675	Left=7853	Right=7854
+Dịch vụ luật khác	ID=3676	Left=7859	Right=7860
+Kiểu dáng	ID=3677	Left=7857	Right=7858
+Nhãn hiệu	ID=3678	Left=7863	Right=7864
+Tư vấn đầu tư	ID=3679	Left=7861	Right=7862
+Dịch vụ y tế	ID=3680	Left=7824	Right=7825
+Rửa ảnh	ID=3682	Left=7827	Right=7828
+Chụp ảnh nghệ thuật	ID=3683	Left=7829	Right=7830
+Đào tạo lái xe	ID=3685	Left=7718	Right=7719
+Dạy nghề	ID=3686	Left=7714	Right=7715
+Môi giới việc làm	ID=3688	Left=7710	Right=7711
+Gia sư	ID=3689	Left=7712	Right=7713
+Ba lô leo núi	ID=3690	Left=7030	Right=7031
+Lều	ID=3691	Left=7032	Right=7033
+La bàn và thiết bị GPS	ID=3692	Left=7038	Right=7039
+Đồ đựng nước	ID=3693	Left=7040	Right=7041
+Cọc cắm lều	ID=3697	Left=7024	Right=7025
+Dây cột lều	ID=3698	Left=7022	Right=7023
+Dụng cụ nấu nướng	ID=3699	Left=7020	Right=7021
+Xe đạp tại chỗ	ID=3701	Left=7016	Right=7017
+Máy tập đa năng	ID=3702	Left=7014	Right=7015
+Giàn tập tạ	ID=3704	Left=7002	Right=7003
+Tạ tay	ID=3705	Left=7000	Right=7001
+Ghế đẩy tạ	ID=3706	Left=6998	Right=6999
+Dịch vụ thể dục thể hình	ID=3707	Left=6996	Right=6997
+Tài liệu hướng dẫn tập thể hình	ID=3708	Left=7010	Right=7011
+Thuốc tăng cơ và tạo thể hình	ID=3709	Left=7008	Right=7009
+Bạt bật lò xo thể hình	ID=3710	Left=7006	Right=7007
+Dàn tập tay chân liên hoàn	ID=3711	Left=7004	Right=7005
+Dụng cụ chống đẩy	ID=3712	Left=6990	Right=6991
+Máy tập đấm box	ID=3713	Left=6988	Right=6989
+Quần áo tập thể hình	ID=3714	Left=6994	Right=6995
+Thiết bị thể dục cỡ lớn	ID=3716	Left=6984	Right=6985
+Túi tập thể hình	ID=3717	Left=6982	Right=6983
+Xuồng tay thể hình	ID=3718	Left=6986	Right=6987
+Quần áo bóng đá	ID=3719	Left=7104	Right=7105
+Giầy đá bóng	ID=3720	Left=7112	Right=7113
+Găng tay thủ môn	ID=3722	Left=7116	Right=7117
+Áo huấn luyện	ID=3723	Left=7114	Right=7115
+Dịch vụ bóng đá	ID=3724	Left=7108	Right=7109
+Tài liệu bóng đá	ID=3725	Left=7106	Right=7107
+Thời trang cầu lông	ID=3726	Left=7100	Right=7101
+Túi vợt cầu lông	ID=3727	Left=7098	Right=7099
+Vợt cầu lông	ID=3728	Left=7090	Right=7091
+Giầy cầu lông	ID=3729	Left=7092	Right=7093
+Quả cầu lông	ID=3730	Left=7094	Right=7095
+Băng tay thấm mồ hôi	ID=3731	Left=7096	Right=7097
+Dịch vụ cầu lông	ID=3732	Left=7086	Right=7087
+Tài liệu cầu lông	ID=3733	Left=7088	Right=7089
+Mũ bơi	ID=3734	Left=7066	Right=7067
+Phao bơi	ID=3735	Left=7068	Right=7069
+Chân vịt	ID=3736	Left=7076	Right=7077
+Bể bơi	ID=3738	Left=7080	Right=7081
+Đồ lặn	ID=3740	Left=7070	Right=7071
+Ống thở	ID=3742	Left=7074	Right=7075
+Quần áo bóng bàn	ID=3743	Left=7062	Right=7063
+Cốt vợt bóng bàn	ID=3744	Left=7058	Right=7059
+Vật dụng liên quan bóng bàn	ID=3745	Left=7056	Right=7057
+Bàn bóng bàn	ID=3746	Left=7054	Right=7055
+Bộ vợt bóng bàn	ID=3747	Left=7052	Right=7053
+Quả Bóng	ID=3748	Left=7050	Right=7051
+Mặt vợt bóng bàn	ID=3749	Left=7048	Right=7049
+Giầy bóng bàn	ID=3750	Left=7046	Right=7047
+Dịch vụ Bóng bàn	ID=3751	Left=7044	Right=7045
+Lưới bóng bàn	ID=3752	Left=7060	Right=7061
+Gậy đánh golf	ID=3753	Left=7182	Right=7183
+Túi golf	ID=3754	Left=7180	Right=7181
+Phụ kiện chơi golf	ID=3755	Left=7178	Right=7179
+Mũ golf	ID=3756	Left=7176	Right=7177
+Bóng golf	ID=3757	Left=7174	Right=7175
+Trang phục chơi golf	ID=3758	Left=7172	Right=7173
+Dịch vụ golf	ID=3759	Left=7170	Right=7171
+Giầy golf	ID=3760	Left=7166	Right=7167
+Kính chơi golf	ID=3761	Left=7168	Right=7169
+Xe chơi golf	ID=3763	Left=7164	Right=7165
+Bàn cong tập bụng	ID=3765	Left=7144	Right=7145
+Bục tập thể dục thẩm mỹ	ID=3766	Left=7138	Right=7139
+Dây nhảy	ID=3767	Left=7140	Right=7141
+Vòng lắc	ID=3768	Left=7156	Right=7157
+Băng tập thể dục thẩm mỹ	ID=3769	Left=7158	Right=7159
+Máy tập tình yêu	ID=3770	Left=7152	Right=7153
+Dịch vụ thể dục thẩm mỹ	ID=3771	Left=7154	Right=7155
+Giày tập thể dục	ID=3772	Left=7148	Right=7149
+Gối tập thể dục thẩm mỹ	ID=3773	Left=7150	Right=7151
+Quần áo tập thẩm mỹ	ID=3774	Left=7146	Right=7147
+Đạo cụ ảo thuật	ID=3775	Left=7134	Right=7135
+Phụ kiện cho ảo thuật gia	ID=3776	Left=7132	Right=7133
+Tài liệu ảo thuật	ID=3777	Left=7130	Right=7131
+Giầy trượt patin	ID=3778	Left=7122	Right=7123
+Ván trượt skateboard	ID=3779	Left=7120	Right=7121
+Đồ bảo vệ patin	ID=3780	Left=7126	Right=7127
+Dịch vụ patin	ID=3781	Left=7124	Right=7125
+Dụng cụ tập võ	ID=3782	Left=7246	Right=7247
+Võ phục	ID=3783	Left=7244	Right=7245
+Đồ bảo vệ võ thuật	ID=3784	Left=7250	Right=7251
+Dich vụ võ thuật	ID=3785	Left=7248	Right=7249
+Quần áo bóng rổ	ID=3786	Left=7232	Right=7233
+Giầy bóng rổ	ID=3787	Left=7230	Right=7231
+Phụ kiện bóng rổ	ID=3788	Left=7236	Right=7237
+Rổ	ID=3789	Left=7234	Right=7235
+Hệ thống bảng rổ	ID=3790	Left=7240	Right=7241
+Dịch vụ bóng rổ	ID=3791	Left=7238	Right=7239
+Lưới bóng rổ	ID=3792	Left=7224	Right=7225
+Tài liệu bóng rổ	ID=3793	Left=7226	Right=7227
+Thiết bị bơm hơi bóng rổ	ID=3794	Left=7228	Right=7229
+Ghế ngồi sân vận động	ID=3795	Left=7210	Right=7211
+Thiết bị bóng đèn sân vận động	ID=3796	Left=7212	Right=7213
+Thiết bị bể bơi	ID=3797	Left=7214	Right=7215
+Màn hình sân vận động	ID=3798	Left=7216	Right=7217
+Thiết bị âm thanh sân vận động	ID=3799	Left=7218	Right=7219
+Thiết bị ghi giờ sân vận động	ID=3800	Left=7220	Right=7221
+Bình nước	ID=3801	Left=7286	Right=7287
+Quần áo điền kinh	ID=3802	Left=7288	Right=7289
+Đồng hồ điền kinh	ID=3804	Left=7292	Right=7293
+Giày chạy	ID=3805	Left=7294	Right=7295
+Vợt Tennis	ID=3806	Left=7204	Right=7205
+Quần áo Tennis	ID=3807	Left=7206	Right=7207
+Bóng Tennis	ID=3808	Left=7192	Right=7193
+Dịch vụ Tennis	ID=3809	Left=7190	Right=7191
+Giầy Tennis	ID=3810	Left=7188	Right=7189
+Dây vợt tennis	ID=3812	Left=7200	Right=7201
+Băng thấm mồ hôi	ID=3813	Left=7198	Right=7199
+Lưới tennis	ID=3814	Left=7196	Right=7197
+Mũ chơi tennis	ID=3815	Left=7194	Right=7195
+Tài liệu tennis	ID=3816	Left=7202	Right=7203
+Dây câu cá	ID=3817	Left=7310	Right=7311
+Máy câu cá	ID=3818	Left=7308	Right=7309
+Cần câu cá	ID=3820	Left=7318	Right=7319
+Bao đựng cần	ID=3821	Left=7316	Right=7317
+Đèn câu đêm	ID=3822	Left=7314	Right=7315
+Dịch vụ câu cá	ID=3823	Left=7312	Right=7313
+Lưỡi câu	ID=3824	Left=7302	Right=7303
+Máy dò cá	ID=3825	Left=7304	Right=7305
+Phao câu cá	ID=3826	Left=7298	Right=7299
+Vợt xúc cá	ID=3827	Left=7300	Right=7301
+Dụng cụ tập luyện	ID=3828	Left=7326	Right=7327
+Cầu ngựa	ID=3829	Left=7328	Right=7329
+Giày vải	ID=3830	Left=7322	Right=7323
+Trang phục thể dục dụng cụ	ID=3831	Left=7324	Right=7325
+Phi tiêu	ID=3832	Left=7336	Right=7337
+Dịch vụ thể thao	ID=3833	Left=7338	Right=7339
+Đấu kiếm	ID=3835	Left=7334	Right=7335
+Đấu vật	ID=3836	Left=7344	Right=7345
+Đạp xe	ID=3837	Left=7346	Right=7347
+Ném đĩa	ID=3838	Left=7340	Right=7341
+Nhảy dù	ID=3839	Left=7342	Right=7343
+Săn bắn	ID=3840	Left=7350	Right=7351
+Scooter	ID=3841	Left=7352	Right=7353
+Trượt ván	ID=3842	Left=7348	Right=7349
+Đệm yoga	ID=3843	Left=7362	Right=7363
+Quần áo yoga	ID=3844	Left=7358	Right=7359
+Dịch vụ Yoga	ID=3845	Left=7360	Right=7361
+Tài liệu yoga	ID=3846	Left=7356	Right=7357
+Phụ kiện khiêu vũ	ID=3847	Left=7382	Right=7383
+Dịch vụ khiêu vũ	ID=3848	Left=7370	Right=7371
+Đồ khiêu vũ của bé gái	ID=3850	Left=7377	Right=7378
+Đồ khiêu vũ của bé trai	ID=3851	Left=7379	Right=7380
+Đồ khiêu vũ của nam	ID=3852	Left=7373	Right=7374
+Đồ khiêu vũ của nữ	ID=3853	Left=7375	Right=7376
+Áo mặc lướt sóng	ID=3855	Left=7386	Right=7387
+Ván lướt	ID=3856	Left=7388	Right=7389
+Bộ tập boxing	ID=3857	Left=7406	Right=7407
+Đồ Bảo vệ boxing	ID=3858	Left=7404	Right=7405
+Găng tay boxing	ID=3859	Left=7402	Right=7403
+Giày tập boxing	ID=3860	Left=7400	Right=7401
+Máy tập đấm bốc	ID=3861	Left=7398	Right=7399
+Quần boxing	ID=3862	Left=7396	Right=7397
+Túi tập boxing	ID=3863	Left=7394	Right=7395
+Cung	ID=3864	Left=7412	Right=7413
+Tên	ID=3865	Left=7410	Right=7411
+Bàn bi-a	ID=3866	Left=7424	Right=7425
+Bóng bi-a (Billiard)	ID=3867	Left=7422	Right=7423
+CLB Billiard	ID=3868	Left=7420	Right=7421
+Gậy (cơ) bi a	ID=3869	Left=7418	Right=7419
+Vật dụng billiard khác	ID=3870	Left=7416	Right=7417
+Đồ bảo vệ chơi bóng bầu dục	ID=3871	Left=7436	Right=7437
+Dịch vụ bóng bầu dục	ID=3872	Left=7428	Right=7429
+Găng chơi bóng bầu dục	ID=3873	Left=7430	Right=7431
+Mũ chơi bóng bầu dục	ID=3874	Left=7432	Right=7433
+Quần áo chơi bóng bầu dục	ID=3875	Left=7434	Right=7435
+Dịch vụ Bóng chày	ID=3876	Left=7440	Right=7441
+Gậy bóng chày	ID=3877	Left=7442	Right=7443
+Phụ kiện bóng chày	ID=3878	Left=7444	Right=7445
+Bơm hơi bóng chuyền	ID=3879	Left=7460	Right=7461
+Dịch vụ bóng chuyền	ID=3880	Left=7452	Right=7453
+Giầy bóng chuyền	ID=3881	Left=7454	Right=7455
+Lưới bóng chuyền	ID=3882	Left=7456	Right=7457
+Phụ kiện sân bóng chuyền	ID=3883	Left=7458	Right=7459
+Quần áo chơi bóng chuyền	ID=3884	Left=7448	Right=7449
+Tài liệu bóng chuyền	ID=3885	Left=7450	Right=7451
+Đồ bảo vệ chơi bóng ném	ID=3886	Left=7464	Right=7465
+Dịch vụ bóng ném	ID=3887	Left=7466	Right=7467
+Giày bóng ném	ID=3888	Left=7470	Right=7471
+Quần áo bóng ném	ID=3889	Left=7468	Right=7469
+Quả bóng ném	ID=3890	Left=7472	Right=7473
+Bóng Bowling	ID=3891	Left=7270	Right=7271
+Dịch vụ bowling	ID=3892	Left=7264	Right=7265
+Giầy bowling	ID=3893	Left=7262	Right=7263
+Sàn Bowling	ID=3894	Left=7268	Right=7269
+Vật dụng bowling	ID=3895	Left=7266	Right=7267
+Dịch vụ cheerleading	ID=3896	Left=7256	Right=7257
+Pom pom	ID=3897	Left=7254	Right=7255
+Quần áo cổ vũ	ID=3898	Left=7258	Right=7259
+Còi trọng tài	ID=3899	Left=7282	Right=7283
+Cờ phất trọng tài	ID=3900	Left=7276	Right=7277
+Đồng hồ bấm giờ	ID=3901	Left=7274	Right=7275
+Gậy trọng tài	ID=3902	Left=7280	Right=7281
+Quần áo trọng tài	ID=3903	Left=7278	Right=7279
+Tiền giấy	ID=3904	Left=7508	Right=7521
+Giấy bạc quốc gia	ID=3905	Left=7513	Right=7514
+Tiền đương đại	ID=3906	Left=7509	Right=7510
+Tiền mẫu	ID=3907	Left=7511	Right=7512
+Tiền tệ liên minh	ID=3908	Left=7517	Right=7518
+Tiền tệ thuộc địa	ID=3909	Left=7519	Right=7520
+Séc ngân hàng	ID=3910	Left=7515	Right=7516
+Tiền xu	ID=3911	Left=7522	Right=7523
+Tem	ID=3912	Left=7504	Right=7505
+Tem phiếu	ID=3914	Left=7502	Right=7503
+Vật dụng sinh hoạt cổ	ID=3916	Left=7484	Right=7485
+Bật lửa cổ	ID=3917	Left=7486	Right=7487
+Ngọc cổ	ID=3921	Left=7492	Right=7493
+Vũ khí cổ	ID=3922	Left=7490	Right=7491
+Tẩu hút thuốc cổ	ID=3923	Left=7488	Right=7489
+Đồ thêu cổ	ID=3924	Left=7498	Right=7499
+Lọ thuốc hít	ID=3925	Left=7496	Right=7497
+Tôn giáo	ID=3926	Left=7542	Right=7543
+Tiêu bản động vật	ID=3927	Left=7540	Right=7541
+Đồ lịch sử	ID=3928	Left=7534	Right=7535
+Thẻ	ID=3930	Left=7530	Right=7531
+Chữ ký ngôi sao	ID=3931	Left=7528	Right=7529
+Đồ gốm giả cổ	ID=3934	Left=7568	Right=7569
+Đồ đồng thau giả cổ	ID=3935	Left=7566	Right=7567
+Đồ gỗ giả cổ	ID=3936	Left=7560	Right=7561
+Thư họa giả cổ	ID=3938	Left=7564	Right=7565
+Quạt cổ	ID=3940	Left=7578	Right=7579
+Loa thùng cổ	ID=3941	Left=7580	Right=7581
+Băng đĩa cổ	ID=3942	Left=7582	Right=7583
+Linh kiện cổ	ID=3943	Left=7584	Right=7585
+Tivi cổ	ID=3945	Left=7574	Right=7575
+Thư pháp	ID=3946	Left=7588	Right=7589
+Bưu ảnh	ID=3947	Left=7590	Right=7591
+Lưu bút	ID=3948	Left=7592	Right=7593
+Sách cổ	ID=3949	Left=7594	Right=7595
+Sổ nhật ký	ID=3950	Left=7596	Right=7597
+Tranh cổ	ID=3951	Left=7598	Right=7599
+Bút cổ	ID=3952	Left=7548	Right=7549
+Chặn giấy cổ	ID=3953	Left=7546	Right=7547
+Giấy cổ	ID=3954	Left=7552	Right=7553
+Lọ mực cổ	ID=3955	Left=7550	Right=7551
+Nghiên cổ	ID=3956	Left=7556	Right=7557
+Ống đựng bút cổ	ID=3957	Left=7554	Right=7555
+Vận dụng tùy thân nhà binh	ID=3958	Left=7612	Right=7613
+Huân huy hiệu	ID=3959	Left=7610	Right=7611
+Quân phục	ID=3962	Left=7608	Right=7609
+Phần mềm game PC	ID=3963	Left=7694	Right=7695
+Phần mềm game PS	ID=3964	Left=7698	Right=7699
+Phần mềm game Xbox	ID=3965	Left=7696	Right=7697
+Phần mềm game PSP	ID=3966	Left=7702	Right=7703
+Game thể thao	ID=3967	Left=7700	Right=7701
+Game khác	ID=3968	Left=7692	Right=7693
+Game hành động	ID=3969	Left=7690	Right=7691
+Bộ đĩa chơi game tổng hợp	ID=3970	Left=7688	Right=7689
+Game nhập vai trực tuyến (MMORPG)	ID=3971	Left=7686	Right=7687
+Game Việt Nam	ID=3972	Left=7684	Right=7685
+Phần mềm game Nintendo Diesu (DS)	ID=3973	Left=7682	Right=7683
+Phần mềm game Nintendo Wii	ID=3974	Left=7680	Right=7681
+Tay bấm	ID=3975	Left=7628	Right=7629
+Vô lăng game	ID=3976	Left=7644	Right=7645
+Pin	ID=3977	Left=7642	Right=7643
+Miếng dán màn hình	ID=3978	Left=7640	Right=7641
+Bộ nhiều phụ kiện	ID=3979	Left=7638	Right=7639
+Miếng di chuột	ID=3980	Left=7636	Right=7637
+Thảm nhảy	ID=3981	Left=7634	Right=7635
+Cable các loại	ID=3982	Left=7632	Right=7633
+Sạc ngoài	ID=3983	Left=7630	Right=7631
+Adapter	ID=3984	Left=7658	Right=7659
+Bút từ	ID=3985	Left=7660	Right=7661
+Camera	ID=3986	Left=7654	Right=7655
+Card Save	ID=3987	Left=7656	Right=7657
+Dây đeo cổ tay	ID=3988	Left=7650	Right=7651
+Đầu đọc thẻ	ID=3989	Left=7652	Right=7653
+Giá đỡ	ID=3990	Left=7646	Right=7647
+Giắc chuyển các loại	ID=3991	Left=7648	Right=7649
+Hộp đựng	ID=3992	Left=7672	Right=7673
+Miếng dán bảo vệ thân máy	ID=3993	Left=7674	Right=7675
+Ổ cứng	ID=3994	Left=7668	Right=7669
+Súng chơi game	ID=3995	Left=7670	Right=7671
+Thiết bị âm thanh	ID=3996	Left=7664	Right=7665
+Thiết bị tản nhiệt	ID=3997	Left=7666	Right=7667
+Vỏ	ID=3998	Left=7662	Right=7663
+Diễn viên	ID=3999	Left=8002	Right=8003
+Chính phủ	ID=4000	Left=7928	Right=7993
+Phi chính phủ	ID=4001	Left=7926	Right=7927
+Doanh nghiệp	ID=4002	Left=7994	Right=7995
+Nhà nước	ID=4003	Left=7943	Right=7944
+Quốc hội	ID=4004	Left=7937	Right=7938
+Bộ Quốc phòng	ID=4005	Left=7935	Right=7936
+Bộ Công an	ID=4006	Left=7941	Right=7942
+Bộ Ngoại giao	ID=4007	Left=7939	Right=7940
+Bộ Nội vụ	ID=4008	Left=7955	Right=7956
+Bộ Tư pháp	ID=4009	Left=7953	Right=7954
+Bộ Kế hoạch và Đầu tư	ID=4010	Left=7959	Right=7960
+Bộ Tài chính	ID=4011	Left=7957	Right=7958
+Bộ Công Thương	ID=4012	Left=7947	Right=7948
+Bộ Nông nghiệp và Phát triển nông thôn	ID=4013	Left=7945	Right=7946
+Bộ Giao thông Vận tải	ID=4014	Left=7951	Right=7952
+Bộ Xây dựng	ID=4015	Left=7949	Right=7950
+Bộ Tài nguyên và Môi trường	ID=4016	Left=7969	Right=7970
+Bộ Thông tin và Truyền thông	ID=4017	Left=7971	Right=7972
+Bộ Khoa học và Công nghệ	ID=4020	Left=7961	Right=7962
+Bộ Giáo dục và Đào tạo	ID=4021	Left=7963	Right=7964
+Bộ Y tế	ID=4022	Left=7965	Right=7966
+Ủy ban Dân tộc	ID=4023	Left=7967	Right=7968
+Thanh tra Chính phủ	ID=4024	Left=7985	Right=7986
+Văn phòng Chính phủ	ID=4025	Left=7987	Right=7988
+Ngân hàng Nhà nước	ID=4026	Left=7989	Right=7990
+Viện Khoa học Xã hội	ID=4027	Left=7991	Right=7992
+Viện Khoa học và Công nghệ	ID=4028	Left=7977	Right=7978
+Thông tấn xã	ID=4029	Left=7979	Right=7980
+Đài Tiếng nói	ID=4030	Left=7981	Right=7982
+Đài Truyền hình	ID=4031	Left=7983	Right=7984
+Bảo hiểm Xã hội	ID=4032	Left=7933	Right=7934
+Ban Quản lý Lăng Chủ tịch Hồ Chí Minh	ID=4034	Left=7929	Right=7930
+ô tô	ID=4035	Left=2	Right=3
+sinh viên	ID=4036	Left=8000	Right=8001
+Đạo diễn	ID=4037	Left=7998	Right=7999
+mới	ID=4038	Left=8005	Right=8006
+tất cả	ID=4039	Left=8008	Right=8009
+sản phẩm	ID=4040	Left=4	Right=7
+giấy ráp	ID=4041	Left=5	Right=6

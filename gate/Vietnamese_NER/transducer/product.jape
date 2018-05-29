@@ -1,0 +1,139 @@
+﻿Phase: Product
+Input: Lookup Token Split
+Options: control = appelt
+
+/*---------------------------------------------------------------------------------------------------*/
+
+Macro: WORD_FORM
+(
+	({Token.orth == upperInitial} | {Token.orth == allCaps} | {Token.orth == mixedCaps} | {Token.kind == entity})
+)
+
+Macro: NAME_CANDIDATE
+(
+	(WORD_FORM)
+	(
+		(
+			(
+				(
+					({Token.kind == number})
+					(WORD_FORM)
+				)[0, 5]
+				({Token.kind == number})? 
+			)|
+			(
+				({Token.kind == number})?
+				(
+					({Token.string == "."})
+					({Token.kind == number})
+				)[0, 5]
+			)
+		) |
+	    (WORD_FORM)[0, 5]
+	)
+)
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Type1
+Priority: 10
+(
+	(	
+		{Lookup.majorType == pro_type, Token.category =~ "N[cu]?"} | 
+		{Lookup.majorType == context, Token.category == "N"}
+	)
+	(NAME_CANDIDATE):name
+):product
+-->
+:product.ProductWrap = {rule = "Type1", id = :name.Lookup.id},
+:name.Product = {rule = "Type1", id = :name.Lookup.id}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD: Asus Transformer
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Brand1
+Priority: 10
+(
+	({Lookup.majorType == pro_brand, Token.category == "Np"}):brand
+	(NAME_CANDIDATE):name
+):product
+-->
+:product.ProductWrap = {rule = "Brand1", id = :name.Lookup.id},
+:name.Product = {rule = "Brand1", brand = :brand@string, id = :name.Lookup.id}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Unit1
+Priority: 10
+(
+	({Lookup.majorType == pro_unit})
+	(NAME_CANDIDATE):name
+):product
+-->
+:product.ProductWrap = {rule = "Unit1", id = :name.Lookup.id},
+:name.Product = {rule = "Unit1", id = :name.Lookup.id}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: Feature1
+Priority: 10
+(
+	({Lookup.majorType == pro_feature})
+	({Token.string == "của"})
+	(NAME_CANDIDATE):name
+)
+-->
+:name.ProductWrap = {rule = "Feature1", id = :name.Lookup.id},
+:name.Product = {rule = "Feature1", id = :name.Lookup.id}
+
+
+/*---------------------------------------------------------------------------------------------------*
+ * VD:
+ *---------------------------------------------------------------------------------------------------*/
+
+Rule: Type2
+Priority: 10
+(
+	(
+		({Lookup.majorType == pro_unit})?
+		({Lookup.majorType == pro_brand})?
+		(NAME_CANDIDATE):name
+	):product
+	({Token.string == "chính"})? ({Token.string == "là"})
+	({Lookup.majorType == pro_unit})?
+	({Lookup.majorType == pro_type} | {Lookup.majorType == context})
+)
+-->
+:product.ProductWrap = {rule = "Type2", id = :name.Lookup.id},
+:name.Product = {rule = "Type2", id = :name.Lookup.id}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+Rule: KnownProduct
+Priority: 30
+(
+	({Lookup.majorType == pro_known})
+):name
+-->
+:name.Product = {type = :name.Lookup.type, rule = "KnownProduct", id = :name.Lookup.id},
+:name.ProductWrap = {type = :name.Lookup.type, rule = "KnownProduct", id = :name.Lookup.id}
+
+
+/*---------------------------------------------------------------------------------------------------*/
