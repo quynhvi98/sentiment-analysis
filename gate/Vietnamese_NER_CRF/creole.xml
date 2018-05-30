@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Vietnamese CRF NER</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>crfner-plugin.jar</JAR>
+			<JAR>lib/stanford-ner.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.crfner.CrfNerPlugin</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->	
+			<PARAMETER COMMENT="The document to be processed"
+				NAME="document" RUNTIME="true">
+				gate.Document
+			</PARAMETER>
+			<PARAMETER COMMENT="The document to be processed"
+				NAME="document" RUNTIME="true">
+				gate.Document
+			</PARAMETER>
+			<PARAMETER COMMENT="Directory of model file .ser.gz"
+				NAME="dirOfModel" RUNTIME="false" DEFAULT="resources">
+				java.net.URL
+			</PARAMETER>
+			<PARAMETER COMMENT="Name of model file .ser.gz"
+				NAME="nameOfModel" RUNTIME="false" DEFAULT="ner-model.ser.gz">
+				java.lang.String
+			</PARAMETER>
+		</RESOURCE>	
+	</CREOLE>
+</CREOLE-DIRECTORY>

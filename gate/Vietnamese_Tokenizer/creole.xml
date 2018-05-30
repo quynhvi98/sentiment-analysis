@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Vietnamese Tokenizer</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>vnTokenizer.jar</JAR>
+			<JAR>vnTokenizer-plugin.jar</JAR>
+			<JAR>lib/antlr-3.4-complete.jar</JAR>
+			<JAR>lib/guava-11.0.2.jar</JAR>
+			<JAR>lib/jdom.jar</JAR>
+			<JAR>lib/trove-3.0.3.jar</JAR>
+			<JAR>lib/log4j-1.2.16.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.tokenizer.TokenizerPlugin</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->
+			<COMMENT>A tokenizer for Vietnamese based on vnTokenizer by Le Hong Phuong</COMMENT>			
+			<PARAMETER COMMENT="The document to be processed"
+				NAME="document" RUNTIME="true">
+				gate.Document
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="resources/automata/dfaLexicon.xml"
+				COMMENT="The URL to the DFA file"
+				NAME="dfaUrl">
+				java.net.URL
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="resources/bigram/unigram.xml"
+				COMMENT="The URL to the unigram file"
+				NAME="unigramUrl">
+				java.net.URL
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="resources/bigram/bigram.xml"
+				COMMENT="The URL to the normalization rule file"
+				NAME="bigramUrl">
+				java.net.URL
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="resources/normalization/rules.txt"
+				COMMENT="The URL to the normalization rule file"
+				NAME="normalizationRuleUrl">
+				java.net.URL
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="0.996"
+				COMMENT="Lambda1 for bigramResolver"
+				NAME="lambda1">
+				java.lang.Double
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="0.004"
+				COMMENT="Lambda2 for bigramResolver"
+				NAME="lambda2">
+				java.lang.Double
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="1E-100"
+				COMMENT="Epsilon for bigramResolver"
+				NAME="epsilon">
+				java.lang.Double
+			</PARAMETER>
+		</RESOURCE>	
+	</CREOLE>
+</CREOLE-DIRECTORY>

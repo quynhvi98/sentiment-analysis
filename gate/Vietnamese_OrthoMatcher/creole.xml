@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Vietnamese OrthoMacther</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>vnOrthoMatcher.jar</JAR>
+			<JAR>lib/guava-11.0.2.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.VietnameseOrthoMatcher</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->
+			<COMMENT>An ortho-matcher for Vietnamese based on ANNIE OrthoMatcher</COMMENT>			
+			<PARAMETER COMMENT="The document to be processed"
+				NAME="document" RUNTIME="true">
+				gate.Document
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="resources/orthomatcher/listsNM.def"
+				NAME="definitionFileURL">
+				java.net.URL
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="UTF-8"
+				NAME="encoding">
+				java.lang.String
+			</PARAMETER>
+			<PARAMETER
+				DEFAULT="0.5"
+				NAME="minimumNicknameLikelihood">
+				java.lang.Double
+			</PARAMETER>
+			<PARAMETER NAME="annotationSetName" RUNTIME="true"
+        COMMENT="Annotation set name where are the annotation types (annotationTypes)"
+				OPTIONAL="true">
+				java.lang.String
+			</PARAMETER>
+			<PARAMETER NAME="caseSensitive" DEFAULT="false"
+        COMMENT="Should this resource diferentiate on case?"
+				OPTIONAL="true">
+				java.lang.Boolean
+			</PARAMETER>
+			<PARAMETER NAME="annotationTypes"
+				DEFAULT="Organization;Person;Location;Date" RUNTIME="true"
+        COMMENT="Name of the annotation types to use"
+				OPTIONAL="true">
+				java.util.ArrayList
+			</PARAMETER>
+			<PARAMETER NAME="processUnknown" DEFAULT="true"
+        COMMENT="Should we process 'Unknown' annotations?"
+				OPTIONAL="true">
+				java.lang.Boolean
+			</PARAMETER>
+			<PARAMETER NAME="organizationType" DEFAULT="Organization"
+        COMMENT="Annotation name for the organizations"
+				OPTIONAL="true">
+				java.lang.String
+			</PARAMETER>
+			<PARAMETER NAME="personType" DEFAULT="Person"
+        COMMENT="Annotation name for the persons"
+				OPTIONAL="true">
+				java.lang.String
+			</PARAMETER>
+			<PARAMETER NAME="extLists" DEFAULT="true" OPTIONAL="true"
+        COMMENT="External lists otherwise internal">
+				java.lang.Boolean
+			</PARAMETER>
+		</RESOURCE>	
+			<ICON>ortho-matcher</ICON>
+	</CREOLE>
+</CREOLE-DIRECTORY>

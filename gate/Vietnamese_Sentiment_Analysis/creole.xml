@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Lookup Correction</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>vnCommonLib.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.correction.LookupCorrection_VN</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->
+			<COMMENT>A plugin that corrects the Lookup annotation for Vietnamese
+			</COMMENT>
+		</RESOURCE>
+	
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Sentiment</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>vnCommonLib.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.sentiment.VnSentiment</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->
+			<COMMENT>Sentiment analyzer for Vietnamese</COMMENT>
+			<PARAMETER COMMENT="The annotation set to be used as input"
+				NAME="inputASName" RUNTIME="true" OPTIONAL="true">
+				java.lang.String
+			</PARAMETER>
+			<PARAMETER COMMENT="The annotation set to be used as output"
+				NAME="outputASName" RUNTIME="true" OPTIONAL="true">
+				java.lang.String
+			</PARAMETER>
+			<PARAMETER NAME = "opinionUrl" DEFAULT = "opinion.lst" COMMENT = "The opinion url">
+			java.net.URL
+			</PARAMETER>
+		</RESOURCE>
+		<RESOURCE>
+			<!-- Name of the PR that appears in GATE PR List -->
+			<NAME>Context Matcher</NAME>
+			<!-- Jar where to look for the resource -->
+			<JAR>vnCommonLib.jar</JAR>
+			<!-- Underlying class that implements the New Plugin -->
+			<CLASS>vn.com.epi.gate.sentiment.ContextMatcher</CLASS>
+			<!-- Comment that appears when mouse hovers over the PR Name -->
+			<COMMENT>Matching context for annotations</COMMENT>
+		</RESOURCE>
+	</CREOLE>
+</CREOLE-DIRECTORY>
