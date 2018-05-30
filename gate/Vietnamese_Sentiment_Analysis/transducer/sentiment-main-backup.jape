@@ -1,0 +1,5 @@
+MultiPhase:	Sentiment-Main
+Phases:
+feature
+opinion
+valenceshifter
