@@ -9,7 +9,6 @@ import org.maltparser.core.syntaxgraph.DependencyStructure;
  * <p>
  * To run this example requires that you have ran TrainingExperiment that creates model0.mco
  *
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
  */
 public class ParseSentence1 {
 

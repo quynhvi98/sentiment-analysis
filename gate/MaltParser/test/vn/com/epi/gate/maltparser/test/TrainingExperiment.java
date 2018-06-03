@@ -9,7 +9,6 @@ import org.maltparser.core.exception.MaltChainedException;
  * This example creates two Single Malt configurations files (model0.mco and model1.mco) by training the models using the small training data file
  * ../data/talbanken05_train.conll
  *
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
  */
 public class TrainingExperiment {
 

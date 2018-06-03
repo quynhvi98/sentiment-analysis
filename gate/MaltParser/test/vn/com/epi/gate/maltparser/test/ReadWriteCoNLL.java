@@ -15,7 +15,6 @@ import org.maltparser.core.syntaxgraph.writer.TabWriter;
  * This example reads dependency graphs formatted according to the CoNLL format and writes the graphs
  * to another file.
  *
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
  */
 public class ReadWriteCoNLL {
     private DependencyGraph inputGraph;

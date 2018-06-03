@@ -10,10 +10,6 @@ import gate.creole.metadata.CreoleResource;
 
 import java.util.ArrayList;
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- * 
- */
 @CreoleResource(name = "Coreferencer PR", comment = "processing resource")
 public class CoreferencerPlugin extends AbstractLanguageAnalyser {
 
