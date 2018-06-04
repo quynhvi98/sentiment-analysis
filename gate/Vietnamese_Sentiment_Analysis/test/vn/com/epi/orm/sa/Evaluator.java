@@ -33,7 +33,7 @@ import vn.com.epi.gate.refdiff.ReferenceAnnotationDiffer;
 
 public class Evaluator {
 	private static final String APP_PATH = "dist/gate/SentimentAnalysisPipeline.gapp";
-	private static final String DOCUMENT_FOLDER = "G:/ePi_Documents/annotations-final";
+	private static final String DOCUMENT_FOLDER = "G:/TQT_Documents/annotations-final";
 
 	private static CorpusController application;
 	private static List<Document> keysDocument;
