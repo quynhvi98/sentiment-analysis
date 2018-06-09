@@ -36,15 +36,13 @@ public class BenchMark {
 				if (folder.isDirectory()) {
 					benchMark(folder.getAbsolutePath());
 				} else {
-					System.out
-							.println("Option should starts with <-i> and folder url. Example: -i D:/Kho ngu lieu 10000 cau duoc gan nhan tu loai");
+					System.out.println("Option should starts with <-i> and folder url. Example: -i D:/Kho ngu lieu 10000 cau duoc gan nhan tu loai");
 				}
 			} catch (Exception e) {
 				// TODO: handle exception
 			}
 		} else {
-			System.out
-					.println("Please insert Url of treebank, option should starts with <-i>. Example: -i D:/Kho ngu lieu 10000 cau duoc gan nhan tu loai");
+			System.out.println("Please insert Url of treebank, option should starts with <-i>. Example: -i D:/Kho ngu lieu 10000 cau duoc gan nhan tu loai");
 		}
 
 	}
@@ -55,8 +53,6 @@ public class BenchMark {
 			ArrayList<String> allSentence = dataProcess.readData(urlOfTreeBank);
 			jVnTagger = new JVnTagger();
 			jVnTagger.init(URL_OF_JVNTAGGER);
-//			posTagger = new PosTagger();
-//			posTagger.init(URL_OF_POSTAGGER);
 			noOfAllSentence = allSentence.size();
 
 			for (String sentence : allSentence) {
@@ -66,29 +62,18 @@ public class BenchMark {
 							.getSentence(sentence);
 					List<String> taggedByJVnTagger = dataProcess
 							.getTagger(jVnTagger.tag(sentenceWithoutTag));
-//					List<String> taggedByPosTagger = dataProcess
-//							.getTagger(posTagger.tag(sentenceWithoutTag));
 					noOfAllToken += taggedByHuman.size();
 					if (checkCorrectSentence(taggedByHuman, taggedByJVnTagger,
 							true)) {
 						noJVNCorrectSentence++;
 					}
-
-//					if (checkCorrectSentence(taggedByHuman, taggedByPosTagger,
-//							false)) {
-//						noPosCorrectSentence++;
-//					}
 				}
 			}
-			System.out.println("Number of correct token by JVNTagger:"
-					+ noJVNCorrectToken);
-			System.out.println("Number of correct token by PosTagger:"
-					+ noPosCorrectToken);
+			System.out.println("Number of correct token by JVNTagger:" + noJVNCorrectToken);
+			System.out.println("Number of correct token by PosTagger:" + noPosCorrectToken);
 			System.out.println("Number of all token: " + noOfAllToken);
-			System.out.println("Number of correct sentences by JVNTagger:"
-					+ noJVNCorrectSentence);
-			System.out.println("Number of correct sentences by PosTagger:"
-					+ noPosCorrectSentence);
+			System.out.println("Number of correct sentences by JVNTagger:" + noJVNCorrectSentence);
+			System.out.println("Number of correct sentences by PosTagger:" + noPosCorrectSentence);
 			System.out.println("Number of all sentences: " + noOfAllSentence);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -102,8 +87,7 @@ public class BenchMark {
 		} else {
 			boolean out = true;
 			for (int i = 0; i < taggedByHuman.size(); i++) {
-				if (taggedByHuman.get(i)
-						.equalsIgnoreCase(taggedByTagger.get(i))) {
+				if (taggedByHuman.get(i).equalsIgnoreCase(taggedByTagger.get(i))) {
 					if (isJvnTag) {
 						noJVNCorrectToken++;
 					} else {
@@ -122,5 +106,4 @@ public class BenchMark {
 			return out;
 		}
 	}
-
 }

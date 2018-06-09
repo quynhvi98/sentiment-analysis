@@ -18,8 +18,7 @@ public class DataProcess {
 			File[] allFiles = folder.listFiles();
 			for(int i = 0; i < allFiles.length; i++){
 				String strLine;
-				BufferedReader br = new BufferedReader(new InputStreamReader(
-						new FileInputStream(allFiles[i]), "UTF-8"));
+				BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(allFiles[i]), "UTF-8"));
 				while ((strLine = br.readLine()) != null) {
 					output.add(strLine);
 				}
@@ -27,8 +26,7 @@ public class DataProcess {
 			}
 		}else{
 			String strLine;
-			BufferedReader br = new BufferedReader(new InputStreamReader(
-					new FileInputStream(folder), "UTF-8"));
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(folder), "UTF-8"));
 			while ((strLine = br.readLine()) != null) {
 				output.add(strLine);
 			}
@@ -63,7 +61,6 @@ public class DataProcess {
 				}
 				tag.add(splitWordAndTag[splitWordAndTag.length - 1]);
 			}
-
 		}
 		return tag;
 	}
@@ -92,8 +89,6 @@ public class DataProcess {
 			}
 
 		}
-		
 		return output.toString();
 	}
-	
 }
