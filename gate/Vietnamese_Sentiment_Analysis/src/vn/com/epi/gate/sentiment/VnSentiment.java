@@ -58,14 +58,13 @@ public class VnSentiment extends AbstractLanguageAnalyser implements
 
 	public Resource init() throws ResourceInstantiationException {
 		featureEntityMatcher
-				.setEntityAnnotationTypes(Arrays.asList(new String[] {
-						PRODUCT_ANNOTATION_TYPE, PERSON_ANNOTATION_TYPE,
-						ORGANIZATION_ANNOTATION_TYPE }));
+				.setEntityAnnotationTypes(Arrays.asList(PRODUCT_ANNOTATION_TYPE, PERSON_ANNOTATION_TYPE,
+						ORGANIZATION_ANNOTATION_TYPE));
 		featureEntityMatcher.init();
 		return this;
 	}
 
-	public void execute() throws ExecutionException {
+	public void execute() {
 		polarityGuesser = new PolarityGuesser();
 		freedomFeature = new ArrayList<Annotation>();
 		mainProduct = null;
@@ -309,7 +308,7 @@ public class VnSentiment extends AbstractLanguageAnalyser implements
 	private Annotation determineEntityAndFeatureOfOpinion(
 			Annotation tempOpinion, int indexOfMainTokenOpinion,
 			List<Annotation> tokens, AnnotationSet productBetween,
-			AnnotationSet featureBetween) throws InvalidOffsetException {
+			AnnotationSet featureBetween) {
 		entity = null;
 		feature = null;
 
