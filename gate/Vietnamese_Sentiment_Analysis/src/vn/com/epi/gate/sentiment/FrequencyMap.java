@@ -3,7 +3,6 @@ package vn.com.epi.gate.sentiment;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-//import java.util.Objects;
 import java.util.Set;
 
 import com.google.common.base.Objects;
@@ -75,7 +74,7 @@ public class FrequencyMap<K extends Comparable<K>, V> implements Map<K, V> {
 	}
 	
 	public V put(K key, V value, int count) {
-		FrequencyValue<V> fValue = Iterables.getFirst(store.get((K) key), null);
+		FrequencyValue<V> fValue = Iterables.getFirst(store.get(key), null);
 		if (fValue == null) {
 			fValue = new FrequencyValue<V>(value, count);
 			store.put(key, fValue);

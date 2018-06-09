@@ -39,27 +39,24 @@ public class PolarityGuesser {
 		if (url.toString().endsWith(".lst")) {
 			loadModel(new File(url.toURI()));
 		} else if (url.toString().endsWith(".def")) {
-			Set<String> listFile = loadDefFile(new BufferedReader(
-					new InputStreamReader(url.openStream(), "UTF-8")));
+			Set<String> listFile = loadDefFile(new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8")));
 			File parentFile = new File(url.toURI());
 			for (String fileName : listFile) {
-				File tempFile = new File(parentFile.getParent(),
-						fileName.trim());
+				File tempFile = new File(parentFile.getParent(), fileName.trim());
 				loadModel(tempFile);
 			}
 		}
 	}
 
 	private void loadModel(File input) throws IOException {
-		Reader reader = new InputStreamReader(new FileInputStream(input),
-				"UTF-8");
+		Reader reader = new InputStreamReader(new FileInputStream(input), "UTF-8");
 		BufferedReader in = new BufferedReader(reader);
 		try {
 			String line;
 			while ((line = in.readLine()) != null) {
 				parseLine(line);
 			}
-		} finally {
+		}finally {
 			if (in != null) {
 				try {
 					in.close();
@@ -85,8 +82,7 @@ public class PolarityGuesser {
 		return output;
 	}
 
-	private static final Pattern COUNT_PATTERN = Pattern
-			.compile("\tcount\\s*=\\s*(\\d+)($|\\s)");
+	private static final Pattern COUNT_PATTERN = Pattern.compile("\tcount\\s*=\\s*(\\d+)($|\\s)");
 
 	private void parseLine(String line) {
 		String[] chunks = line.split("\t");
@@ -102,10 +98,8 @@ public class PolarityGuesser {
 		addOpinion(chunks[0], chunks[1], chunks[2], count);
 	}
 
-	private void addOpinion(String opinionExpression, String feature,
-			String polarity, int count) {
-		FrequencyMap<String, String> frequencyMap = opinionMap
-				.get(opinionExpression);
+	private void addOpinion(String opinionExpression, String feature, String polarity, int count) {
+		FrequencyMap<String, String> frequencyMap = opinionMap.get(opinionExpression);
 		if (frequencyMap == null) {
 			frequencyMap = new FrequencyMap<String, String>();
 			opinionMap.put(opinionExpression, frequencyMap);
@@ -114,8 +108,7 @@ public class PolarityGuesser {
 	}
 
 	public String guess(String opinionExpression, String feature) {
-		FrequencyMap<String, String> featureMap = opinionMap
-				.get(opinionExpression);
+		FrequencyMap<String, String> featureMap = opinionMap.get(opinionExpression);
 		if (featureMap == null) {
 			return null;
 		}

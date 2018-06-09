@@ -17,7 +17,6 @@ public class AnnotationOffsetComparator implements Comparator<Annotation> {
 
         int offset1 = a1.getStartNode().getOffset().intValue();
         int offset2 = a2.getStartNode().getOffset().intValue();
-
         return offset1 - offset2;
     }
 }

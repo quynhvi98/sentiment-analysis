@@ -6,9 +6,7 @@ package vn.com.epi.gate.sentiment;
  * @author viquy (vi.quynh.31598@gmail.com)
  */
 public enum Polarity {
-
 	POSITIVE, NEGATIVE, NEUTRAL, NO_OPINION;
-
 	public Polarity reverse() {
 		return this == POSITIVE ? NEGATIVE :
 			this == NEGATIVE ? POSITIVE : this;

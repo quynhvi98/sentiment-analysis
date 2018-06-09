@@ -49,7 +49,7 @@ public class ClauseRecognizerPlugin extends AbstractLanguageAnalyser {
 	}
 	
 	@Override
-	public void execute() throws ExecutionException {
+	public void execute() {
 		// sort sentences for easier debugging
 //		List<Annotation> sentences =
 //				new ArrayList<Annotation>(

@@ -16,17 +16,14 @@ import java.io.IOException;
  *
  * @author viquy (vi.quynh.31598@gmail.com)
  */
+
 public class ContextMatcher extends AbstractLanguageAnalyser implements ProcessingResource {
     private static final long serialVersionUID = 8651268467873933965L;
     public static final String PRODUCT_ANNOTATION_TYPE = "Product";
-    private static AnnotationOffsetComparator ANNOTATION_OFFSET_COMPARTOR;
+    private static AnnotationOffsetComparator ANNOTATION_OFFSET_COMPARTOR = new AnnotationOffsetComparator();
     private AnnotationSet products;
 
-    static {
-        ANNOTATION_OFFSET_COMPARTOR = new AnnotationOffsetComparator();
-    }
-
-    public Resource init() throws ResourceInstantiationException {
+    public Resource init() {
         return this;
     }
 
@@ -39,7 +36,7 @@ public class ContextMatcher extends AbstractLanguageAnalyser implements Processi
         products = defaultAnnotationSet.get(PRODUCT_ANNOTATION_TYPE);
     }
 
-    public void execute() throws ExecutionException {
+    public void execute() {
         preprocess();
         if(products == null && products.isEmpty()){
             return;
