@@ -59,8 +59,7 @@ public class ParserService extends MaltParserService {
         if (flowChartInstance.hasPreProcessChartItems()) {
             flowChartInstance.preprocess();
         }
-        singleMalt = (SingleMalt) flowChartInstance.getFlowChartRegistry(
-                org.maltparser.parser.SingleMalt.class, "singlemalt");
+        singleMalt = (SingleMalt) flowChartInstance.getFlowChartRegistry(org.maltparser.parser.SingleMalt.class, "singlemalt");
         singleMalt.getConfigurationDir().initDataFormat();
         dataFormatInstance = singleMalt
                 .getConfigurationDir()
@@ -112,8 +111,7 @@ public class ParserService extends MaltParserService {
                 }
             }
         }
-        outputGraph.setDefaultRootEdgeLabel(outputGraph.getSymbolTables()
-                .getSymbolTable("DEPREL"), "ROOT");
+        outputGraph.setDefaultRootEdgeLabel(outputGraph.getSymbolTables().getSymbolTable("DEPREL"), "ROOT");
         // Invoke parse with the output graph
         singleMalt.parse(outputGraph);
         return outputGraph;

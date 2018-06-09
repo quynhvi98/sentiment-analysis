@@ -18,9 +18,7 @@ import org.maltparser.core.exception.MaltChainedException;
 
 @CreoleResource(name = "maltparser PR", comment = "processing resource")
 public class MaltParserPlugin extends AbstractLanguageAnalyser {
-
     private static final long serialVersionUID = 1L;
-
     private ParserService service = null;
     private URL dirOfMCO;
     private String nameOfMCO;
@@ -66,8 +64,7 @@ public class MaltParserPlugin extends AbstractLanguageAnalyser {
 
     private List<Annotation> getTokens(Annotation sent) {
         List<Annotation> tokens = new ArrayList<Annotation>(document
-                .getAnnotations().get("Token", sent.getStartNode().getOffset(),
-                        sent.getEndNode().getOffset()));
+                .getAnnotations().get("Token", sent.getStartNode().getOffset(), sent.getEndNode().getOffset()));
         Collections.sort(tokens, gate.Utils.OFFSET_COMPARATOR);
         return tokens;
     }

@@ -3,25 +3,18 @@ package vn.com.epi.gate.maltparser.benchmark;
 import org.maltparser.MaltParserService;
 
 public class TrainingExperiment {
-
     public boolean train(int mode, String trainingDataFile, String modelName) {
         try {
             if (mode == 0) {
-                System.out.println("Trains the parser model "
-                        + trainingDataFile + " and uses parsing mode 2planar");
-
+                System.out.println("Trains the parser model " + trainingDataFile + " and uses parsing mode 2planar");
                 new MaltParserService(1).runExperiment("-c " + modelName
                         + " -i " + trainingDataFile
                         + " -m learn -ne true -nr true -a 2planar -pcov true -2pr true");
-//				new MaltParserService(0).runExperiment("-c " + "VTB"
-//						+ " -i " + trainingDataFile
-//						+ " -m learn -ne true -nr true -a 2planar -pcov true -2pr true");
                 System.out.println("Done");
             } else if (mode == 1) {
                 System.out.println("Trains the parser model "
                         + trainingDataFile
                         + " and uses parsing mode Nivre Standard");
-
                 new MaltParserService(1).runExperiment("-c " + modelName
                         + " -i " + trainingDataFile
                         + " -m learn -ne true -nr true -a nivrestandard");
@@ -30,7 +23,6 @@ public class TrainingExperiment {
                 System.out.println("Trains the parser model "
                         + trainingDataFile
                         + " and uses parsing mode Covproj with head + path");
-
                 new MaltParserService(2)
                         .runExperiment("-c "
                                 + modelName
@@ -42,7 +34,6 @@ public class TrainingExperiment {
                 System.out.println("Trains the parser model "
                         + trainingDataFile
                         + " and uses parsing mode Covnonproj");
-
                 new MaltParserService(3).runExperiment("-c " + modelName
                         + " -i " + trainingDataFile
                         + " -m learn -ne true -nr true -a covnonproj");
@@ -81,10 +72,8 @@ public class TrainingExperiment {
                         + " -m learn -ne true -nr true -a stacklazy");
                 System.out.println("Done");
             } else {
-                System.out.println("Trains the parser model "
-                        + trainingDataFile + " and uses parsing mode Nivre");
-                new MaltParserService(7)
-                        .runExperiment("-c "
+                System.out.println("Trains the parser model " + trainingDataFile + " and uses parsing mode Nivre");
+                new MaltParserService(7).runExperiment("-c "
                                 + modelName
                                 + " -i "
                                 + trainingDataFile

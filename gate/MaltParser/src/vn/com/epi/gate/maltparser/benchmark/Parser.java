@@ -4,13 +4,10 @@ import org.maltparser.MaltParserService;
 import org.maltparser.core.exception.MaltChainedException;
 
 public class Parser {
-
     private MaltParserService service = null;
-
     public Parser(String modelName) throws MaltChainedException {
         service = new MaltParserService();
-        service.initializeParserModel("-c " + modelName
-                + " -m parse -w . -lfi parser.log");
+        service.initializeParserModel("-c " + modelName + " -m parse -w . -lfi parser.log");
         service.terminateParserModel();
     }
 

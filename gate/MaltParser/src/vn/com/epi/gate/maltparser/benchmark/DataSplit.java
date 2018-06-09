@@ -22,22 +22,20 @@ public class DataSplit {
         String strLine;
         BufferedReader br;
         try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(
-                    inputFile), "UTF-8"));
+            br = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile), "UTF-8"));
             while ((strLine = br.readLine()) != null) {
                 if (strLine.equals("")) {
                     String[] sentence = new String[sentenceArray.size()];
                     for (int i = 0; i < sentenceArray.size(); i++) {
                         sentence[i] = sentenceArray.get(i);
                     }
-
-                    if (generator.nextDouble() < rate) {
+                    if (generator.nextDouble() < rate){
                         trainSentences.add(sentence);
-                    } else {
+                    }else{
                         testSentences.add(sentence);
                     }
                     sentenceArray = new ArrayList<String>();
-                } else {
+                }else{
                     sentenceArray.add(strLine);
                 }
             }
@@ -52,8 +50,7 @@ public class DataSplit {
     public boolean writeFile(String fileName, String text) {
         File file = new File(fileName);
         try {
-            BufferedWriter fos = new BufferedWriter(new OutputStreamWriter(
-                    new FileOutputStream(file), "UTF-8"));
+            BufferedWriter fos = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
             fos.write(text);
             fos.close();
             return true;
@@ -62,12 +59,10 @@ public class DataSplit {
         }
     }
 
-    public boolean splitData(String inputFileName, String trainFileName,
-                             String testFileName, double rate) {
+    public boolean splitData(String inputFileName, String trainFileName, String testFileName, double rate) {
         boolean status = readAndSplitSentence(new File(inputFileName), rate);
         if (status) {
             StringBuffer stringBuffer = new StringBuffer();
-
             // write train data;
             for (int i = 0; i < trainSentences.size(); i++) {
                 for (int j = 0; j < trainSentences.get(i).length; j++) {
@@ -77,7 +72,6 @@ public class DataSplit {
             }
             status = writeFile(trainFileName, stringBuffer.toString());
             stringBuffer = new StringBuffer();
-
             // write test data;
             for (int i = 0; i < testSentences.size(); i++) {
                 for (int j = 0; j < testSentences.get(i).length; j++) {

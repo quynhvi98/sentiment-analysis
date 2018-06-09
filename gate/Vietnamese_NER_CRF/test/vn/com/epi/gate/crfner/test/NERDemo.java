@@ -27,8 +27,7 @@ public class NERDemo {
 			serializedClassifier = args[0];
 		}
 
-		AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier
-				.getClassifierNoExceptions(serializedClassifier);
+		AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier.getClassifierNoExceptions(serializedClassifier);
 
 		/*
 		 * For either a file to annotate or for the hardcoded text example, this
