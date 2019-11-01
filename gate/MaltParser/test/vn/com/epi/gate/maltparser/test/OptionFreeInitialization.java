@@ -5,7 +5,6 @@ import org.maltparser.core.exception.MaltChainedException;
 import org.maltparser.core.io.dataformat.DataFormatSpecification;
 import org.maltparser.core.syntaxgraph.DependencyStructure;
 
-
 /*
  * This examples shows how you can initialize MaltParserService without loading MaltParser option manager. Note that no parser model (.mco file) can be loaded or created when option free initialization is true. 
  * 
@@ -13,9 +12,6 @@ import org.maltparser.core.syntaxgraph.DependencyStructure;
  * 
  */
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- */
 public class OptionFreeInitialization {
 
     public static void main(String[] args) {

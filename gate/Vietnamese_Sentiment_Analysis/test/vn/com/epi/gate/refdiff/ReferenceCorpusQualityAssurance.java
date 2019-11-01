@@ -983,7 +983,7 @@ public class ReferenceCorpusQualityAssurance extends AbstractVisualResource
       for (int i = documentStart; i < corpus.size(); i++) {
         // fill in the lists of document, set, type and feature names
         boolean documentWasLoaded = corpus.isDocumentLoaded(i);
-        Document document = (Document) corpus.get(i);
+        Document document = corpus.get(i);
         if (document != null && document.getAnnotationSetNames() != null) {
           setsTypesFeatures =
             new TreeMap<String, TreeMap<String, TreeSet<String>>>(collator);
@@ -1125,7 +1125,7 @@ public class ReferenceCorpusQualityAssurance extends AbstractVisualResource
     // for each document
     for (int row = 0; row < corpus.size(); row++) {
       boolean documentWasLoaded = corpus.isDocumentLoaded(row);
-      Document document = (Document) corpus.get(row);
+      Document document = corpus.get(row);
       documentNames.add(document.getName());
       Set<Annotation> keys = new HashSet<Annotation>();
       Set<Annotation> responses = new HashSet<Annotation>();
@@ -1554,10 +1554,9 @@ public class ReferenceCorpusQualityAssurance extends AbstractVisualResource
       putValue(MNEMONIC_KEY, KeyEvent.VK_UP);
     }
     public void actionPerformed(ActionEvent e){
-      final Document document = (Document)
-        corpus.get(measuresType == FSCORE_MEASURES ?
-          documentTable.rowViewToModel(documentTable.getSelectedRow())
-        : document2Table.rowViewToModel(document2Table.getSelectedRow()));
+      final Document document = corpus.get(measuresType == FSCORE_MEASURES ?
+        documentTable.rowViewToModel(documentTable.getSelectedRow())
+      : document2Table.rowViewToModel(document2Table.getSelectedRow()));
       SwingUtilities.invokeLater( new Runnable() { public void run() {
         MainFrame.getInstance().select(document);
       }});
@@ -1572,10 +1571,9 @@ public class ReferenceCorpusQualityAssurance extends AbstractVisualResource
       putValue(MNEMONIC_KEY, KeyEvent.VK_RIGHT);
     }
     public void actionPerformed(ActionEvent e){
-      Document document = (Document)
-        corpus.get(measuresType == FSCORE_MEASURES ?
-          documentTable.rowViewToModel(documentTable.getSelectedRow())
-        : document2Table.rowViewToModel(document2Table.getSelectedRow()));
+      Document document = corpus.get(measuresType == FSCORE_MEASURES ?
+        documentTable.rowViewToModel(documentTable.getSelectedRow())
+      : document2Table.rowViewToModel(document2Table.getSelectedRow()));
       String documentName = document.getName();
       String annotationType = (String) typeList.getSelectedValue();
       Set<String> featureSet = new HashSet<String>();

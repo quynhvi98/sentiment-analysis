@@ -1,22 +1,3 @@
-/*******************************************************************************
- * Copyright (c) 2012 ePi Technologies.
- *
- * This file is part of VNLP: a Natural Language Processing framework 
- * for Vietnamese.
- *
- * VNLP is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * VNLP is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with VNLP.  If not, see <http://www.gnu.org/licenses/>.
- ******************************************************************************/
 package vn.com.epi.gate.maltparser;
 
 import java.util.Iterator;
@@ -33,9 +14,6 @@ import org.maltparser.core.syntaxgraph.DependencyStructure;
 import org.maltparser.core.syntaxgraph.node.DependencyNode;
 import org.maltparser.parser.SingleMalt;
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- */
 public class ParserService extends MaltParserService {
 
     private int optionContainer;
@@ -81,8 +59,7 @@ public class ParserService extends MaltParserService {
         if (flowChartInstance.hasPreProcessChartItems()) {
             flowChartInstance.preprocess();
         }
-        singleMalt = (SingleMalt) flowChartInstance.getFlowChartRegistry(
-                org.maltparser.parser.SingleMalt.class, "singlemalt");
+        singleMalt = (SingleMalt) flowChartInstance.getFlowChartRegistry(org.maltparser.parser.SingleMalt.class, "singlemalt");
         singleMalt.getConfigurationDir().initDataFormat();
         dataFormatInstance = singleMalt
                 .getConfigurationDir()
@@ -134,8 +111,7 @@ public class ParserService extends MaltParserService {
                 }
             }
         }
-        outputGraph.setDefaultRootEdgeLabel(outputGraph.getSymbolTables()
-                .getSymbolTable("DEPREL"), "ROOT");
+        outputGraph.setDefaultRootEdgeLabel(outputGraph.getSymbolTables().getSymbolTable("DEPREL"), "ROOT");
         // Invoke parse with the output graph
         singleMalt.parse(outputGraph);
         return outputGraph;

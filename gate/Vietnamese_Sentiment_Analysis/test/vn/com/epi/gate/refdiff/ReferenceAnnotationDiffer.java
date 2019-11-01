@@ -101,20 +101,20 @@ public class ReferenceAnnotationDiffer {
 	 * Interface representing a pairing between a key annotation and a response 
 	 * one.
 	 */
-	public static interface Pairing{
+	public interface Pairing{
 		/**
 		 * Gets the key annotation of the pairing. Can be <tt>null</tt> (for 
 		 * spurious matches).
 		 * @return an {@link Annotation} object.
 		 */
-		public Annotation getKey();
+        Annotation getKey();
 
 		/**
 		 * Gets the response annotation of the pairing. Can be <tt>null</tt> (for 
 		 * missing matches).
 		 * @return an {@link Annotation} object.
 		 */
-		public Annotation getResponse();
+        Annotation getResponse();
 
 		/**
 		 * Gets the type of the pairing, one of {@link #CORRECT_TYPE},
@@ -122,7 +122,7 @@ public class ReferenceAnnotationDiffer {
 		 * {@link #MISSING_TYPE},
 		 * @return an <tt>int</tt> value.
 		 */
-		public int getType();
+        int getType();
 	}
 
 	/**
@@ -264,7 +264,7 @@ public class ReferenceAnnotationDiffer {
 			List aList = (List)keyChoices.get(i);
 			if(aList == null || aList.isEmpty()){
 				if(missingAnnotations == null) missingAnnotations = new HashSet();
-				missingAnnotations.add((Annotation)(keyList.get(i)));
+				missingAnnotations.add(keyList.get(i));
 				PairingImpl choice = new PairingImpl(i, -1, WRONG_VALUE);
 				choice.setType(MISSING_TYPE);
 				finalChoices.add(choice);
@@ -277,7 +277,7 @@ public class ReferenceAnnotationDiffer {
 			List aList = (List)responseChoices.get(i);
 			if(aList == null || aList.isEmpty()){
 				if(spuriousAnnotations == null) spuriousAnnotations = new HashSet();
-				spuriousAnnotations.add((Annotation)(responseList.get(i)));
+				spuriousAnnotations.add(responseList.get(i));
 				PairingImpl choice = new PairingImpl(-1, i, WRONG_VALUE);
 				choice.setType(SPURIOUS_TYPE);
 				finalChoices.add(choice);
@@ -329,7 +329,7 @@ public class ReferenceAnnotationDiffer {
 	 * @return a <tt>double</tt> value.
 	 */
 	public double getPrecisionAverage() {
-		return ((double)getPrecisionLenient() + getPrecisionStrict()) / (double)(2.0);
+		return (getPrecisionLenient() + getPrecisionStrict()) / 2.0;
 	}
 
 	/**
@@ -349,7 +349,7 @@ public class ReferenceAnnotationDiffer {
 	 * @return a <tt>double</tt> value.
 	 */
 	public double getRecallAverage() {
-		return ((double) getRecallLenient() + getRecallStrict()) / (double)(2.0);
+		return (getRecallLenient() + getRecallStrict()) / 2.0;
 	}
 
 	/**
@@ -365,7 +365,7 @@ public class ReferenceAnnotationDiffer {
 		double precision = getPrecisionStrict();
 		double recall = getRecallStrict();
 		double betaSq = beta * beta;
-		double answer = (double)(((double)(betaSq + 1) * precision * recall ) / (double)(betaSq * precision + recall));
+		double answer = ((betaSq + 1) * precision * recall ) / (betaSq * precision + recall);
 		if(Double.isNaN(answer)) answer = 0.0;
 		return answer;
 	}
@@ -382,7 +382,7 @@ public class ReferenceAnnotationDiffer {
 		double precision = getPrecisionLenient();
 		double recall = getRecallLenient();
 		double betaSq = beta * beta;
-		double answer = (double)(((double)(betaSq + 1) * precision * recall) / ((double)betaSq * precision + recall));
+		double answer = ((betaSq + 1) * precision * recall) / (betaSq * precision + recall);
 		if(Double.isNaN(answer)) answer = 0.0;
 		return answer;
 	}
@@ -395,7 +395,7 @@ public class ReferenceAnnotationDiffer {
 	 * @return a <tt>double</tt>value.
 	 */  
 	public double getFMeasureAverage(double beta) {
-		double answer = ((double)getFMeasureLenient(beta) + (double)getFMeasureStrict(beta)) / (double)(2.0);
+		double answer = (getFMeasureLenient(beta) + getFMeasureStrict(beta)) / 2.0;
 		return answer;
 	}
 

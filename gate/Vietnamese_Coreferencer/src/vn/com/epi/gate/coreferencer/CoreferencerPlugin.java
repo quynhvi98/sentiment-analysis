@@ -10,10 +10,6 @@ import gate.creole.metadata.CreoleResource;
 
 import java.util.ArrayList;
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- * 
- */
 @CreoleResource(name = "Coreferencer PR", comment = "processing resource")
 public class CoreferencerPlugin extends AbstractLanguageAnalyser {
 
@@ -28,15 +24,12 @@ public class CoreferencerPlugin extends AbstractLanguageAnalyser {
 
 	public void execute() throws ExecutionException {
 
-		AnnotationSet sentences = document.getAnnotations("").get(
-				SENTENCE_LABLE);
+		AnnotationSet sentences = document.getAnnotations("").get(SENTENCE_LABLE);
 		AnnotationSet products = document.getAnnotations("").get(PRODUCT_LABLE);
 		AnnotationSet lookups = document.getAnnotations("").get(LOOKUP_LABLE);
 
-		ArrayList<Annotation> unNamedProduct = getCorrectionLookup(products,
-				lookups);
-		ArrayList<Annotation> namedProduct = getUnCorrectionLookup(products,
-				lookups);
+		ArrayList<Annotation> unNamedProduct = getCorrectionLookup(products, lookups);
+		ArrayList<Annotation> namedProduct = getUnCorrectionLookup(products, lookups);
 
 		for (Annotation unNamed : unNamedProduct) {
 			boolean isMatch = false;
@@ -48,13 +41,10 @@ public class CoreferencerPlugin extends AbstractLanguageAnalyser {
 					}
 				}
 				if (sentenProduct.size() > 0) {
-					Annotation nearestNamed = getNearestAnnot(unNamed,
-							sentenProduct);
+					Annotation nearestNamed = getNearestAnnot(unNamed, sentenProduct);
 					if (nearestNamed != null) {
-						nearestNamed.getFeatures().put("co-reference",
-								unNamed.getId());
-						unNamed.getFeatures().put("co-reference",
-								nearestNamed.getId());
+						nearestNamed.getFeatures().put("co-reference", unNamed.getId());
+						unNamed.getFeatures().put("co-reference", nearestNamed.getId());
 						isMatch = true;
 					}
 				}
@@ -63,10 +53,8 @@ public class CoreferencerPlugin extends AbstractLanguageAnalyser {
 			if (!isMatch) {
 				Annotation nearestNamed = getNearestAnnot(unNamed, namedProduct);
 				if (nearestNamed != null) {
-					nearestNamed.getFeatures().put("co-reference",
-							unNamed.getId());
-					unNamed.getFeatures().put("co-reference",
-							nearestNamed.getId());
+					nearestNamed.getFeatures().put("co-reference", unNamed.getId());
+					unNamed.getFeatures().put("co-reference", nearestNamed.getId());
 				}
 			}
 		}
@@ -97,8 +85,7 @@ public class CoreferencerPlugin extends AbstractLanguageAnalyser {
 
 	private long getLocation(Annotation anot) {
 		if (anot != null) {
-			return (anot.getEndNode().getOffset() + anot.getStartNode()
-					.getOffset()) / 2;
+			return (anot.getEndNode().getOffset() + anot.getStartNode().getOffset()) / 2;
 		} else {
 			return 9999999;
 		}

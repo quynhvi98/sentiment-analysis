@@ -56,7 +56,7 @@ public class AnnotationTrimmerPlugin extends AbstractLanguageAnalyser {
 	}
 
 	private void process(AnnotationSet annotations) throws InvalidOffsetException, 
-			IllegalArgumentException, IllegalAccessException, InvocationTargetException {
+			IllegalArgumentException {
 		Annotation[] arr = annotations.toArray(new Annotation[annotations.size()]);
 		for (Annotation annotation : arr) {
 			String str = Utils.stringFor(document, annotation);

@@ -2,12 +2,12 @@
 <VPosTagFeaSel version="3.0"
   xmlns="http://www.dmg.org/PMML-3-0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema_instance"  >
-	<ctxpre value = "w:0"/>		
+	<ctxpre value = "w:0"/>
 	<ctxpre value = "w:1"/>
 	<ctxpre value = "w:2"/>
 	<ctxpre value = "w:-1"/>
 	<ctxpre value = "w:-2"/>
-	<ctxpre value = "wj:0:1"/>				
+	<ctxpre value = "wj:0:1"/>
 	<ctxpre value = "wj:-1:0"/>
 	<ctxpre value = "prf:0"/>
 	<ctxpre value = "sff:0"/>
@@ -20,7 +20,7 @@
 	<ctxpre value = "hyph:0"/>
 	<ctxpre value = "slash:0"/>
 	<ctxpre value = "hyph:-1"/>
-	<ctxpre value = "slash:-1"/>	
+	<ctxpre value = "slash:-1"/>
 	<ctxpre value = "com:0"/>
 	<ctxpre value = "com:-1"/>
 	<ctxpre value = "ac:0"/>
@@ -31,7 +31,7 @@
 	<ctxpre value = "mk:-1"/>
 	<ctxpre value = "mk:1"/>
 	<ctxpre value = "dict:0"/>
-	<ctxpre value = "dict:1"/>	
+	<ctxpre value = "dict:1"/>
 	<ctxpre value = "dict:-1"/>
 	<ctxpre value = "rr:0"/>
 </VPosTagFeaSel>

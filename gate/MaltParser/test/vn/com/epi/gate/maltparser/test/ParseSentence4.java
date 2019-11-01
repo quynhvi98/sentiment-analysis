@@ -10,7 +10,6 @@ import org.maltparser.core.exception.MaltChainedException;
  * <p>
  * jar cf mco_nested_in_jar.jar model0.mco
  *
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
  */
 public class ParseSentence4 {
 

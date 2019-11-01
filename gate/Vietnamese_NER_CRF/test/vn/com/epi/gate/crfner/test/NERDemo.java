@@ -21,14 +21,13 @@ public class NERDemo {
 
 	public static void main(String[] args) throws IOException {
 
-		String serializedClassifier = "D:/ner-model.ser.gz";
+		String serializedClassifier = "gate/Vietnamese_NER_CRF/resources/ner-model.ser.gz";
 
 		if (args.length > 0) {
 			serializedClassifier = args[0];
 		}
 
-		AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier
-				.getClassifierNoExceptions(serializedClassifier);
+		AbstractSequenceClassifier<CoreLabel> classifier = CRFClassifier.getClassifierNoExceptions(serializedClassifier);
 
 		/*
 		 * For either a file to annotate or for the hardcoded text example, this

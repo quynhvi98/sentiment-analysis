@@ -6,8 +6,6 @@ import gate.Annotation;
 import gate.AnnotationSet;
 import gate.Document;
 import gate.Utils;
-import gate.creole.ExecutionException;
-import gate.creole.ResourceInstantiationException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -46,7 +44,7 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#init()
 	 */
 	@Override
-	public void init() throws ResourceInstantiationException {
+	public void init() {
 		entityAnnotationTypeSet = new HashSet<String>(entityAnnotationTypes);
 	}
 	
@@ -54,7 +52,7 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#execute()
 	 */
 	@Override
-	public void execute() throws ExecutionException {
+	public void execute() {
 		tokens = initAnnotationArray("Token");
 		sentences = initAnnotationArray("Sentence");
 		findProtagonists();
@@ -107,10 +105,8 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 	@SuppressWarnings("unchecked")
 	private Annotation getRepresentative(Annotation ann) {
 		if (ann.getFeatures().get("matches") != null) {
-			Collection<Integer> matches = (Collection<Integer>) ann
-					.getFeatures().get("matches");
-			return document.getAnnotations(inputASName).get(
-					(Integer) matches.iterator().next());
+			Collection<Integer> matches = (Collection<Integer>) ann.getFeatures().get("matches");
+			return document.getAnnotations(inputASName).get(matches.iterator().next());
 		}
 		return ann;
 	}
@@ -149,8 +145,7 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 		Annotation bestAnn = null;
 		double bestDistance = Long.MAX_VALUE;
 		
-		AnnotationSet containedAnnotations = document.getAnnotations(inputASName)
-				.get(start(sentence), end(sentence));
+		AnnotationSet containedAnnotations = document.getAnnotations(inputASName).get(start(sentence), end(sentence));
 		for (Annotation containedAnn : containedAnnotations) {
 			if (entityAnnotationTypeSet.contains(containedAnn.getType()) &&
 					(entityType.isEmpty() || entityType.equals(containedAnn.getType()))) {
@@ -161,7 +156,6 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 				}
 			}
 		}
-		
 		return bestAnn;
 	}
 	
@@ -170,9 +164,7 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 		long endA = end(a);
 		long startB = start(b);
 		long endB = end(b);
-		return startA >= endB ? startA - endB
-				: endA <= startB ? startB - endA : 
-					0.1 * Math.abs(startB - startA);
+		return startA >= endB ? startA - endB : endA <= startB ? startB - endA : 0.1 * Math.abs(startB - startA);
 	}
 
 	/**
@@ -213,49 +205,31 @@ public class ProtagonistFeatureEntityMatcher implements FeatureEntityMatcher {
 		return -1;
 	}
 
-	/* (non-Javadoc)
-	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#getEntityAnnotationTypes()
-	 */
 	@Override
 	public List<String> getEntityAnnotationTypes() {
 		return entityAnnotationTypes;
 	}
-	
-	/* (non-Javadoc)
-	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#setEntityAnnotationTypes(java.util.List)
-	 */
+
 	@Override
 	public void setEntityAnnotationTypes(List<String> entityAnnotationTypes) {
 		this.entityAnnotationTypes = entityAnnotationTypes;
 	}
 
-	/* (non-Javadoc)
-	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#getInputASName()
-	 */
 	@Override
 	public String getInputASName() {
 		return inputASName;
 	}
-	
-	/* (non-Javadoc)
-	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#setInputASName(java.lang.String)
-	 */
+
 	@Override
 	public void setInputASName(String name) {
 		this.inputASName = name;
 	}
 
-	/* (non-Javadoc)
-	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#getDocument()
-	 */
 	@Override
 	public Document getDocument() {
 		return document;
 	}
-	
-	/* (non-Javadoc)
-	 * @see vn.com.epi.gate.sentiment.FeatureEntityMatcher#setDocument(gate.Document)
-	 */
+
 	@Override
 	public void setDocument(Document document) {
 		this.document = document;

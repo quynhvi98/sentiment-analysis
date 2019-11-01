@@ -17,14 +17,14 @@ public class PolarityGuesserTest {
 	@Test
 	public void testReadDefinitionFile() throws IOException {
 		polarityGuesser = new PolarityGuesser();
-		polarityGuesser.loadModel("test-data/opinion.def");
+		polarityGuesser.loadModel("opinion.def");
 		Assert.assertEquals(polarityGuesser.getSumOfCount(), (10 + 99)*3);
 	}
 	
 	@Test
 	public void testReadLstFile() throws IOException {
 		polarityGuesser = new PolarityGuesser();
-		polarityGuesser.loadModel("test-data/opinion.lst");
+		polarityGuesser.loadModel("opinion.lst");
 		Assert.assertEquals(polarityGuesser.getSumOfCount(), (10 + 99));
 	}
 }

@@ -77,9 +77,8 @@ public class CaculateDiff {
 			if (anAnnot.getFeatures() == null)
 				return true;
 			// if (anAnnot.getFeatures().subsumes(thisAnnot.getFeatures()))
-			if (subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
-					feaAnnot))
-				return true;
+            return subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
+                    feaAnnot);
 		}// End if
 		return false;
 	}// isCompatible
@@ -104,9 +103,8 @@ public class CaculateDiff {
 				return true;
 			// if
 			// (anAnnot.getFeatures().subsumes(thisAnnot.getFeatures(),aFeatureNamesSet))
-			if (subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
-					aFeatureNamesSet, feaAnnot))
-				return true;
+            return subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
+                    aFeatureNamesSet, feaAnnot);
 		}// End if
 		return false;
 	}// isCompatible()
@@ -126,9 +124,8 @@ public class CaculateDiff {
 		if (overlaps(thisAnnot, anAnnot)) {
 			if (anAnnot.getFeatures() == null)
 				return true;
-			if (subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
-					feaAnnot))
-				return true;
+            return subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
+                    feaAnnot);
 		}// End if
 		return false;
 	}// isPartiallyCompatible
@@ -151,9 +148,8 @@ public class CaculateDiff {
 		if (overlaps(thisAnnot, anAnnot)) {
 			if (anAnnot.getFeatures() == null)
 				return true;
-			if (subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
-					aFeatureNamesSet, feaAnnot))
-				return true;
+            return subsumes(anAnnot.getFeatures(), thisAnnot.getFeatures(),
+                    aFeatureNamesSet, feaAnnot);
 		}// End if
 		return false;
 	}// isPartiallyCompatible()
@@ -182,10 +178,9 @@ public class CaculateDiff {
 			if ((anAnnot.getEndNode().getOffset() == null)
 					^ (thisAnnot.getEndNode().getOffset() == null))
 				return false;
-			if (anAnnot.getEndNode().getOffset() != null
-					&& (!anAnnot.getEndNode().getOffset()
-							.equals(thisAnnot.getEndNode().getOffset())))
-				return false;
+            return anAnnot.getEndNode().getOffset() == null
+                    || (anAnnot.getEndNode().getOffset()
+                    .equals(thisAnnot.getEndNode().getOffset()));
 		}// End if
 
 		// If we are here, then the annotations hit the same position.
@@ -212,12 +207,9 @@ public class CaculateDiff {
 				.getStartNode().getOffset().longValue())
 			return false;
 
-		if (aAnnot.getStartNode().getOffset().longValue() >= thisAnnot
-				.getEndNode().getOffset().longValue())
-			return false;
-
-		return true;
-	}// overlaps
+        return aAnnot.getStartNode().getOffset().longValue() < thisAnnot
+                .getEndNode().getOffset().longValue();
+    }// overlaps
 
 	public boolean subsumes(FeatureMap anFeatureMap, FeatureMap aFeatureMap,
 			Set<String> feaAnnot) {

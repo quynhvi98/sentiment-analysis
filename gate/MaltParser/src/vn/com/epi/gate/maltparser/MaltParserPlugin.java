@@ -1,22 +1,3 @@
-/*******************************************************************************
- * Copyright (c) 2012 ePi Technologies.
- *
- * This file is part of VNLP: a Natural Language Processing framework 
- * for Vietnamese.
- *
- * VNLP is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * VNLP is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with VNLP.  If not, see <http://www.gnu.org/licenses/>.
- ******************************************************************************/
 package vn.com.epi.gate.maltparser;
 
 import gate.Annotation;
@@ -35,14 +16,9 @@ import java.util.List;
 
 import org.maltparser.core.exception.MaltChainedException;
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- */
 @CreoleResource(name = "maltparser PR", comment = "processing resource")
 public class MaltParserPlugin extends AbstractLanguageAnalyser {
-
     private static final long serialVersionUID = 1L;
-
     private ParserService service = null;
     private URL dirOfMCO;
     private String nameOfMCO;
@@ -88,8 +64,7 @@ public class MaltParserPlugin extends AbstractLanguageAnalyser {
 
     private List<Annotation> getTokens(Annotation sent) {
         List<Annotation> tokens = new ArrayList<Annotation>(document
-                .getAnnotations().get("Token", sent.getStartNode().getOffset(),
-                        sent.getEndNode().getOffset()));
+                .getAnnotations().get("Token", sent.getStartNode().getOffset(), sent.getEndNode().getOffset()));
         Collections.sort(tokens, gate.Utils.OFFSET_COMPARATOR);
         return tokens;
     }

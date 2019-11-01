@@ -1,22 +1,3 @@
-/*******************************************************************************
- * Copyright (c) 2012 ePi Technologies.
- *
- * This file is part of VNLP: a Natural Language Processing framework 
- * for Vietnamese.
- *
- * VNLP is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * VNLP is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with VNLP.  If not, see <http://www.gnu.org/licenses/>.
- ******************************************************************************/
 package vn.com.epi.gate.maltparser.benchmark;
 
 import java.io.BufferedReader;
@@ -30,9 +11,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Random;
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- */
 public class DataSplit {
 
     private Random generator = new Random(readSystemCurrentTime());
@@ -44,22 +22,20 @@ public class DataSplit {
         String strLine;
         BufferedReader br;
         try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(
-                    inputFile), "UTF-8"));
+            br = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile), "UTF-8"));
             while ((strLine = br.readLine()) != null) {
                 if (strLine.equals("")) {
                     String[] sentence = new String[sentenceArray.size()];
                     for (int i = 0; i < sentenceArray.size(); i++) {
                         sentence[i] = sentenceArray.get(i);
                     }
-
-                    if (generator.nextDouble() < rate) {
+                    if (generator.nextDouble() < rate){
                         trainSentences.add(sentence);
-                    } else {
+                    }else{
                         testSentences.add(sentence);
                     }
                     sentenceArray = new ArrayList<String>();
-                } else {
+                }else{
                     sentenceArray.add(strLine);
                 }
             }
@@ -74,8 +50,7 @@ public class DataSplit {
     public boolean writeFile(String fileName, String text) {
         File file = new File(fileName);
         try {
-            BufferedWriter fos = new BufferedWriter(new OutputStreamWriter(
-                    new FileOutputStream(file), "UTF-8"));
+            BufferedWriter fos = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
             fos.write(text);
             fos.close();
             return true;
@@ -84,12 +59,10 @@ public class DataSplit {
         }
     }
 
-    public boolean splitData(String inputFileName, String trainFileName,
-                             String testFileName, double rate) {
+    public boolean splitData(String inputFileName, String trainFileName, String testFileName, double rate) {
         boolean status = readAndSplitSentence(new File(inputFileName), rate);
         if (status) {
             StringBuffer stringBuffer = new StringBuffer();
-
             // write train data;
             for (int i = 0; i < trainSentences.size(); i++) {
                 for (int j = 0; j < trainSentences.get(i).length; j++) {
@@ -99,7 +72,6 @@ public class DataSplit {
             }
             status = writeFile(trainFileName, stringBuffer.toString());
             stringBuffer = new StringBuffer();
-
             // write test data;
             for (int i = 0; i < testSentences.size(); i++) {
                 for (int j = 0; j < testSentences.get(i).length; j++) {

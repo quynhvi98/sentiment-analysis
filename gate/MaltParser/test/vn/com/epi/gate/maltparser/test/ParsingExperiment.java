@@ -11,7 +11,6 @@ import org.maltparser.core.exception.MaltChainedException;
  * <p>
  * To run this example requires that you have ran TrainingExperiment that creates model0.mco and model1.mco
  *
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
  */
 public class ParsingExperiment {
     /**

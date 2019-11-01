@@ -1,22 +1,3 @@
-/*******************************************************************************
- * Copyright (c) 2012 ePi Technologies.
- * 
- * This file is part of VNLP: a Natural Language Processing framework 
- * for Vietnamese.
- * 
- * VNLP is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * VNLP is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with VNLP.  If not, see <http://www.gnu.org/licenses/>.
- ******************************************************************************/
 package vn.com.epi.tagger.benchmark;
 
 import java.io.BufferedReader;
@@ -27,10 +8,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Nguyen Vi Duong (vi.duong.bk@gmail.com)
- *
- */
 public class DataProcess {
 
 	public ArrayList<String> readData(String url) throws IOException {
@@ -41,8 +18,7 @@ public class DataProcess {
 			File[] allFiles = folder.listFiles();
 			for(int i = 0; i < allFiles.length; i++){
 				String strLine;
-				BufferedReader br = new BufferedReader(new InputStreamReader(
-						new FileInputStream(allFiles[i]), "UTF-8"));
+				BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(allFiles[i]), "UTF-8"));
 				while ((strLine = br.readLine()) != null) {
 					output.add(strLine);
 				}
@@ -50,8 +26,7 @@ public class DataProcess {
 			}
 		}else{
 			String strLine;
-			BufferedReader br = new BufferedReader(new InputStreamReader(
-					new FileInputStream(folder), "UTF-8"));
+			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(folder), "UTF-8"));
 			while ((strLine = br.readLine()) != null) {
 				output.add(strLine);
 			}
@@ -86,7 +61,6 @@ public class DataProcess {
 				}
 				tag.add(splitWordAndTag[splitWordAndTag.length - 1]);
 			}
-
 		}
 		return tag;
 	}
@@ -115,8 +89,6 @@ public class DataProcess {
 			}
 
 		}
-		
 		return output.toString();
 	}
-	
 }

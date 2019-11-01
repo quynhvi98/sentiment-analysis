@@ -33,7 +33,7 @@ import vn.com.epi.gate.refdiff.ReferenceAnnotationDiffer;
 
 public class Evaluator {
 	private static final String APP_PATH = "dist/gate/SentimentAnalysisPipeline.gapp";
-	private static final String DOCUMENT_FOLDER = "G:/ePi_Documents/annotations-final";
+	private static final String DOCUMENT_FOLDER = "G:/TQT_Documents/annotations-final";
 
 	private static CorpusController application;
 	private static List<Document> keysDocument;
@@ -207,7 +207,7 @@ public class Evaluator {
 					keysIter = ((AnnotationSet) keys).get(type);
 					for (Annotation opinion : keysIter) {
 						try {
-							Annotation annotTemp = (Annotation) keysDocument
+							Annotation annotTemp = keysDocument
 									.get(i)
 									.getAnnotations(nameAnnotationSet.get(i))
 									.get((Integer) opinion.getFeatures().get(
@@ -265,7 +265,7 @@ public class Evaluator {
 	}
 
 	private static void loadDocument(File[] files, int index)
-			throws GateException, IOException {
+			throws IOException {
 		boolean test = false;
 		String annotationSetName = "";
 		if (index == 2) {
@@ -297,8 +297,7 @@ public class Evaluator {
 	}
 
 	@SuppressWarnings("unchecked")
-	private static Document runApplication(URL url) throws GateException,
-			IOException {
+	private static Document runApplication(URL url) throws GateException {
 		Corpus corpus = null;
 		try {
 			Document document = Factory.newDocument(url, "utf-8");
